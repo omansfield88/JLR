@@ -1,0 +1,12 @@
+[
+  '{{repeat(50)}}',
+  {
+    day: '{{integer(1, 30)}}',
+    month: '{{integer(1, 12)}}',
+    city: '{{random("London", "Cardiff", "Edinbrugh", "Manchester", "Liverpool", "Dublin", "Newcastle", "Glasgow", "Birmingham", "Bristol")}}',
+    nameplate: '{{random("Vogue", "Vogue SE", "Autobiography", "SVAutobiography")}}',
+    duration: '{{integer(1, 30)}}',
+    dropout: '{{integer(1, 6)}}'
+   
+  }
+]

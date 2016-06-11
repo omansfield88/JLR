@@ -1,589 +1,3919 @@
 [
-	{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "XE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-
-	
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "XE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-
-
-
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "XE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-
-	{
-		"Date" : "020516",
-		"Country" : "England",
-		"Model" : "XE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-		{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "XE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "XE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-
-	{
-		"Date" : "020516",
-		"Country" : "England",
-		"Model" : "XE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "XE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-	{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "XE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-	{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "XE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-	{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "XE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-	{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "XE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-
-
-
-
-	{
-		"Date" : "210516",
-		"Country" : "England",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-
-	{
-		"Date" : "110516",
-		"Country" : "England",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-
-	{
-		"Date" : "210516",
-		"Country" : "England",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-		{
-		"Date" : "120516",
-		"Country" : "Scotland",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "SE"
-	},
-
-	{
-		"Date" : "120516",
-		"Country" : "England",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "SE"
-	},
-
-
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "SE"
-	},
-		{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-
-	{
-		"Date" : "170516",
-		"Country" : "England",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-		{
-		"Date" : "020516",
-		"Country" : "Scotland",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-
-	{
-		"Date" : "020516",
-		"Country" : "England",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-
-	{
-		"Date" : "020516",
-		"Country" : "England",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-		{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-
-	{
-		"Date" : "020516",
-		"Country" : "England",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-	{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-	{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-	{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-	{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "XF",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-	{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-
-	{
-		"Date" : "210516",
-		"Country" : "England",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-
-	{
-		"Date" : "110516",
-		"Country" : "England",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-
-	{
-		"Date" : "210516",
-		"Country" : "England",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-		{
-		"Date" : "120516",
-		"Country" : "Scotland",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "SE"
-	},
-
-	{
-		"Date" : "120516",
-		"Country" : "England",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "SE"
-	},
-
-	{
-		"Date" : "120516",
-		"Country" : "England",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "SE"
-	},
-
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "SE"
-	},
-		{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-
-	{
-		"Date" : "170516",
-		"Country" : "England",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-		{
-		"Date" : "020516",
-		"Country" : "Scotland",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-
-	{
-		"Date" : "020516",
-		"Country" : "England",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-
-	{
-		"Date" : "020516",
-		"Country" : "England",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-		{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-
-	{
-		"Date" : "020516",
-		"Country" : "England",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-	{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-	{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-	{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-	{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "XJ",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-	{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "F-PACE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-
-	{
-		"Date" : "210516",
-		"Country" : "England",
-		"Model" : "F-PACE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-
-	{
-		"Date" : "110516",
-		"Country" : "England",
-		"Model" : "F-PACE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-
-
-
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "F-PACE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "F-PACE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-
-	{
-		"Date" : "170516",
-		"Country" : "England",
-		"Model" : "F-PACE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Portfolio"
-	},
-		{
-		"Date" : "020516",
-		"Country" : "Scotland",
-		"Model" : "F-PACE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-
-	{
-		"Date" : "020516",
-		"Country" : "England",
-		"Model" : "F-PACE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "F-PACE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-
-	{
-		"Date" : "020516",
-		"Country" : "England",
-		"Model" : "F-PACE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-		{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "F-PACE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "F-PACE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-
-	{
-		"Date" : "020516",
-		"Country" : "England",
-		"Model" : "F-PACE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-
-	{
-		"Date" : "240516",
-		"Country" : "England",
-		"Model" : "F-PACE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "R-Sport"
-	},
-	{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "F-PACE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-	{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "F-PACE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-	{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "F-PACE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	},
-	{
-		"Date" : "220516",
-		"Country" : "Scotland",
-		"Model" : "F-PACE",
-		"Engine" : "2.0 i4 163PS Diesel (Manual)",
-		"Nameplate" : "Prestige"
-	}
+  {
+    "model": "Range Rover",
+    "day": 26,
+    "month": 11,
+    "city": "Cardiff",
+    "nameplate": "Vogue",
+    "duration": 2,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "day": 3,
+    "month": 5,
+    "city": "Dublin",
+    "nameplate": "Vogue",
+    "duration": 30,
+    "dropout": 2
+  },
+  
+  {
+    "model": "Range Rover",
+    "day": 25,
+    "month": 5,
+    "city": "London",
+    "nameplate": "Autobiography",
+    "duration": 4,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "day": 27,
+    "month": 9,
+    "city": "Edinbrugh",
+    "nameplate": "Autobiography",
+    "duration": 17,
+    "dropout": 1
+  },
+  
+  {
+    "model": "Range Rover",
+    "day": 30,
+    "month": 9,
+    "city": "Glasgow",
+    "nameplate": "Autobiography",
+    "duration": 21,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "day": 6,
+    "month": 12,
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 10,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "day": 3,
+    "month": 8,
+    "city": "London",
+    "nameplate": "Vogue SE",
+    "duration": 27,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "day": 22,
+    "month": 6,
+    "city": "Manchester",
+    "nameplate": "Vogue SE",
+    "duration": 20,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "day": 25,
+    "month": 10,
+    "city": "Birmingham",
+    "nameplate": "Vogue SE",
+    "duration": 30,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "day": 15,
+    "month": 11,
+    "city": "Newcastle",
+    "nameplate": "Autobiography",
+    "duration": 30,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "day": 9,
+    "month": 3,
+    "city": "Glasgow",
+    "nameplate": "Autobiography",
+    "duration": 20,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "day": 24,
+    "month": 10,
+    "city": "Cardiff",
+    "nameplate": "Autobiography",
+    "duration": 10,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "day": 3,
+    "month": 10,
+    "city": "Birmingham",
+    "nameplate": "SVAutobiography",
+    "duration": 5,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "day": 29,
+    "month": 11,
+    "city": "Glasgow",
+    "nameplate": "Vogue SE",
+    "duration": 21,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "day": 18,
+    "month": 8,
+    "city": "Newcastle",
+    "nameplate": "Vogue",
+    "duration": 19,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "day": 11,
+    "month": 7,
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 20,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "day": 3,
+    "month": 11,
+    "city": "Manchester",
+    "nameplate": "Vogue",
+    "duration": 29,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "day": 24,
+    "month": 6,
+    "city": "Glasgow",
+    "nameplate": "Autobiography",
+    "duration": 4,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "day": 20,
+    "month": 5,
+    "city": "Birmingham",
+    "nameplate": "Vogue SE",
+    "duration": 27,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "day": 19,
+    "month": 1,
+    "city": "Liverpool",
+    "nameplate": "Vogue SE",
+    "duration": 5,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "day": 5,
+    "month": 7,
+    "city": "Bristol",
+    "nameplate": "SVAutobiography",
+    "duration": 3,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "day": 28,
+    "month": 6,
+    "city": "Liverpool",
+    "nameplate": "SVAutobiography",
+    "duration": 11,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "day": 28,
+    "month": 10,
+    "city": "London",
+    "nameplate": "Autobiography",
+    "duration": 8,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "day": 12,
+    "month": 2,
+    "city": "Edinbrugh",
+    "nameplate": "Vogue SE",
+    "duration": 2,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "day": 26,
+    "month": 10,
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 22,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "day": 27,
+    "month": 8,
+    "city": "Liverpool",
+    "nameplate": "Vogue SE",
+    "duration": 4,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "day": 9,
+    "month": 2,
+    "city": "Liverpool",
+    "nameplate": "Autobiography",
+    "duration": 20,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "day": 8,
+    "month": 2,
+    "city": "Liverpool",
+    "nameplate": "Autobiography",
+    "duration": 13,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "day": 13,
+    "month": 2,
+    "city": "Birmingham",
+    "nameplate": "Vogue",
+    "duration": 22,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "day": 10,
+    "month": 11,
+    "city": "Glasgow",
+    "nameplate": "Vogue SE",
+    "duration": 23,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "day": 28,
+    "month": 5,
+    "city": "Cardiff",
+    "nameplate": "Vogue SE",
+    "duration": 3,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "day": 14,
+    "month": 3,
+    "city": "Dublin",
+    "nameplate": "Vogue",
+    "duration": 23,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "day": 8,
+    "month": 8,
+    "city": "Cardiff",
+    "nameplate": "Vogue",
+    "duration": 19,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "day": 13,
+    "month": 12,
+    "city": "Dublin",
+    "nameplate": "SVAutobiography",
+    "duration": 26,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "day": 13,
+    "month": 8,
+    "city": "Edinbrugh",
+    "nameplate": "Vogue",
+    "duration": 9,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "day": 16,
+    "month": 1,
+    "city": "Bristol",
+    "nameplate": "Vogue",
+    "duration": 3,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "day": 5,
+    "month": 7,
+    "city": "Birmingham",
+    "nameplate": "Vogue",
+    "duration": 5,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "day": 17,
+    "month": 5,
+    "city": "Birmingham",
+    "nameplate": "SVAutobiography",
+    "duration": 1,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "day": 17,
+    "month": 12,
+    "city": "Cardiff",
+    "nameplate": "Autobiography",
+    "duration": 9,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "day": 14,
+    "month": 4,
+    "city": "Manchester",
+    "nameplate": "Autobiography",
+    "duration": 26,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "day": 24,
+    "month": 11,
+    "city": "Birmingham",
+    "nameplate": "Vogue",
+    "duration": 4,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "day": 21,
+    "month": 8,
+    "city": "Newcastle",
+    "nameplate": "Vogue SE",
+    "duration": 2,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "day": 23,
+    "month": 1,
+    "city": "Cardiff",
+    "nameplate": "SVAutobiography",
+    "duration": 23,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "day": 20,
+    "month": 5,
+    "city": "Glasgow",
+    "nameplate": "Vogue",
+    "duration": 20,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "day": 24,
+    "month": 3,
+    "city": "Manchester",
+    "nameplate": "SVAutobiography",
+    "duration": 17,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "day": 6,
+    "month": 12,
+    "city": "Liverpool",
+    "nameplate": "Vogue",
+    "duration": 2,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "day": 14,
+    "month": 6,
+    "city": "Glasgow",
+    "nameplate": "Vogue SE",
+    "duration": 1,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "day": 24,
+    "month": 1,
+    "city": "London",
+    "nameplate": "Autobiography",
+    "duration": 4,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "day": 5,
+    "month": 4,
+    "city": "Cardiff",
+    "nameplate": "Vogue",
+    "duration": 22,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "day": 20,
+    "month": 12,
+    "city": "Edinbrugh",
+    "nameplate": "Vogue",
+    "duration": 17,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "day": 4,
+    "month": 5,
+    "city": "Glasgow",
+    "nameplate": "Vogue SE",
+    "duration": 28,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "day": 20,
+    "month": 5,
+    "city": "Glasgow",
+    "nameplate": "Autobiography",
+    "duration": 23,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "day": 28,
+    "month": 1,
+    "city": "Edinbrugh",
+    "nameplate": "Autobiography",
+    "duration": 9,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "day": 30,
+    "month": 2,
+    "city": "London",
+    "nameplate": "Vogue SE",
+    "duration": 28,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "day": 14,
+    "month": 4,
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 15,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "day": 24,
+    "month": 5,
+    "city": "Edinbrugh",
+    "nameplate": "Autobiography",
+    "duration": 24,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "day": 16,
+    "month": 6,
+    "city": "Bristol",
+    "nameplate": "Vogue",
+    "duration": 14,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "day": 16,
+    "month": 6,
+    "city": "Bristol",
+    "nameplate": "Vogue",
+    "duration": 14,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "day": 27,
+    "month": 9,
+    "city": "Cardiff",
+    "nameplate": "Vogue",
+    "duration": 13,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "day": 11,
+    "month": 8,
+    "city": "Liverpool",
+    "nameplate": "Autobiography",
+    "duration": 20,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "day": 6,
+    "month": 8,
+    "city": "Bristol",
+    "nameplate": "Vogue",
+    "duration": 21,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "day": 15,
+    "month": 5,
+    "city": "Manchester",
+    "nameplate": "Autobiography",
+    "duration": 8,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "day": 3,
+    "month": 1,
+    "city": "Glasgow",
+    "nameplate": "Vogue SE",
+    "duration": 29,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "day": 28,
+    "month": 8,
+    "city": "Cardiff",
+    "nameplate": "SVAutobiography",
+    "duration": 4,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "day": 21,
+    "month": 11,
+    "city": "Glasgow",
+    "nameplate": "Vogue SE",
+    "duration": 20,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "day": 5,
+    "month": 4,
+    "city": "Dublin",
+    "nameplate": "Vogue SE",
+    "duration": 15,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "day": 4,
+    "month": 9,
+    "city": "Manchester",
+    "nameplate": "Autobiography",
+    "duration": 18,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "day": 20,
+    "month": 2,
+    "city": "Liverpool",
+    "nameplate": "SVAutobiography",
+    "duration": 12,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "day": 28,
+    "month": 4,
+    "city": "Dublin",
+    "nameplate": "Autobiography",
+    "duration": 8,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "day": 17,
+    "month": 9,
+    "city": "Edinbrugh",
+    "nameplate": "SVAutobiography",
+    "duration": 4,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "day": 26,
+    "month": 4,
+    "city": "Manchester",
+    "nameplate": "Vogue SE",
+    "duration": 6,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 22,
+    "month": 12,
+    "city": "Dublin",
+    "nameplate": "HSE Dynamic",
+    "duration": 22,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 9,
+    "month": 11,
+    "city": "London",
+    "nameplate": "HSE Dynamic",
+    "duration": 16,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 3,
+    "month": 12,
+    "city": "Birmingham",
+    "nameplate": "HSE Dynamic",
+    "duration": 20,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 28,
+    "month": 11,
+    "city": "Cardiff",
+    "nameplate": "SVR",
+    "duration": 11,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 30,
+    "month": 7,
+    "city": "Manchester",
+    "nameplate": "HSE",
+    "duration": 20,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 13,
+    "month": 9,
+    "city": "Newcastle",
+    "nameplate": "HSE",
+    "duration": 6,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 12,
+    "month": 2,
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 2,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 21,
+    "month": 2,
+    "city": "Dublin",
+    "nameplate": "HSE Dynamic",
+    "duration": 23,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 13,
+    "month": 7,
+    "city": "Edinbrugh",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 5,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 22,
+    "month": 6,
+    "city": "London",
+    "nameplate": "HSE Dynamic",
+    "duration": 7,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 13,
+    "month": 6,
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 24,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 8,
+    "month": 3,
+    "city": "Cardiff",
+    "nameplate": "SVR",
+    "duration": 12,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 22,
+    "month": 12,
+    "city": "Manchester",
+    "nameplate": "HSE Dynamic",
+    "duration": 23,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 22,
+    "month": 12,
+    "city": "Dublin",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 6,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 14,
+    "month": 2,
+    "city": "Birmingham",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 3,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 14,
+    "month": 1,
+    "city": "London",
+    "nameplate": "HSE Dynamic",
+    "duration": 14,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 4,
+    "month": 7,
+    "city": "London",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 27,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 22,
+    "month": 4,
+    "city": "Liverpool",
+    "nameplate": "HSE",
+    "duration": 11,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 9,
+    "month": 1,
+    "city": "Liverpool",
+    "nameplate": "HSE Dynamic",
+    "duration": 8,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 7,
+    "month": 1,
+    "city": "Edinbrugh",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 21,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 17,
+    "month": 12,
+    "city": "Newcastle",
+    "nameplate": "SVR",
+    "duration": 13,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 27,
+    "month": 8,
+    "city": "Cardiff",
+    "nameplate": "SVR",
+    "duration": 1,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 20,
+    "month": 9,
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 2,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 28,
+    "month": 8,
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 26,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 2,
+    "month": 3,
+    "city": "Dublin",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 9,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 21,
+    "month": 4,
+    "city": "Liverpool",
+    "nameplate": "HSE",
+    "duration": 9,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 30,
+    "month": 6,
+    "city": "Edinbrugh",
+    "nameplate": "HSE",
+    "duration": 10,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 5,
+    "month": 7,
+    "city": "Glasgow",
+    "nameplate": "HSE Dynamic",
+    "duration": 10,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 14,
+    "month": 1,
+    "city": "Glasgow",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 22,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 20,
+    "month": 12,
+    "city": "Glasgow",
+    "nameplate": "HSE Dynamic",
+    "duration": 2,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 9,
+    "month": 2,
+    "city": "Manchester",
+    "nameplate": "SVR",
+    "duration": 6,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 11,
+    "month": 6,
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 18,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 17,
+    "month": 6,
+    "city": "Birmingham",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 24,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 28,
+    "month": 3,
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 26,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 20,
+    "month": 1,
+    "city": "Cardiff",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 26,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 13,
+    "month": 6,
+    "city": "Liverpool",
+    "nameplate": "HSE Dynamic",
+    "duration": 23,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 13,
+    "month": 12,
+    "city": "London",
+    "nameplate": "SVR",
+    "duration": 16,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 3,
+    "month": 7,
+    "city": "Cardiff",
+    "nameplate": "HSE",
+    "duration": 4,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 13,
+    "month": 3,
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 14,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 16,
+    "month": 5,
+    "city": "Newcastle",
+    "nameplate": "HSE",
+    "duration": 1,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 18,
+    "month": 12,
+    "city": "Liverpool",
+    "nameplate": "HSE",
+    "duration": 8,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 15,
+    "month": 9,
+    "city": "Manchester",
+    "nameplate": "SVR",
+    "duration": 18,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 11,
+    "month": 11,
+    "city": "Newcastle",
+    "nameplate": "SVR",
+    "duration": 21,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 5,
+    "month": 12,
+    "city": "Newcastle",
+    "nameplate": "SVR",
+    "duration": 26,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 24,
+    "month": 4,
+    "city": "Liverpool",
+    "nameplate": "HSE",
+    "duration": 14,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 2,
+    "month": 10,
+    "city": "Glasgow",
+    "nameplate": "SVR",
+    "duration": 13,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 28,
+    "month": 9,
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 24,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 25,
+    "month": 3,
+    "city": "Cardiff",
+    "nameplate": "SVR",
+    "duration": 9,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 13,
+    "month": 5,
+    "city": "Edinbrugh",
+    "nameplate": "HSE",
+    "duration": 14,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 25,
+    "month": 12,
+    "city": "Dublin",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 14,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 9,
+    "month": 5,
+    "city": "London",
+    "nameplate": "HSE Dynamic",
+    "duration": 10,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 5,
+    "month": 5,
+    "city": "Newcastle",
+    "nameplate": "HSE Dynamic",
+    "duration": 14,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 6,
+    "month": 11,
+    "city": "Newcastle",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 20,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 1,
+    "month": 9,
+    "city": "Glasgow",
+    "nameplate": "HSE",
+    "duration": 4,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 25,
+    "month": 10,
+    "city": "Birmingham",
+    "nameplate": "HSE Dynamic",
+    "duration": 26,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 22,
+    "month": 4,
+    "city": "Birmingham",
+    "nameplate": "HSE Dynamic",
+    "duration": 14,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 30,
+    "month": 5,
+    "city": "Newcastle",
+    "nameplate": "HSE Dynamic",
+    "duration": 3,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 10,
+    "month": 10,
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 20,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 20,
+    "month": 10,
+    "city": "Dublin",
+    "nameplate": "HSE",
+    "duration": 1,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 5,
+    "month": 9,
+    "city": "Birmingham",
+    "nameplate": "HSE",
+    "duration": 25,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 8,
+    "month": 9,
+    "city": "Manchester",
+    "nameplate": "SVR",
+    "duration": 19,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 12,
+    "month": 5,
+    "city": "Dublin",
+    "nameplate": "HSE",
+    "duration": 15,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 4,
+    "month": 2,
+    "city": "Newcastle",
+    "nameplate": "HSE Dynamic",
+    "duration": 18,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 17,
+    "month": 1,
+    "city": "Glasgow",
+    "nameplate": "HSE",
+    "duration": 25,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 23,
+    "month": 1,
+    "city": "Dublin",
+    "nameplate": "HSE",
+    "duration": 25,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 9,
+    "month": 2,
+    "city": "Glasgow",
+    "nameplate": "SVR",
+    "duration": 25,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 14,
+    "month": 1,
+    "city": "London",
+    "nameplate": "HSE Dynamic",
+    "duration": 8,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 28,
+    "month": 3,
+    "city": "Liverpool",
+    "nameplate": "HSE Dynamic",
+    "duration": 20,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 20,
+    "month": 5,
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 19,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 7,
+    "month": 8,
+    "city": "Glasgow",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 25,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 16,
+    "month": 11,
+    "city": "Newcastle",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 23,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 2,
+    "month": 12,
+    "city": "London",
+    "nameplate": "SVR",
+    "duration": 30,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 18,
+    "month": 8,
+    "city": "Manchester",
+    "nameplate": "SVR",
+    "duration": 16,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 8,
+    "month": 1,
+    "city": "Edinbrugh",
+    "nameplate": "HSE Dynamic",
+    "duration": 5,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 29,
+    "month": 11,
+    "city": "Manchester",
+    "nameplate": "HSE",
+    "duration": 23,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 26,
+    "month": 1,
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 15,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 2,
+    "month": 9,
+    "city": "London",
+    "nameplate": "HSE",
+    "duration": 9,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 13,
+    "month": 7,
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 9,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 30,
+    "month": 1,
+    "city": "Liverpool",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 29,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 30,
+    "month": 7,
+    "city": "Bristol",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 13,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 13,
+    "month": 2,
+    "city": "Cardiff",
+    "nameplate": "SVR",
+    "duration": 22,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 18,
+    "month": 1,
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 18,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 11,
+    "month": 2,
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 12,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 14,
+    "month": 5,
+    "city": "Cardiff",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 15,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 4,
+    "month": 7,
+    "city": "Liverpool",
+    "nameplate": "HSE Dynamic",
+    "duration": 29,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 5,
+    "month": 7,
+    "city": "Manchester",
+    "nameplate": "HSE Dynamic",
+    "duration": 15,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 12,
+    "month": 10,
+    "city": "Liverpool",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 11,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 29,
+    "month": 6,
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 9,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 17,
+    "month": 8,
+    "city": "Manchester",
+    "nameplate": "SVR",
+    "duration": 23,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 21,
+    "month": 3,
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 26,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 27,
+    "month": 2,
+    "city": "Bristol",
+    "nameplate": "HSE Dynamic",
+    "duration": 29,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 10,
+    "month": 1,
+    "city": "London",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 27,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 12,
+    "month": 9,
+    "city": "London",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 2,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 2,
+    "month": 3,
+    "city": "Manchester",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 25,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 13,
+    "month": 9,
+    "city": "Edinbrugh",
+    "nameplate": "HSE Dynamic",
+    "duration": 5,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 8,
+    "month": 9,
+    "city": "Birmingham",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 12,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 3,
+    "month": 7,
+    "city": "Glasgow",
+    "nameplate": "HSE",
+    "duration": 26,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 28,
+    "month": 5,
+    "city": "Liverpool",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 21,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 15,
+    "month": 12,
+    "city": "Bristol",
+    "nameplate": "HSE Dynamic",
+    "duration": 30,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "day": 23,
+    "month": 3,
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 26,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 6,
+    "month": 5,
+    "city": "Edinbrugh",
+    "nameplate": "SE Tech",
+    "duration": 28,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 9,
+    "month": 6,
+    "city": "Glasgow",
+    "nameplate": "SE Tech",
+    "duration": 12,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 29,
+    "month": 6,
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 30,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 19,
+    "month": 8,
+    "city": "Birmingham",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 16,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 10,
+    "month": 5,
+    "city": "Manchester",
+    "nameplate": "HSE Dynamic",
+    "duration": 24,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 14,
+    "month": 5,
+    "city": "Dublin",
+    "nameplate": "Autobiography",
+    "duration": 22,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 8,
+    "month": 12,
+    "city": "Newcastle",
+    "nameplate": "HSE Dynamic",
+    "duration": 30,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 22,
+    "month": 9,
+    "city": "Liverpool",
+    "nameplate": "SE Tech",
+    "duration": 12,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 25,
+    "month": 1,
+    "city": "London",
+    "nameplate": "SE",
+    "duration": 18,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 9,
+    "month": 5,
+    "city": "Cardiff",
+    "nameplate": "Autobiography",
+    "duration": 6,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 23,
+    "month": 8,
+    "city": "Bristol",
+    "nameplate": "HSE Dynamic",
+    "duration": 26,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 9,
+    "month": 1,
+    "city": "Edinbrugh",
+    "nameplate": "SE Tech",
+    "duration": 11,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 3,
+    "month": 5,
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 9,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 13,
+    "month": 11,
+    "city": "Liverpool",
+    "nameplate": "SE",
+    "duration": 19,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 29,
+    "month": 12,
+    "city": "Glasgow",
+    "nameplate": "Autobiography",
+    "duration": 29,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 5,
+    "month": 8,
+    "city": "Newcastle",
+    "nameplate": "HSE Dynamic",
+    "duration": 29,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 8,
+    "month": 9,
+    "city": "Newcastle",
+    "nameplate": "SE",
+    "duration": 7,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 28,
+    "month": 12,
+    "city": "Liverpool",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 2,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 14,
+    "month": 4,
+    "city": "Dublin",
+    "nameplate": "SE",
+    "duration": 25,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 9,
+    "month": 6,
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 5,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 26,
+    "month": 4,
+    "city": "Glasgow",
+    "nameplate": "SE",
+    "duration": 13,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 21,
+    "month": 8,
+    "city": "Edinbrugh",
+    "nameplate": "HSE Dynamic",
+    "duration": 21,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 18,
+    "month": 9,
+    "city": "Dublin",
+    "nameplate": "HSE Dynamic",
+    "duration": 12,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 9,
+    "month": 12,
+    "city": "London",
+    "nameplate": "HSE Dynamic",
+    "duration": 7,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 21,
+    "month": 5,
+    "city": "Glasgow",
+    "nameplate": "HSE Dynamic",
+    "duration": 8,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 21,
+    "month": 12,
+    "city": "London",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 24,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 6,
+    "month": 6,
+    "city": "Bristol",
+    "nameplate": "SE",
+    "duration": 25,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 23,
+    "month": 8,
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 29,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 27,
+    "month": 8,
+    "city": "Manchester",
+    "nameplate": "SE",
+    "duration": 4,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 21,
+    "month": 5,
+    "city": "Edinbrugh",
+    "nameplate": "Autobiography",
+    "duration": 1,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 7,
+    "month": 5,
+    "city": "Cardiff",
+    "nameplate": "HSE Dynamic",
+    "duration": 15,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 22,
+    "month": 2,
+    "city": "Manchester",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 21,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 29,
+    "month": 2,
+    "city": "London",
+    "nameplate": "SE",
+    "duration": 22,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 27,
+    "month": 8,
+    "city": "Bristol",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 4,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 19,
+    "month": 11,
+    "city": "Dublin",
+    "nameplate": "SE",
+    "duration": 2,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 24,
+    "month": 6,
+    "city": "Bristol",
+    "nameplate": "Autobiography",
+    "duration": 4,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 6,
+    "month": 5,
+    "city": "London",
+    "nameplate": "Autobiography",
+    "duration": 20,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 14,
+    "month": 9,
+    "city": "Liverpool",
+    "nameplate": "SE",
+    "duration": 24,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 8,
+    "month": 9,
+    "city": "Bristol",
+    "nameplate": "SE",
+    "duration": 3,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 24,
+    "month": 9,
+    "city": "Manchester",
+    "nameplate": "HSE Dynamic",
+    "duration": 13,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 23,
+    "month": 8,
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 16,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 3,
+    "month": 3,
+    "city": "Liverpool",
+    "nameplate": "HSE Dynamic",
+    "duration": 14,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 21,
+    "month": 12,
+    "city": "Liverpool",
+    "nameplate": "SE",
+    "duration": 4,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 25,
+    "month": 9,
+    "city": "Cardiff",
+    "nameplate": "SE Tech",
+    "duration": 10,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 20,
+    "month": 1,
+    "city": "Bristol",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 16,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 14,
+    "month": 7,
+    "city": "Edinbrugh",
+    "nameplate": "SE Tech",
+    "duration": 12,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 10,
+    "month": 5,
+    "city": "Edinbrugh",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 21,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 2,
+    "month": 9,
+    "city": "Liverpool",
+    "nameplate": "SE",
+    "duration": 13,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 8,
+    "month": 10,
+    "city": "Bristol",
+    "nameplate": "SE",
+    "duration": 11,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 6,
+    "month": 10,
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 24,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 13,
+    "month": 3,
+    "city": "London",
+    "nameplate": "SE",
+    "duration": 3,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 20,
+    "month": 4,
+    "city": "Manchester",
+    "nameplate": "Autobiography",
+    "duration": 30,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 10,
+    "month": 7,
+    "city": "Bristol",
+    "nameplate": "HSE Dynamic",
+    "duration": 11,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 24,
+    "month": 11,
+    "city": "Bristol",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 16,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 29,
+    "month": 12,
+    "city": "Cardiff",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 13,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 16,
+    "month": 10,
+    "city": "Glasgow",
+    "nameplate": "HSE Dynamic",
+    "duration": 17,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 1,
+    "month": 8,
+    "city": "Dublin",
+    "nameplate": "SE",
+    "duration": 18,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 1,
+    "month": 1,
+    "city": "Dublin",
+    "nameplate": "HSE Dynamic",
+    "duration": 30,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 28,
+    "month": 10,
+    "city": "Dublin",
+    "nameplate": "Autobiography",
+    "duration": 18,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 8,
+    "month": 4,
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 10,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 1,
+    "month": 9,
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 25,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 5,
+    "month": 2,
+    "city": "Cardiff",
+    "nameplate": "HSE Dynamic",
+    "duration": 19,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 21,
+    "month": 7,
+    "city": "Glasgow",
+    "nameplate": "SE Tech",
+    "duration": 19,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 28,
+    "month": 12,
+    "city": "Glasgow",
+    "nameplate": "SE Tech",
+    "duration": 13,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 25,
+    "month": 1,
+    "city": "Cardiff",
+    "nameplate": "Autobiography",
+    "duration": 2,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 4,
+    "month": 3,
+    "city": "London",
+    "nameplate": "HSE Dynamic",
+    "duration": 20,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 1,
+    "month": 1,
+    "city": "London",
+    "nameplate": "HSE Dynamic",
+    "duration": 25,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 23,
+    "month": 3,
+    "city": "Glasgow",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 11,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 17,
+    "month": 12,
+    "city": "Cardiff",
+    "nameplate": "SE",
+    "duration": 23,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 20,
+    "month": 10,
+    "city": "Edinbrugh",
+    "nameplate": "Autobiography",
+    "duration": 25,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 1,
+    "month": 9,
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 25,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 11,
+    "month": 5,
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 24,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 5,
+    "month": 5,
+    "city": "Cardiff",
+    "nameplate": "SE",
+    "duration": 19,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 10,
+    "month": 2,
+    "city": "Cardiff",
+    "nameplate": "HSE Dynamic",
+    "duration": 13,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 2,
+    "month": 3,
+    "city": "Liverpool",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 5,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 23,
+    "month": 12,
+    "city": "Liverpool",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 5,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 19,
+    "month": 11,
+    "city": "Glasgow",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 16,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "day": 30,
+    "month": 5,
+    "city": "London",
+    "nameplate": "Autobiography",
+    "duration": 30,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "day": 5,
+    "month": 2,
+    "city": "Manchester",
+    "nameplate": "Graphite",
+    "duration": 19,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 30,
+    "month": 12,
+    "city": "Birmingham",
+    "nameplate": "Landmark",
+    "duration": 25,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "day": 21,
+    "month": 7,
+    "city": "Edinbrugh",
+    "nameplate": "Commercial SE",
+    "duration": 22,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 2,
+    "month": 10,
+    "city": "Newcastle",
+    "nameplate": "Commercial SE",
+    "duration": 12,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "day": 4,
+    "month": 4,
+    "city": "Glasgow",
+    "nameplate": "Landmark",
+    "duration": 23,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "day": 28,
+    "month": 11,
+    "city": "Liverpool",
+    "nameplate": "Graphite",
+    "duration": 19,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 28,
+    "month": 3,
+    "city": "Cardiff",
+    "nameplate": "Graphite",
+    "duration": 20,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "day": 6,
+    "month": 1,
+    "city": "Glasgow",
+    "nameplate": "Landmark",
+    "duration": 5,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "day": 9,
+    "month": 9,
+    "city": "Glasgow",
+    "nameplate": "Graphite",
+    "duration": 11,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "day": 23,
+    "month": 9,
+    "city": "Cardiff",
+    "nameplate": "Graphite",
+    "duration": 28,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "day": 1,
+    "month": 7,
+    "city": "Dublin",
+    "nameplate": "Graphite",
+    "duration": 11,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "day": 21,
+    "month": 12,
+    "city": "Manchester",
+    "nameplate": "Landmark",
+    "duration": 10,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "day": 27,
+    "month": 12,
+    "city": "Birmingham",
+    "nameplate": "Commercial SE",
+    "duration": 28,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 25,
+    "month": 7,
+    "city": "Liverpool",
+    "nameplate": "Graphite",
+    "duration": 9,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 3,
+    "month": 5,
+    "city": "Liverpool",
+    "nameplate": "Landmark",
+    "duration": 16,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 18,
+    "month": 12,
+    "city": "Newcastle",
+    "nameplate": "Landmark",
+    "duration": 17,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "day": 30,
+    "month": 9,
+    "city": "Newcastle",
+    "nameplate": "Graphite",
+    "duration": 21,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "day": 9,
+    "month": 10,
+    "city": "Newcastle",
+    "nameplate": "Landmark",
+    "duration": 11,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 21,
+    "month": 4,
+    "city": "Birmingham",
+    "nameplate": "Landmark",
+    "duration": 9,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "day": 17,
+    "month": 1,
+    "city": "London",
+    "nameplate": "Graphite",
+    "duration": 7,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 28,
+    "month": 10,
+    "city": "Glasgow",
+    "nameplate": "Commercial SE",
+    "duration": 12,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "day": 14,
+    "month": 3,
+    "city": "Bristol",
+    "nameplate": "Graphite",
+    "duration": 25,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 4,
+    "month": 7,
+    "city": "Birmingham",
+    "nameplate": "Graphite",
+    "duration": 25,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 16,
+    "month": 1,
+    "city": "Birmingham",
+    "nameplate": "Graphite",
+    "duration": 26,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "day": 27,
+    "month": 5,
+    "city": "Birmingham",
+    "nameplate": "Landmark",
+    "duration": 17,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "day": 22,
+    "month": 11,
+    "city": "Edinbrugh",
+    "nameplate": "Landmark",
+    "duration": 20,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 10,
+    "month": 1,
+    "city": "Manchester",
+    "nameplate": "Graphite",
+    "duration": 14,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "day": 5,
+    "month": 5,
+    "city": "Edinbrugh",
+    "nameplate": "Graphite",
+    "duration": 23,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "day": 9,
+    "month": 11,
+    "city": "Dublin",
+    "nameplate": "Commercial SE",
+    "duration": 4,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 11,
+    "month": 3,
+    "city": "Dublin",
+    "nameplate": "Graphite",
+    "duration": 27,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "day": 11,
+    "month": 12,
+    "city": "Manchester",
+    "nameplate": "Commercial SE",
+    "duration": 5,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 20,
+    "month": 1,
+    "city": "Bristol",
+    "nameplate": "Landmark",
+    "duration": 2,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "day": 16,
+    "month": 9,
+    "city": "Liverpool",
+    "nameplate": "Graphite",
+    "duration": 15,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "day": 23,
+    "month": 10,
+    "city": "Cardiff",
+    "nameplate": "Landmark",
+    "duration": 27,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "day": 27,
+    "month": 10,
+    "city": "Glasgow",
+    "nameplate": "Landmark",
+    "duration": 23,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 6,
+    "month": 5,
+    "city": "Newcastle",
+    "nameplate": "Commercial SE",
+    "duration": 8,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "day": 13,
+    "month": 5,
+    "city": "Birmingham",
+    "nameplate": "Commercial SE",
+    "duration": 30,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 26,
+    "month": 6,
+    "city": "Liverpool",
+    "nameplate": "Commercial SE",
+    "duration": 22,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 25,
+    "month": 1,
+    "city": "Glasgow",
+    "nameplate": "Graphite",
+    "duration": 14,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 19,
+    "month": 10,
+    "city": "Bristol",
+    "nameplate": "Landmark",
+    "duration": 16,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "day": 3,
+    "month": 9,
+    "city": "Newcastle",
+    "nameplate": "Commercial SE",
+    "duration": 29,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "day": 10,
+    "month": 5,
+    "city": "Glasgow",
+    "nameplate": "Graphite",
+    "duration": 13,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "day": 18,
+    "month": 2,
+    "city": "Manchester",
+    "nameplate": "Commercial SE",
+    "duration": 19,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 4,
+    "month": 2,
+    "city": "Dublin",
+    "nameplate": "Commercial SE",
+    "duration": 26,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 19,
+    "month": 1,
+    "city": "London",
+    "nameplate": "Commercial SE",
+    "duration": 14,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "day": 24,
+    "month": 2,
+    "city": "London",
+    "nameplate": "Graphite",
+    "duration": 6,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 3,
+    "month": 12,
+    "city": "Bristol",
+    "nameplate": "Graphite",
+    "duration": 23,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 30,
+    "month": 7,
+    "city": "Dublin",
+    "nameplate": "Landmark",
+    "duration": 27,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 4,
+    "month": 9,
+    "city": "Cardiff",
+    "nameplate": "Graphite",
+    "duration": 12,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 4,
+    "month": 4,
+    "city": "Edinbrugh",
+    "nameplate": "Landmark",
+    "duration": 27,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "day": 24,
+    "month": 10,
+    "city": "Edinbrugh",
+    "nameplate": "Graphite",
+    "duration": 16,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 11,
+    "month": 6,
+    "city": "Bristol",
+    "nameplate": "Landmark",
+    "duration": 20,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 2,
+    "month": 8,
+    "city": "Glasgow",
+    "nameplate": "Landmark",
+    "duration": 19,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "day": 6,
+    "month": 5,
+    "city": "Newcastle",
+    "nameplate": "Commercial SE",
+    "duration": 8,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 15,
+    "month": 8,
+    "city": "Cardiff",
+    "nameplate": "Graphite",
+    "duration": 25,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 27,
+    "month": 5,
+    "city": "Cardiff",
+    "nameplate": "Graphite",
+    "duration": 5,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 20,
+    "month": 5,
+    "city": "Bristol",
+    "nameplate": "Graphite",
+    "duration": 21,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "day": 11,
+    "month": 11,
+    "city": "London",
+    "nameplate": "Landmark",
+    "duration": 24,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "day": 21,
+    "month": 12,
+    "city": "Birmingham",
+    "nameplate": "Landmark",
+    "duration": 9,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 13,
+    "month": 9,
+    "city": "Dublin",
+    "nameplate": "Landmark",
+    "duration": 2,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "day": 22,
+    "month": 10,
+    "city": "Birmingham",
+    "nameplate": "Landmark",
+    "duration": 19,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 8,
+    "month": 2,
+    "city": "Liverpool",
+    "nameplate": "Landmark",
+    "duration": 15,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "day": 23,
+    "month": 3,
+    "city": "London",
+    "nameplate": "Graphite",
+    "duration": 18,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 16,
+    "month": 12,
+    "city": "Glasgow",
+    "nameplate": "Landmark",
+    "duration": 5,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "day": 15,
+    "month": 5,
+    "city": "Manchester",
+    "nameplate": "Graphite",
+    "duration": 30,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "day": 3,
+    "month": 2,
+    "city": "Birmingham",
+    "nameplate": "Graphite",
+    "duration": 20,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "day": 23,
+    "month": 2,
+    "city": "Edinbrugh",
+    "nameplate": "Commercial SE",
+    "duration": 18,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "day": 9,
+    "month": 5,
+    "city": "Glasgow",
+    "nameplate": "Graphite",
+    "duration": 19,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "day": 5,
+    "month": 2,
+    "city": "Edinbrugh",
+    "nameplate": "Commercial SE",
+    "duration": 24,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "day": 7,
+    "month": 4,
+    "city": "Manchester",
+    "nameplate": "Graphite",
+    "duration": 2,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "day": 11,
+    "month": 1,
+    "city": "Newcastle",
+    "nameplate": "Graphite",
+    "duration": 13,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "day": 26,
+    "month": 5,
+    "city": "London",
+    "nameplate": "Landmark",
+    "duration": 22,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "day": 15,
+    "month": 7,
+    "city": "London",
+    "nameplate": "Commercial SE",
+    "duration": 7,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 9,
+    "month": 6,
+    "city": "Bristol",
+    "nameplate": "Graphite",
+    "duration": 13,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 27,
+    "month": 3,
+    "city": "Manchester",
+    "nameplate": "Landmark",
+    "duration": 16,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 5,
+    "month": 12,
+    "city": "Edinbrugh",
+    "nameplate": "Graphite",
+    "duration": 3,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "day": 24,
+    "month": 8,
+    "city": "Dublin",
+    "nameplate": "Landmark",
+    "duration": 20,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "day": 1,
+    "month": 10,
+    "city": "Dublin",
+    "nameplate": "Graphite",
+    "duration": 22,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "day": 5,
+    "month": 6,
+    "city": "Newcastle",
+    "nameplate": "Graphite",
+    "duration": 23,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "day": 13,
+    "month": 5,
+    "city": "Newcastle",
+    "nameplate": "Landmark",
+    "duration": 13,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "day": 22,
+    "month": 11,
+    "city": "Edinbrugh",
+    "nameplate": "Landmark",
+    "duration": 26,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 3,
+    "month": 2,
+    "city": "Cardiff",
+    "nameplate": "Commercial SE",
+    "duration": 16,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 22,
+    "month": 2,
+    "city": "Cardiff",
+    "nameplate": "Commercial SE",
+    "duration": 24,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "day": 12,
+    "month": 8,
+    "city": "Newcastle",
+    "nameplate": "Graphite",
+    "duration": 22,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 11,
+    "month": 2,
+    "city": "Dublin",
+    "nameplate": "Landmark",
+    "duration": 28,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "day": 3,
+    "month": 8,
+    "city": "Newcastle",
+    "nameplate": "Commercial SE",
+    "duration": 13,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 6,
+    "month": 8,
+    "city": "Liverpool",
+    "nameplate": "Commercial SE",
+    "duration": 3,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 25,
+    "month": 2,
+    "city": "Glasgow",
+    "nameplate": "Commercial SE",
+    "duration": 27,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "day": 26,
+    "month": 5,
+    "city": "Glasgow",
+    "nameplate": "Landmark",
+    "duration": 5,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 26,
+    "month": 11,
+    "city": "Dublin",
+    "nameplate": "Landmark",
+    "duration": 15,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "day": 15,
+    "month": 3,
+    "city": "Birmingham",
+    "nameplate": "Commercial SE",
+    "duration": 18,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "day": 15,
+    "month": 7,
+    "city": "Glasgow",
+    "nameplate": "Graphite",
+    "duration": 12,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 5,
+    "month": 4,
+    "city": "Newcastle",
+    "nameplate": "Graphite",
+    "duration": 8,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "day": 20,
+    "month": 12,
+    "city": "Edinbrugh",
+    "nameplate": "Commercial SE",
+    "duration": 11,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 18,
+    "month": 7,
+    "city": "Birmingham",
+    "nameplate": "Landmark",
+    "duration": 15,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "day": 11,
+    "month": 10,
+    "city": "London",
+    "nameplate": "Graphite",
+    "duration": 14,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "day": 14,
+    "month": 4,
+    "city": "Manchester",
+    "nameplate": "Landmark",
+    "duration": 13,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "day": 22,
+    "month": 9,
+    "city": "Edinbrugh",
+    "nameplate": "Commercial SE",
+    "duration": 6,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 15,
+    "month": 12,
+    "city": "London",
+    "nameplate": "Landmark",
+    "duration": 29,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "day": 26,
+    "month": 1,
+    "city": "Glasgow",
+    "nameplate": "Landmark",
+    "duration": 13,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 12,
+    "month": 7,
+    "city": "Glasgow",
+    "nameplate": "HSE Luxury",
+    "duration": 5,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 12,
+    "month": 7,
+    "city": "Bristol",
+    "nameplate": "SE",
+    "duration": 1,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 6,
+    "month": 4,
+    "city": "Bristol",
+    "nameplate": "SE",
+    "duration": 3,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 26,
+    "month": 9,
+    "city": "Newcastle",
+    "nameplate": "HSE",
+    "duration": 8,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 6,
+    "month": 3,
+    "city": "London",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 10,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 13,
+    "month": 1,
+    "city": "Newcastle",
+    "nameplate": "HSE Luxury",
+    "duration": 23,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 8,
+    "month": 11,
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 4,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 13,
+    "month": 8,
+    "city": "Bristol",
+    "nameplate": "HSE Luxury",
+    "duration": 30,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 2,
+    "month": 5,
+    "city": "Manchester",
+    "nameplate": "HSE",
+    "duration": 23,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 18,
+    "month": 6,
+    "city": "Bristol",
+    "nameplate": "HSE Luxury",
+    "duration": 10,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 23,
+    "month": 1,
+    "city": "Bristol",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 26,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 8,
+    "month": 6,
+    "city": "Liverpool",
+    "nameplate": "HSE Luxury",
+    "duration": 2,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 6,
+    "month": 4,
+    "city": "Bristol",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 12,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 14,
+    "month": 9,
+    "city": "Newcastle",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 16,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 23,
+    "month": 2,
+    "city": "London",
+    "nameplate": "HSE",
+    "duration": 28,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 18,
+    "month": 11,
+    "city": "Manchester",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 27,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 24,
+    "month": 8,
+    "city": "Birmingham",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 13,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 25,
+    "month": 5,
+    "city": "Glasgow",
+    "nameplate": "SE",
+    "duration": 9,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 28,
+    "month": 12,
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 8,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 16,
+    "month": 7,
+    "city": "Birmingham",
+    "nameplate": "HSE",
+    "duration": 2,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 16,
+    "month": 4,
+    "city": "Manchester",
+    "nameplate": "HSE Luxury",
+    "duration": 3,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 18,
+    "month": 2,
+    "city": "Birmingham",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 19,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 12,
+    "month": 3,
+    "city": "Dublin",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 5,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 18,
+    "month": 1,
+    "city": "London",
+    "nameplate": "HSE Luxury",
+    "duration": 27,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 24,
+    "month": 4,
+    "city": "Liverpool",
+    "nameplate": "HSE",
+    "duration": 14,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 19,
+    "month": 11,
+    "city": "Edinbrugh",
+    "nameplate": "HSE Black",
+    "duration": 10,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 5,
+    "month": 11,
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 26,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 8,
+    "month": 4,
+    "city": "Bristol",
+    "nameplate": "HSE Luxury",
+    "duration": 27,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 9,
+    "month": 11,
+    "city": "Cardiff",
+    "nameplate": "HSE Luxury",
+    "duration": 18,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 12,
+    "month": 5,
+    "city": "Glasgow",
+    "nameplate": "SE Tech",
+    "duration": 8,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 29,
+    "month": 5,
+    "city": "Birmingham",
+    "nameplate": "HSE Luxury",
+    "duration": 2,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 15,
+    "month": 3,
+    "city": "Newcastle",
+    "nameplate": "SE",
+    "duration": 13,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 1,
+    "month": 5,
+    "city": "Liverpool",
+    "nameplate": "HSE",
+    "duration": 8,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 21,
+    "month": 3,
+    "city": "Birmingham",
+    "nameplate": "HSE",
+    "duration": 7,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 5,
+    "month": 6,
+    "city": "Newcastle",
+    "nameplate": "HSE Black",
+    "duration": 6,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 13,
+    "month": 5,
+    "city": "Cardiff",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 26,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 26,
+    "month": 1,
+    "city": "Manchester",
+    "nameplate": "HSE",
+    "duration": 24,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 30,
+    "month": 3,
+    "city": "Glasgow",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 29,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 7,
+    "month": 12,
+    "city": "Glasgow",
+    "nameplate": "HSE Black",
+    "duration": 5,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 22,
+    "month": 9,
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 25,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 20,
+    "month": 3,
+    "city": "Dublin",
+    "nameplate": "HSE Luxury",
+    "duration": 18,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 7,
+    "month": 8,
+    "city": "Glasgow",
+    "nameplate": "SE Tech",
+    "duration": 6,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 18,
+    "month": 11,
+    "city": "Edinbrugh",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 29,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 27,
+    "month": 9,
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 11,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 15,
+    "month": 3,
+    "city": "Edinbrugh",
+    "nameplate": "HSE",
+    "duration": 13,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 13,
+    "month": 5,
+    "city": "Cardiff",
+    "nameplate": "HSE Black",
+    "duration": 19,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 22,
+    "month": 1,
+    "city": "Bristol",
+    "nameplate": "SE",
+    "duration": 20,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 6,
+    "month": 2,
+    "city": "London",
+    "nameplate": "HSE Black",
+    "duration": 18,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 29,
+    "month": 1,
+    "city": "Glasgow",
+    "nameplate": "HSE Black",
+    "duration": 21,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 24,
+    "month": 3,
+    "city": "Birmingham",
+    "nameplate": "SE",
+    "duration": 1,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 14,
+    "month": 5,
+    "city": "Cardiff",
+    "nameplate": "HSE Black",
+    "duration": 3,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 24,
+    "month": 10,
+    "city": "Edinbrugh",
+    "nameplate": "HSE Black",
+    "duration": 4,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 7,
+    "month": 12,
+    "city": "Liverpool",
+    "nameplate": "HSE Black",
+    "duration": 12,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 30,
+    "month": 8,
+    "city": "Birmingham",
+    "nameplate": "SE Tech",
+    "duration": 11,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 11,
+    "month": 3,
+    "city": "Glasgow",
+    "nameplate": "SE",
+    "duration": 2,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 26,
+    "month": 1,
+    "city": "Manchester",
+    "nameplate": "HSE Luxury",
+    "duration": 22,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 18,
+    "month": 1,
+    "city": "Edinbrugh",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 29,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 12,
+    "month": 1,
+    "city": "Birmingham",
+    "nameplate": "HSE Luxury",
+    "duration": 22,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 24,
+    "month": 5,
+    "city": "Cardiff",
+    "nameplate": "HSE Black",
+    "duration": 15,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 18,
+    "month": 6,
+    "city": "Edinbrugh",
+    "nameplate": "HSE",
+    "duration": 23,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 17,
+    "month": 5,
+    "city": "Edinbrugh",
+    "nameplate": "HSE Luxury",
+    "duration": 24,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 17,
+    "month": 5,
+    "city": "Edinbrugh",
+    "nameplate": "HSE Luxury",
+    "duration": 16,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 2,
+    "month": 4,
+    "city": "Cardiff",
+    "nameplate": "HSE Black",
+    "duration": 2,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 29,
+    "month": 9,
+    "city": "Birmingham",
+    "nameplate": "HSE Luxury",
+    "duration": 2,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 2,
+    "month": 8,
+    "city": "Cardiff",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 13,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 16,
+    "month": 3,
+    "city": "Newcastle",
+    "nameplate": "HSE Black",
+    "duration": 9,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 10,
+    "month": 7,
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 11,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 30,
+    "month": 3,
+    "city": "Newcastle",
+    "nameplate": "HSE",
+    "duration": 16,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 19,
+    "month": 2,
+    "city": "Dublin",
+    "nameplate": "SE",
+    "duration": 4,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 25,
+    "month": 5,
+    "city": "Cardiff",
+    "nameplate": "SE Tech",
+    "duration": 9,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 13,
+    "month": 3,
+    "city": "Bristol",
+    "nameplate": "HSE Black",
+    "duration": 3,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 10,
+    "month": 7,
+    "city": "Glasgow",
+    "nameplate": "SE",
+    "duration": 17,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 11,
+    "month": 7,
+    "city": "Glasgow",
+    "nameplate": "HSE Luxury",
+    "duration": 1,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 9,
+    "month": 9,
+    "city": "Edinbrugh",
+    "nameplate": "SE Tech",
+    "duration": 5,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 11,
+    "month": 11,
+    "city": "Bristol",
+    "nameplate": "HSE Black",
+    "duration": 22,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 18,
+    "month": 5,
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 4,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 19,
+    "month": 11,
+    "city": "Liverpool",
+    "nameplate": "SE",
+    "duration": 25,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 6,
+    "month": 5,
+    "city": "Birmingham",
+    "nameplate": "HSE Black",
+    "duration": 26,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 26,
+    "month": 7,
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 8,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 10,
+    "month": 9,
+    "city": "Bristol",
+    "nameplate": "HSE Black",
+    "duration": 21,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 24,
+    "month": 6,
+    "city": "London",
+    "nameplate": "HSE Black",
+    "duration": 13,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 27,
+    "month": 10,
+    "city": "Newcastle",
+    "nameplate": "HSE Black",
+    "duration": 14,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 8,
+    "month": 5,
+    "city": "Cardiff",
+    "nameplate": "HSE Luxury",
+    "duration": 8,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 2,
+    "month": 10,
+    "city": "Bristol",
+    "nameplate": "HSE Black",
+    "duration": 23,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 7,
+    "month": 6,
+    "city": "Glasgow",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 8,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "day": 11,
+    "month": 10,
+    "city": "Birmingham",
+    "nameplate": "HSE Luxury",
+    "duration": 19,
+    "dropout": 2
+  }
 ]
