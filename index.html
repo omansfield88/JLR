@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
 
-    <script src="js/d3.min.js"></script>
-    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/d3.min.js"></script><!-- 
+    <script src="js/jquery-1.11.3.min.js"></script> -->
     
     
 
  <!--    <link rel="stylesheet" href="css/styles.css" type='text/css'> -->
 
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,100,300,500,700italic,500italic' rel='stylesheet' type='text/css'>
+
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
     <title>JLR</title>
 
@@ -45,7 +47,11 @@ body{
 </head>
 
 <body>
-
+<label for="from">From</label>
+<input type="text" id="dateFrom" name="from" value="01-01-2015">
+<label for="to">to</label>
+<input type="text" id="dateTo" name="to" value="30-12-2015">
+ 
 <!-- <div class="models">Models</div> -->
 
 <svg height="0" width="0">
@@ -59,8 +65,44 @@ body{
 
 
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.min.js"></script>
+<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.min.js"></script> -->
 <script src="js/script.js"></script>
+ <script>
+$(function() {
+    $( "#dateFrom" ).datepicker({
+      defaultDate: "+1w",
+      changeMonth: true,
+      numberOfMonths: 1,
+      dateFormat: 'dd-mm-yy',
+      onClose: function( selectedDate ) {
+        $( "#dateTo" ).datepicker( "option", "minDate", selectedDate );
+      }
+    });
+    $( "#dateTo" ).datepicker({
+      defaultDate: "+1w",
+      changeMonth: true,
+      numberOfMonths: 1,
+      dateFormat: 'dd-mm-yy',
+      onClose: function( selectedDate ) {
+        $( "#dateFrom" ).datepicker( "option", "maxDate", selectedDate );
+      }
+    });
+  });
+
+
+
+console.log("yes")
+
+// $("#dateFrom").change(function(){
+//   console.log($("#dateFrom").val());
+// });
+// $("#dateTo").change(function(){
+//   console.log($("#dateTo").val());
+// });
+
+
+
+</script>
 
 </body>
 </html>
