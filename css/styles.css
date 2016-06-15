@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 100%; }
+
+body {
+  background: #33373b;
+  background: -moz-radial-gradient(center, ellipse cover, #494e53 0%, #33373b 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #494e53 0%, #33373b 100%);
+  background: radial-gradient(ellipse at center, #494e53 0%, #33373b 100%); }
+
+.datescreen-wrapper {
+  width: 100%;
+  margin: 0 auto; }
+  .datescreen-wrapper h2 {
+    font-family: arial;
+    color: #ffffff;
+    font-size: 30px;
+    position: absolute;
+    top: 157px;
+    left: 500px; }
+
+.datepicker {
+  position: absolute;
+  top: 210px;
+  left: 600px; }
+
+.frame-container {
+  width: 1200px;
+  margin: 0 auto; }
+
+.svg-frame {
+  border: 1px solid red; }
+
+.model-bubble {
+  fill: url(#grad1); }
+
+/*# sourceMappingURL=styles.css.map */

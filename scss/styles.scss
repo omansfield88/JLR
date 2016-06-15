@@ -9,119 +9,44 @@ html{
 }
 
 
-//TYPOGRAPHY//
-//////////////
-h1{
-  font-family: 'Roboto Slab', serif;
-  font-size: 3em;
-}
-
-h2{
-  font-family: 'Roboto Slab', serif;
-  font-size: 28px;
-  padding: 20px 0;
-}
-
-li{
-    list-style: none;
-    font-family: 'Roboto', sans-serif;
-    padding: 0 0 5px 0;
-    font-size: 26px;
-}
-
-select{
-    font-family: 'Roboto', sans-serif;
-    font-size: 2em;
-    border-top: 1px solid black;
-    border-bottom: 0;
-    border-left: 0;
-    border-right: 0;
-    padding: 5px 10px;
-}
-
-svg{
-  background-color: #ddd;
+body{
+  background: #33373b;
+  background: -moz-radial-gradient(center, ellipse cover,  #494e53 0%, #33373b 100%);
+  background: -webkit-radial-gradient(center, ellipse cover,  #494e53 0%,#33373b 100%);
+  background: radial-gradient(ellipse at center,  #494e53 0%,#33373b 100%);
 }
 
 
-.subunit.SCT {fill: #298C88;}
-.subunit.WLS {fill: #436E89;}
-.subunit.NIR {fill: #4A3A81;}
-.subunit.ENG {fill: #2BAC6E;}
-.subunit.IRL {fill: #ccc;}
+.datescreen-wrapper{
+    width: 100%;
+    margin: 0 auto;
 
-
-.place-label{
-    font-family: 'Roboto', sans-serif;
-    font-size: 10px;
-}
-
-.subunit-label {
-  fill: #777;
-  fill-opacity: 0.5;
-  font-size: 20px;
-  font-weight: 300;
-  text-anchor: middle;
-  font-family: 'Roboto', sans-serif;
-}
-
-.population-bubble-large{
-  fill: red;
-    &:hover{
-      stroke: #000;
-      stroke-width: 4px;
-    }
-}
-.population-bubble-mid{
-  fill: orange;
-    &:hover{
-      stroke: #000;
-      stroke-width: 4px;
-    }
-}
-.population-bubble-small{
-  fill: yellow;
-    &:hover{
-      stroke: #000;
-      stroke-width: 4px;
+    h2 {
+        font-family: arial;
+        color: #ffffff;
+        font-size: 30px;
+        position: absolute;
+        top: 157px;
+        left: 500px;
     }
 }
 
-#popText{
-   font-family: 'Roboto Slab', serif;
-   font-size: 20px;
 
-   &:hover + .showme{
-      color: red;
-   }
+.datepicker{
+    position: absolute;
+    top: 210px;
+    left: 600px;
 }
 
-
-#cityPopText{
-   font-family: 'Roboto Slab', serif;
-   font-size: 40px;
-   fill: #000;
+.frame-container{
+    width: 1200px;
+    margin: 0 auto;
 }
 
-.tip{ 
-  fill: red;
-  fill-opacity: 0.5;
-  padding: 20px;
-  border: 1px solid #000;
-  font-family: 'Roboto', sans-serif;
-  font-size: 12px;
+.svg-frame{
+  border: 1px solid red;
 }
 
-.tip-container{ 
-  background: #ccc;
-  padding: 20px;
-  border: 1px solid #000;
-  font-family: 'Roboto', sans-serif;
-  font-size: 12px;
-}
-
-.tip-text{
-  fill: #000;
-  font-family: 'Roboto', sans-serif;
-  font-size: 12px;
+.model-bubble{
+  fill: url(#grad1);
 }

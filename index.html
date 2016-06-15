@@ -3,56 +3,34 @@
 <head>
     <meta charset="UTF-8">
 
-    <script src="js/d3.min.js"></script><!-- 
-    <script src="js/jquery-1.11.3.min.js"></script> -->
-    
-    
+    <link rel="stylesheet" href="css/styles.css" type='text/css'>
+    <script src="js/d3.min.js"></script>
 
- <!--    <link rel="stylesheet" href="css/styles.css" type='text/css'> -->
-
-
-
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
 
     <title>JLR</title>
 
 <style>
 
-body{
-  background: #33373b;
-  background: -moz-radial-gradient(center, ellipse cover,  #494e53 0%, #33373b 100%);
-  background: -webkit-radial-gradient(center, ellipse cover,  #494e53 0%,#33373b 100%);
-  background: radial-gradient(ellipse at center,  #494e53 0%,#33373b 100%);
-}
 
-.node {
-    fill: #ccc;
-    stroke: #fff;
-    stroke-width: 2px;
-}
-
-.models{
-	width: 100%;
-	height: 100%;
-	background: #dddddd;
-}
-
-.model-bubble{
-	fill: url(#grad1);
-}
 
 </style>
 
 </head>
 
 <body>
-<label for="from">From</label>
-<input type="text" id="dateFrom" name="from" value="01-01-2015">
-<label for="to">to</label>
-<input type="text" id="dateTo" name="to" value="30-12-2015">
- 
-<!-- <div class="models">Models</div> -->
+
+
+<div class="datescreen-wrapper">
+    <h2>CAR CONFIGURATOR</h2>
+    <div class="datepicker">        
+        <input type="text" id="dateFrom" name="from" value="01-01-2015">
+        <input type="text" id="dateTo" name="to" value="30-12-2015">
+    </div>
+    <div class="frame-container"><!--SVG GOES HERE--></div>
+</div>
+
 
 <svg height="0" width="0">
   <defs>
@@ -65,9 +43,8 @@ body{
 
 
 
-<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.min.js"></script> -->
 <script src="js/script.js"></script>
- <script>
+<!-- <script>
 $(function() {
     $( "#dateFrom" ).datepicker({
       defaultDate: "+1w",
@@ -88,21 +65,7 @@ $(function() {
       }
     });
   });
-
-
-
-console.log("yes")
-
-// $("#dateFrom").change(function(){
-//   console.log($("#dateFrom").val());
-// });
-// $("#dateTo").change(function(){
-//   console.log($("#dateTo").val());
-// });
-
-
-
-</script>
+</script> -->
 
 </body>
 </html>

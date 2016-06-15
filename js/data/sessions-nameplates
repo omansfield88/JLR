@@ -1,0 +1,4002 @@
+[
+  {
+    "model": "Range Rover",
+    "date": "1908-05-06",
+    "city": "Glasgow",
+    "nameplate": "Autobiography",
+    "duration": 27,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "1914-09-17",
+    "city": "Birmingham",
+    "nameplate": "Autobiography",
+    "duration": 18,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "1925-10-13",
+    "city": "Cardiff",
+    "nameplate": "Vogue SE",
+    "duration": 18,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "1915-11-04",
+    "city": "Bristol",
+    "nameplate": "SVAutobiography",
+    "duration": 16,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "1922-02-08",
+    "city": "Birmingham",
+    "nameplate": "SVAutobiography",
+    "duration": 21,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "1921-12-29",
+    "city": "Manchester",
+    "nameplate": "Vogue",
+    "duration": 9,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "1907-01-29",
+    "city": "Liverpool",
+    "nameplate": "Vogue",
+    "duration": 29,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "1923-09-24",
+    "city": "Bristol",
+    "nameplate": "SVAutobiography",
+    "duration": 11,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "1933-01-17",
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 6,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "1907-12-04",
+    "city": "Edinbrugh",
+    "nameplate": "Vogue SE",
+    "duration": 6,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "1935-03-07",
+    "city": "Birmingham",
+    "nameplate": "SVAutobiography",
+    "duration": 7,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "1913-02-24",
+    "city": "Bristol",
+    "nameplate": "Autobiography",
+    "duration": 27,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "1911-05-27",
+    "city": "Newcastle",
+    "nameplate": "Autobiography",
+    "duration": 7,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "1918-10-19",
+    "city": "Bristol",
+    "nameplate": "Autobiography",
+    "duration": 18,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "1909-05-02",
+    "city": "Manchester",
+    "nameplate": "Vogue SE",
+    "duration": 14,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "1913-03-11",
+    "city": "Dublin",
+    "nameplate": "SVAutobiography",
+    "duration": 3,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "1925-10-11",
+    "city": "Cardiff",
+    "nameplate": "Vogue",
+    "duration": 9,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "1911-04-20",
+    "city": "Glasgow",
+    "nameplate": "Autobiography",
+    "duration": 27,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "1921-07-29",
+    "city": "Glasgow",
+    "nameplate": "Vogue",
+    "duration": 19,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "1930-03-24",
+    "city": "Liverpool",
+    "nameplate": "Vogue SE",
+    "duration": 8,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "1922-02-10",
+    "city": "Birmingham",
+    "nameplate": "Vogue",
+    "duration": 21,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "1929-11-19",
+    "city": "Dublin",
+    "nameplate": "SVAutobiography",
+    "duration": 8,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "1926-07-09",
+    "city": "London",
+    "nameplate": "SVAutobiography",
+    "duration": 12,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "1933-05-28",
+    "city": "Liverpool",
+    "nameplate": "Autobiography",
+    "duration": 23,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "1913-11-15",
+    "city": "Bristol",
+    "nameplate": "SVAutobiography",
+    "duration": 11,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "1918-02-19",
+    "city": "London",
+    "nameplate": "SVAutobiography",
+    "duration": 6,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "1909-04-06",
+    "city": "Cardiff",
+    "nameplate": "Vogue",
+    "duration": 15,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "1925-11-14",
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 25,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "1935-04-02",
+    "city": "Dublin",
+    "nameplate": "Vogue SE",
+    "duration": 6,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "1914-01-09",
+    "city": "London",
+    "nameplate": "SVAutobiography",
+    "duration": 18,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "1908-06-01",
+    "city": "Edinbrugh",
+    "nameplate": "Vogue",
+    "duration": 8,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "1934-10-14",
+    "city": "Cardiff",
+    "nameplate": "Vogue SE",
+    "duration": 3,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "1912-07-27",
+    "city": "Edinbrugh",
+    "nameplate": "Vogue",
+    "duration": 27,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "1923-07-04",
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 8,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "1927-12-15",
+    "city": "London",
+    "nameplate": "Autobiography",
+    "duration": 26,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "1921-03-13",
+    "city": "Cardiff",
+    "nameplate": "Vogue SE",
+    "duration": 29,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "1921-11-14",
+    "city": "Liverpool",
+    "nameplate": "Vogue SE",
+    "duration": 1,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "1923-05-12",
+    "city": "Manchester",
+    "nameplate": "Autobiography",
+    "duration": 30,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "1935-02-01",
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 16,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "1907-02-23",
+    "city": "Newcastle",
+    "nameplate": "Autobiography",
+    "duration": 4,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "1910-08-08",
+    "city": "Birmingham",
+    "nameplate": "Vogue SE",
+    "duration": 20,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "1913-07-06",
+    "city": "Cardiff",
+    "nameplate": "SVAutobiography",
+    "duration": 23,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "1933-05-13",
+    "city": "Glasgow",
+    "nameplate": "SVAutobiography",
+    "duration": 2,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "1932-12-31",
+    "city": "Newcastle",
+    "nameplate": "Autobiography",
+    "duration": 16,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "1908-02-15",
+    "city": "Dublin",
+    "nameplate": "Autobiography",
+    "duration": 7,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "1917-06-09",
+    "city": "Newcastle",
+    "nameplate": "Vogue SE",
+    "duration": 15,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "1935-05-12",
+    "city": "Bristol",
+    "nameplate": "SVAutobiography",
+    "duration": 26,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "1926-01-16",
+    "city": "Glasgow",
+    "nameplate": "Vogue SE",
+    "duration": 26,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "1915-10-27",
+    "city": "Birmingham",
+    "nameplate": "SVAutobiography",
+    "duration": 23,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "1907-07-02",
+    "city": "Dublin",
+    "nameplate": "Vogue SE",
+    "duration": 30,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "1924-02-11",
+    "city": "Manchester",
+    "nameplate": "SVAutobiography",
+    "duration": 25,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "1931-01-12",
+    "city": "Glasgow",
+    "nameplate": "SVAutobiography",
+    "duration": 19,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "1931-08-10",
+    "city": "Manchester",
+    "nameplate": "Vogue",
+    "duration": 16,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "1926-09-27",
+    "city": "Cardiff",
+    "nameplate": "Autobiography",
+    "duration": 22,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "1928-06-22",
+    "city": "Bristol",
+    "nameplate": "Vogue SE",
+    "duration": 26,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "1927-09-23",
+    "city": "Bristol",
+    "nameplate": "Vogue",
+    "duration": 6,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "1924-12-15",
+    "city": "Glasgow",
+    "nameplate": "Autobiography",
+    "duration": 5,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "1920-06-28",
+    "city": "Bristol",
+    "nameplate": "SVAutobiography",
+    "duration": 15,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "1936-04-24",
+    "city": "Liverpool",
+    "nameplate": "SVAutobiography",
+    "duration": 6,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "1916-07-06",
+    "city": "Edinbrugh",
+    "nameplate": "Vogue SE",
+    "duration": 1,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "1912-05-09",
+    "city": "Liverpool",
+    "nameplate": "Autobiography",
+    "duration": 30,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "1921-02-23",
+    "city": "Cardiff",
+    "nameplate": "SVAutobiography",
+    "duration": 13,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "1916-04-07",
+    "city": "Newcastle",
+    "nameplate": "Autobiography",
+    "duration": 15,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "1920-01-27",
+    "city": "Birmingham",
+    "nameplate": "Autobiography",
+    "duration": 7,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "1929-11-24",
+    "city": "Glasgow",
+    "nameplate": "Autobiography",
+    "duration": 5,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "1933-05-31",
+    "city": "Edinbrugh",
+    "nameplate": "Autobiography",
+    "duration": 4,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "1931-09-12",
+    "city": "Newcastle",
+    "nameplate": "Autobiography",
+    "duration": 3,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "1922-07-19",
+    "city": "Newcastle",
+    "nameplate": "Vogue SE",
+    "duration": 11,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "1906-12-28",
+    "city": "Glasgow",
+    "nameplate": "Autobiography",
+    "duration": 5,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "1915-03-12",
+    "city": "Cardiff",
+    "nameplate": "SVAutobiography",
+    "duration": 3,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "1932-02-27",
+    "city": "Bristol",
+    "nameplate": "Autobiography",
+    "duration": 6,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "1922-04-08",
+    "city": "London",
+    "nameplate": "Vogue SE",
+    "duration": 8,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "1914-11-20",
+    "city": "Dublin",
+    "nameplate": "Vogue SE",
+    "duration": 8,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "1925-06-05",
+    "city": "Edinbrugh",
+    "nameplate": "Vogue",
+    "duration": 25,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "1923-01-10",
+    "city": "Manchester",
+    "nameplate": "Autobiography",
+    "duration": 20,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "1933-09-16",
+    "city": "Manchester",
+    "nameplate": "Autobiography",
+    "duration": 27,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "1929-05-04",
+    "city": "Liverpool",
+    "nameplate": "Vogue",
+    "duration": 8,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "1909-01-23",
+    "city": "Liverpool",
+    "nameplate": "Autobiography",
+    "duration": 18,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "1910-08-25",
+    "city": "Dublin",
+    "nameplate": "Autobiography",
+    "duration": 28,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "1916-03-18",
+    "city": "Birmingham",
+    "nameplate": "Vogue",
+    "duration": 20,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "1914-06-24",
+    "city": "Liverpool",
+    "nameplate": "Vogue",
+    "duration": 26,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "1935-01-19",
+    "city": "Dublin",
+    "nameplate": "Autobiography",
+    "duration": 23,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "1934-10-26",
+    "city": "Bristol",
+    "nameplate": "Vogue",
+    "duration": 8,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "1932-03-12",
+    "city": "Birmingham",
+    "nameplate": "Vogue",
+    "duration": 10,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "1910-08-25",
+    "city": "Dublin",
+    "nameplate": "Vogue",
+    "duration": 16,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "1929-11-19",
+    "city": "Cardiff",
+    "nameplate": "SVAutobiography",
+    "duration": 9,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "1934-02-19",
+    "city": "Manchester",
+    "nameplate": "Autobiography",
+    "duration": 8,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "1906-12-22",
+    "city": "Edinbrugh",
+    "nameplate": "Vogue",
+    "duration": 26,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "1931-11-25",
+    "city": "Dublin",
+    "nameplate": "Vogue",
+    "duration": 9,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "1914-10-24",
+    "city": "Edinbrugh",
+    "nameplate": "SVAutobiography",
+    "duration": 12,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "1935-11-27",
+    "city": "Bristol",
+    "nameplate": "Autobiography",
+    "duration": 13,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "1926-12-03",
+    "city": "Liverpool",
+    "nameplate": "SVAutobiography",
+    "duration": 9,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "1933-05-06",
+    "city": "Glasgow",
+    "nameplate": "Vogue",
+    "duration": 1,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "1928-01-01",
+    "city": "Newcastle",
+    "nameplate": "Vogue",
+    "duration": 24,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "1930-12-21",
+    "city": "Dublin",
+    "nameplate": "Vogue",
+    "duration": 15,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "1930-07-17",
+    "city": "Bristol",
+    "nameplate": "Vogue SE",
+    "duration": 18,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "1920-07-08",
+    "city": "Glasgow",
+    "nameplate": "SVAutobiography",
+    "duration": 4,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "1924-07-02",
+    "city": "Birmingham",
+    "nameplate": "Autobiography",
+    "duration": 25,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "1928-04-25",
+    "city": "Bristol",
+    "nameplate": "Vogue",
+    "duration": 26,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "1925-04-20",
+    "city": "Manchester",
+    "nameplate": "Vogue SE",
+    "duration": 1,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1916-02-15",
+    "city": "Liverpool",
+    "nameplate": "HSE Dynamic",
+    "duration": 2,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1915-09-26",
+    "city": "Manchester",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 24,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1930-03-22",
+    "city": "Cardiff",
+    "nameplate": "SVR",
+    "duration": 14,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1935-05-20",
+    "city": "Dublin",
+    "nameplate": "HSE Dynamic",
+    "duration": 13,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1933-09-19",
+    "city": "Liverpool",
+    "nameplate": "HSE",
+    "duration": 29,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1933-01-08",
+    "city": "Glasgow",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 22,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1910-08-16",
+    "city": "Glasgow",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 5,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1910-05-04",
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 17,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1936-04-04",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 2,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1930-12-06",
+    "city": "London",
+    "nameplate": "HSE Dynamic",
+    "duration": 6,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1927-02-07",
+    "city": "Manchester",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 29,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1913-10-31",
+    "city": "Birmingham",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 7,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1921-05-19",
+    "city": "Bristol",
+    "nameplate": "HSE Dynamic",
+    "duration": 10,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1914-07-17",
+    "city": "Edinbrugh",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 16,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1922-02-02",
+    "city": "Liverpool",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 3,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1927-09-10",
+    "city": "Dublin",
+    "nameplate": "HSE Dynamic",
+    "duration": 22,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1914-03-03",
+    "city": "Glasgow",
+    "nameplate": "HSE Dynamic",
+    "duration": 13,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1911-08-31",
+    "city": "Liverpool",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 15,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1931-06-29",
+    "city": "London",
+    "nameplate": "HSE Dynamic",
+    "duration": 13,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1921-12-07",
+    "city": "Dublin",
+    "nameplate": "HSE Dynamic",
+    "duration": 14,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1921-03-10",
+    "city": "Manchester",
+    "nameplate": "HSE",
+    "duration": 7,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1915-05-07",
+    "city": "Edinbrugh",
+    "nameplate": "HSE",
+    "duration": 21,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1922-10-20",
+    "city": "Bristol",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 30,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1915-10-07",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 7,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1933-05-30",
+    "city": "Newcastle",
+    "nameplate": "SVR",
+    "duration": 29,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1906-08-15",
+    "city": "Manchester",
+    "nameplate": "SVR",
+    "duration": 8,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1922-12-22",
+    "city": "London",
+    "nameplate": "SVR",
+    "duration": 7,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1909-05-04",
+    "city": "Newcastle",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 23,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1931-01-01",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 6,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1935-03-02",
+    "city": "Bristol",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 30,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1907-04-29",
+    "city": "Dublin",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 12,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1934-02-18",
+    "city": "Cardiff",
+    "nameplate": "HSE Dynamic",
+    "duration": 11,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1916-07-13",
+    "city": "Newcastle",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 16,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1926-11-23",
+    "city": "Dublin",
+    "nameplate": "HSE",
+    "duration": 22,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1913-01-21",
+    "city": "Cardiff",
+    "nameplate": "HSE Dynamic",
+    "duration": 15,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1935-08-20",
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 22,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1935-08-24",
+    "city": "London",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 6,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1919-03-05",
+    "city": "Manchester",
+    "nameplate": "SVR",
+    "duration": 16,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1931-09-07",
+    "city": "Newcastle",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 7,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1913-10-02",
+    "city": "Manchester",
+    "nameplate": "HSE Dynamic",
+    "duration": 30,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1932-04-02",
+    "city": "Dublin",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 12,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1919-09-06",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 9,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1920-05-23",
+    "city": "Dublin",
+    "nameplate": "HSE",
+    "duration": 30,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1923-03-10",
+    "city": "Glasgow",
+    "nameplate": "HSE",
+    "duration": 14,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1926-12-16",
+    "city": "Dublin",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 16,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1925-02-21",
+    "city": "Newcastle",
+    "nameplate": "HSE Dynamic",
+    "duration": 21,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1930-03-31",
+    "city": "London",
+    "nameplate": "HSE",
+    "duration": 23,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1922-03-28",
+    "city": "Newcastle",
+    "nameplate": "HSE",
+    "duration": 4,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1933-07-26",
+    "city": "Glasgow",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 16,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1929-04-08",
+    "city": "Manchester",
+    "nameplate": "HSE",
+    "duration": 15,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1926-12-04",
+    "city": "Edinbrugh",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 1,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1909-06-24",
+    "city": "Newcastle",
+    "nameplate": "HSE Dynamic",
+    "duration": 28,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1918-09-08",
+    "city": "Manchester",
+    "nameplate": "HSE Dynamic",
+    "duration": 30,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1932-01-20",
+    "city": "London",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 6,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1921-05-21",
+    "city": "Newcastle",
+    "nameplate": "HSE Dynamic",
+    "duration": 2,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1906-11-15",
+    "city": "Edinbrugh",
+    "nameplate": "HSE",
+    "duration": 10,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1926-01-13",
+    "city": "Bristol",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 24,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1914-10-20",
+    "city": "Newcastle",
+    "nameplate": "HSE Dynamic",
+    "duration": 14,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1933-01-14",
+    "city": "London",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 25,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1930-07-13",
+    "city": "Cardiff",
+    "nameplate": "HSE",
+    "duration": 14,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1917-12-15",
+    "city": "Cardiff",
+    "nameplate": "HSE Dynamic",
+    "duration": 4,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1926-04-24",
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 11,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1915-11-17",
+    "city": "Glasgow",
+    "nameplate": "SVR",
+    "duration": 9,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1931-01-13",
+    "city": "Edinbrugh",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 11,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1912-08-19",
+    "city": "Cardiff",
+    "nameplate": "HSE",
+    "duration": 8,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1917-11-08",
+    "city": "Newcastle",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 4,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1930-08-04",
+    "city": "Glasgow",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 23,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1922-07-18",
+    "city": "London",
+    "nameplate": "HSE Dynamic",
+    "duration": 16,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1933-02-05",
+    "city": "Cardiff",
+    "nameplate": "HSE Dynamic",
+    "duration": 11,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1918-03-12",
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 22,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1914-01-02",
+    "city": "Birmingham",
+    "nameplate": "HSE",
+    "duration": 16,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1932-08-09",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 27,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1911-05-12",
+    "city": "Liverpool",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 16,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1920-01-04",
+    "city": "London",
+    "nameplate": "SVR",
+    "duration": 20,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1932-01-22",
+    "city": "Newcastle",
+    "nameplate": "HSE",
+    "duration": 26,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1930-06-02",
+    "city": "Dublin",
+    "nameplate": "HSE Dynamic",
+    "duration": 8,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1916-01-11",
+    "city": "Dublin",
+    "nameplate": "HSE",
+    "duration": 7,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1909-12-17",
+    "city": "Manchester",
+    "nameplate": "SVR",
+    "duration": 12,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1917-03-03",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 16,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1923-08-08",
+    "city": "Birmingham",
+    "nameplate": "HSE Dynamic",
+    "duration": 12,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1924-12-17",
+    "city": "Glasgow",
+    "nameplate": "HSE Dynamic",
+    "duration": 27,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1931-06-29",
+    "city": "Dublin",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 3,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1928-04-05",
+    "city": "Bristol",
+    "nameplate": "HSE Dynamic",
+    "duration": 26,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1933-08-20",
+    "city": "Glasgow",
+    "nameplate": "HSE",
+    "duration": 1,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1924-11-13",
+    "city": "Dublin",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 15,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1931-07-09",
+    "city": "Glasgow",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 27,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1929-03-02",
+    "city": "London",
+    "nameplate": "HSE",
+    "duration": 29,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1922-09-20",
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 4,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1933-08-02",
+    "city": "Dublin",
+    "nameplate": "HSE",
+    "duration": 24,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1922-06-22",
+    "city": "Bristol",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 7,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1909-10-31",
+    "city": "Liverpool",
+    "nameplate": "HSE",
+    "duration": 24,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1935-05-29",
+    "city": "Liverpool",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 18,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1935-06-06",
+    "city": "Bristol",
+    "nameplate": "HSE Dynamic",
+    "duration": 30,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1921-08-05",
+    "city": "Newcastle",
+    "nameplate": "HSE Dynamic",
+    "duration": 28,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1911-01-28",
+    "city": "Cardiff",
+    "nameplate": "Autoboigraphy Dynamic",
+    "duration": 30,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1915-12-01",
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 17,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1924-02-27",
+    "city": "Manchester",
+    "nameplate": "HSE Dynamic",
+    "duration": 20,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1929-02-19",
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 19,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1911-02-01",
+    "city": "Manchester",
+    "nameplate": "HSE",
+    "duration": 7,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "1931-02-15",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 4,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1915-11-03",
+    "city": "Bristol",
+    "nameplate": "SE",
+    "duration": 18,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1910-05-12",
+    "city": "Liverpool",
+    "nameplate": "Autobiography",
+    "duration": 19,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1920-02-16",
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 10,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1917-09-02",
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 20,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1909-03-06",
+    "city": "Dublin",
+    "nameplate": "HSE Dynamic",
+    "duration": 13,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1931-07-15",
+    "city": "Manchester",
+    "nameplate": "HSE Dynamic",
+    "duration": 9,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1911-08-13",
+    "city": "Manchester",
+    "nameplate": "SE",
+    "duration": 8,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1921-01-14",
+    "city": "Birmingham",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 11,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1917-03-27",
+    "city": "Edinbrugh",
+    "nameplate": "SE",
+    "duration": 13,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1907-09-19",
+    "city": "Edinbrugh",
+    "nameplate": "SE Tech",
+    "duration": 14,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1921-01-31",
+    "city": "Dublin",
+    "nameplate": "SE",
+    "duration": 22,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1920-06-13",
+    "city": "Cardiff",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 23,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1923-12-24",
+    "city": "Glasgow",
+    "nameplate": "HSE Dynamic",
+    "duration": 18,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1908-09-19",
+    "city": "Cardiff",
+    "nameplate": "Autobiography",
+    "duration": 5,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1913-10-12",
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 2,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1923-09-24",
+    "city": "Newcastle",
+    "nameplate": "SE",
+    "duration": 23,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1931-01-01",
+    "city": "Bristol",
+    "nameplate": "SE",
+    "duration": 11,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1909-03-11",
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 26,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1919-06-25",
+    "city": "Manchester",
+    "nameplate": "SE",
+    "duration": 10,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1918-04-16",
+    "city": "Glasgow",
+    "nameplate": "SE",
+    "duration": 30,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1919-10-12",
+    "city": "Glasgow",
+    "nameplate": "SE",
+    "duration": 15,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1908-06-30",
+    "city": "Dublin",
+    "nameplate": "HSE Dynamic",
+    "duration": 11,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1929-11-17",
+    "city": "Dublin",
+    "nameplate": "HSE Dynamic",
+    "duration": 12,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1936-05-26",
+    "city": "Liverpool",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 29,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1926-03-30",
+    "city": "Cardiff",
+    "nameplate": "SE",
+    "duration": 14,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1930-07-29",
+    "city": "Glasgow",
+    "nameplate": "Autobiography",
+    "duration": 11,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1918-05-04",
+    "city": "Dublin",
+    "nameplate": "SE",
+    "duration": 17,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1915-11-10",
+    "city": "Glasgow",
+    "nameplate": "SE Tech",
+    "duration": 17,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1907-03-25",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 10,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1924-04-18",
+    "city": "Glasgow",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 14,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1911-11-15",
+    "city": "Birmingham",
+    "nameplate": "SE Tech",
+    "duration": 7,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1922-11-18",
+    "city": "Birmingham",
+    "nameplate": "SE",
+    "duration": 2,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1926-12-08",
+    "city": "Newcastle",
+    "nameplate": "Autobiography",
+    "duration": 15,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1916-10-28",
+    "city": "Glasgow",
+    "nameplate": "HSE Dynamic",
+    "duration": 13,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1919-11-09",
+    "city": "Glasgow",
+    "nameplate": "Autobiography",
+    "duration": 4,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1912-07-27",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 5,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1921-01-06",
+    "city": "Edinbrugh",
+    "nameplate": "HSE Dynamic",
+    "duration": 13,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1909-07-25",
+    "city": "Bristol",
+    "nameplate": "Autobiography",
+    "duration": 29,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1929-07-01",
+    "city": "Bristol",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 29,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1918-09-14",
+    "city": "Dublin",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 25,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1936-06-26",
+    "city": "Dublin",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 1,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1928-02-09",
+    "city": "Manchester",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 23,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1914-06-01",
+    "city": "Manchester",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 21,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1934-11-16",
+    "city": "Birmingham",
+    "nameplate": "HSE Dynamic",
+    "duration": 12,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1910-08-25",
+    "city": "Glasgow",
+    "nameplate": "Autobiography",
+    "duration": 15,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1916-01-29",
+    "city": "Birmingham",
+    "nameplate": "SE",
+    "duration": 11,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1922-08-28",
+    "city": "Dublin",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 18,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1912-07-23",
+    "city": "Manchester",
+    "nameplate": "SE",
+    "duration": 10,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1931-04-11",
+    "city": "Bristol",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 8,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1925-05-15",
+    "city": "Cardiff",
+    "nameplate": "SE Tech",
+    "duration": 14,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1925-06-20",
+    "city": "Liverpool",
+    "nameplate": "HSE Dynamic",
+    "duration": 4,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1913-01-11",
+    "city": "Glasgow",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 23,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1921-05-23",
+    "city": "Newcastle",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 23,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1934-07-22",
+    "city": "Edinbrugh",
+    "nameplate": "SE",
+    "duration": 11,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1933-12-15",
+    "city": "London",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 30,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1911-02-14",
+    "city": "Cardiff",
+    "nameplate": "HSE Dynamic",
+    "duration": 5,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1920-12-08",
+    "city": "Glasgow",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 18,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1916-08-22",
+    "city": "Liverpool",
+    "nameplate": "SE",
+    "duration": 1,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1935-05-11",
+    "city": "Cardiff",
+    "nameplate": "SE",
+    "duration": 23,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1931-06-30",
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 7,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1912-06-13",
+    "city": "Dublin",
+    "nameplate": "SE",
+    "duration": 27,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1915-12-26",
+    "city": "Liverpool",
+    "nameplate": "SE",
+    "duration": 30,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1907-06-16",
+    "city": "Bristol",
+    "nameplate": "Autobiography",
+    "duration": 15,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1918-02-20",
+    "city": "London",
+    "nameplate": "Autobiography",
+    "duration": 21,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1910-08-06",
+    "city": "Edinbrugh",
+    "nameplate": "Autobiography",
+    "duration": 20,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1920-01-20",
+    "city": "Dublin",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 22,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1910-07-26",
+    "city": "Bristol",
+    "nameplate": "SE",
+    "duration": 13,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1914-11-28",
+    "city": "Manchester",
+    "nameplate": "Autobiography",
+    "duration": 25,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1920-12-02",
+    "city": "Bristol",
+    "nameplate": "HSE Dynamic",
+    "duration": 26,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1935-03-21",
+    "city": "Cardiff",
+    "nameplate": "SE Tech",
+    "duration": 16,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1920-03-01",
+    "city": "Glasgow",
+    "nameplate": "SE",
+    "duration": 7,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1921-09-17",
+    "city": "London",
+    "nameplate": "SE",
+    "duration": 17,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1909-08-01",
+    "city": "Birmingham",
+    "nameplate": "SE",
+    "duration": 20,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1936-06-27",
+    "city": "Bristol",
+    "nameplate": "Autobiography",
+    "duration": 25,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1908-11-23",
+    "city": "Edinbrugh",
+    "nameplate": "Autobiography",
+    "duration": 11,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1925-01-10",
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 9,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1924-01-01",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 25,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1922-07-04",
+    "city": "Newcastle",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 7,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1926-01-16",
+    "city": "Bristol",
+    "nameplate": "Autobiography",
+    "duration": 21,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1933-01-22",
+    "city": "Dublin",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 4,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1933-10-13",
+    "city": "Liverpool",
+    "nameplate": "SE",
+    "duration": 27,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1912-11-08",
+    "city": "Dublin",
+    "nameplate": "SE",
+    "duration": 30,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1917-09-03",
+    "city": "Glasgow",
+    "nameplate": "SE Tech",
+    "duration": 12,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1908-03-09",
+    "city": "Bristol",
+    "nameplate": "Autobiography",
+    "duration": 6,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1918-03-24",
+    "city": "Dublin",
+    "nameplate": "SE",
+    "duration": 11,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1930-10-02",
+    "city": "Edinbrugh",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 22,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1931-03-26",
+    "city": "Liverpool",
+    "nameplate": "SE Tech",
+    "duration": 20,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1919-06-01",
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 20,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1932-10-17",
+    "city": "London",
+    "nameplate": "Autobiography",
+    "duration": 8,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1920-12-26",
+    "city": "Bristol",
+    "nameplate": "Autobiography",
+    "duration": 18,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1932-05-18",
+    "city": "Manchester",
+    "nameplate": "HSE Dynamic",
+    "duration": 6,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1919-06-12",
+    "city": "Bristol",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 6,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1914-05-28",
+    "city": "Edinbrugh",
+    "nameplate": "Autobiography",
+    "duration": 6,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1918-04-21",
+    "city": "Cardiff",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 16,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1909-03-25",
+    "city": "Manchester",
+    "nameplate": "SE",
+    "duration": 29,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1931-04-24",
+    "city": "Dublin",
+    "nameplate": "SE",
+    "duration": 5,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1930-05-28",
+    "city": "Glasgow",
+    "nameplate": "SE Tech",
+    "duration": 7,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1935-08-01",
+    "city": "Bristol",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 26,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1929-09-14",
+    "city": "Glasgow",
+    "nameplate": "Autobiography",
+    "duration": 28,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "1914-02-03",
+    "city": "Cardiff",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 16,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "1907-12-27",
+    "city": "Glasgow",
+    "nameplate": "Landmark",
+    "duration": 26,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "1908-07-31",
+    "city": "London",
+    "nameplate": "Commercial SE",
+    "duration": 24,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "1936-02-05",
+    "city": "Cardiff",
+    "nameplate": "Commercial SE",
+    "duration": 10,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "1929-07-04",
+    "city": "Newcastle",
+    "nameplate": "Commercial SE",
+    "duration": 26,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "1910-03-06",
+    "city": "Glasgow",
+    "nameplate": "Commercial SE",
+    "duration": 5,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "1934-02-10",
+    "city": "Edinbrugh",
+    "nameplate": "Graphite",
+    "duration": 23,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "1909-01-10",
+    "city": "Cardiff",
+    "nameplate": "Landmark",
+    "duration": 26,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "1932-02-06",
+    "city": "Edinbrugh",
+    "nameplate": "Graphite",
+    "duration": 5,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "1908-11-01",
+    "city": "Edinbrugh",
+    "nameplate": "Graphite",
+    "duration": 4,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "1913-08-01",
+    "city": "Liverpool",
+    "nameplate": "Graphite",
+    "duration": 17,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "1915-12-08",
+    "city": "Newcastle",
+    "nameplate": "Landmark",
+    "duration": 30,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "1919-09-22",
+    "city": "London",
+    "nameplate": "Landmark",
+    "duration": 14,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1926-03-14",
+    "city": "Bristol",
+    "nameplate": "Landmark",
+    "duration": 3,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1935-08-15",
+    "city": "Bristol",
+    "nameplate": "Landmark",
+    "duration": 25,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1915-03-11",
+    "city": "Bristol",
+    "nameplate": "Commercial SE",
+    "duration": 30,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1908-06-23",
+    "city": "Cardiff",
+    "nameplate": "Graphite",
+    "duration": 6,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1933-03-04",
+    "city": "Newcastle",
+    "nameplate": "Graphite",
+    "duration": 29,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "1934-07-20",
+    "city": "Cardiff",
+    "nameplate": "Commercial SE",
+    "duration": 29,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "1930-08-24",
+    "city": "Manchester",
+    "nameplate": "Graphite",
+    "duration": 23,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "1934-06-07",
+    "city": "Glasgow",
+    "nameplate": "Graphite",
+    "duration": 2,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1907-11-23",
+    "city": "Glasgow",
+    "nameplate": "Commercial SE",
+    "duration": 22,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1918-09-29",
+    "city": "Glasgow",
+    "nameplate": "Commercial SE",
+    "duration": 15,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "1906-12-16",
+    "city": "Birmingham",
+    "nameplate": "Commercial SE",
+    "duration": 9,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "1908-03-07",
+    "city": "Cardiff",
+    "nameplate": "Landmark",
+    "duration": 20,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "1906-12-01",
+    "city": "Newcastle",
+    "nameplate": "Commercial SE",
+    "duration": 14,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "1926-04-01",
+    "city": "Edinbrugh",
+    "nameplate": "Graphite",
+    "duration": 11,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "1908-07-20",
+    "city": "Edinbrugh",
+    "nameplate": "Landmark",
+    "duration": 22,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "1934-12-26",
+    "city": "Cardiff",
+    "nameplate": "Graphite",
+    "duration": 28,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1924-02-10",
+    "city": "Newcastle",
+    "nameplate": "Commercial SE",
+    "duration": 13,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "1925-11-25",
+    "city": "Dublin",
+    "nameplate": "Landmark",
+    "duration": 21,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "1927-10-12",
+    "city": "London",
+    "nameplate": "Commercial SE",
+    "duration": 25,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "1906-11-27",
+    "city": "Birmingham",
+    "nameplate": "Graphite",
+    "duration": 14,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1923-06-05",
+    "city": "Dublin",
+    "nameplate": "Commercial SE",
+    "duration": 22,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "1906-12-07",
+    "city": "London",
+    "nameplate": "Commercial SE",
+    "duration": 17,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "1935-11-04",
+    "city": "London",
+    "nameplate": "Landmark",
+    "duration": 17,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1906-12-16",
+    "city": "Bristol",
+    "nameplate": "Graphite",
+    "duration": 3,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "1928-09-07",
+    "city": "Bristol",
+    "nameplate": "Commercial SE",
+    "duration": 9,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1930-12-20",
+    "city": "Glasgow",
+    "nameplate": "Commercial SE",
+    "duration": 26,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "1917-09-16",
+    "city": "Cardiff",
+    "nameplate": "Commercial SE",
+    "duration": 13,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "1929-01-22",
+    "city": "London",
+    "nameplate": "Commercial SE",
+    "duration": 14,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "1914-05-21",
+    "city": "Manchester",
+    "nameplate": "Graphite",
+    "duration": 8,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "1919-07-23",
+    "city": "London",
+    "nameplate": "Landmark",
+    "duration": 27,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1934-08-13",
+    "city": "Liverpool",
+    "nameplate": "Commercial SE",
+    "duration": 14,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "1919-10-13",
+    "city": "London",
+    "nameplate": "Graphite",
+    "duration": 8,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "1912-02-06",
+    "city": "Dublin",
+    "nameplate": "Graphite",
+    "duration": 2,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "1920-04-22",
+    "city": "Cardiff",
+    "nameplate": "Graphite",
+    "duration": 11,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "1913-04-17",
+    "city": "Bristol",
+    "nameplate": "Commercial SE",
+    "duration": 23,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "1932-10-14",
+    "city": "Liverpool",
+    "nameplate": "Graphite",
+    "duration": 28,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "1907-08-05",
+    "city": "Newcastle",
+    "nameplate": "Commercial SE",
+    "duration": 28,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "1933-03-06",
+    "city": "Newcastle",
+    "nameplate": "Commercial SE",
+    "duration": 17,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "1925-08-28",
+    "city": "Birmingham",
+    "nameplate": "Graphite",
+    "duration": 3,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "1923-02-28",
+    "city": "London",
+    "nameplate": "Graphite",
+    "duration": 15,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "1919-04-27",
+    "city": "Liverpool",
+    "nameplate": "Landmark",
+    "duration": 16,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "1921-10-12",
+    "city": "Newcastle",
+    "nameplate": "Commercial SE",
+    "duration": 24,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "1910-06-26",
+    "city": "Edinbrugh",
+    "nameplate": "Commercial SE",
+    "duration": 14,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1909-05-03",
+    "city": "London",
+    "nameplate": "Graphite",
+    "duration": 7,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "1907-04-10",
+    "city": "Glasgow",
+    "nameplate": "Graphite",
+    "duration": 25,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "1932-07-09",
+    "city": "Manchester",
+    "nameplate": "Landmark",
+    "duration": 17,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "1921-07-01",
+    "city": "Bristol",
+    "nameplate": "Commercial SE",
+    "duration": 15,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1922-05-09",
+    "city": "Glasgow",
+    "nameplate": "Commercial SE",
+    "duration": 9,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "1913-07-29",
+    "city": "Newcastle",
+    "nameplate": "Commercial SE",
+    "duration": 6,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "1922-06-28",
+    "city": "Glasgow",
+    "nameplate": "Commercial SE",
+    "duration": 7,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "1910-07-16",
+    "city": "Birmingham",
+    "nameplate": "Commercial SE",
+    "duration": 23,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1917-11-15",
+    "city": "Glasgow",
+    "nameplate": "Commercial SE",
+    "duration": 3,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "1912-09-16",
+    "city": "Cardiff",
+    "nameplate": "Graphite",
+    "duration": 7,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "1913-12-26",
+    "city": "Dublin",
+    "nameplate": "Landmark",
+    "duration": 19,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "1906-10-26",
+    "city": "Cardiff",
+    "nameplate": "Landmark",
+    "duration": 22,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "1914-06-29",
+    "city": "London",
+    "nameplate": "Graphite",
+    "duration": 25,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "1925-10-12",
+    "city": "Manchester",
+    "nameplate": "Graphite",
+    "duration": 15,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "1909-10-17",
+    "city": "London",
+    "nameplate": "Graphite",
+    "duration": 12,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1928-04-27",
+    "city": "Glasgow",
+    "nameplate": "Commercial SE",
+    "duration": 27,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "1922-07-16",
+    "city": "Liverpool",
+    "nameplate": "Graphite",
+    "duration": 7,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "1935-07-29",
+    "city": "Newcastle",
+    "nameplate": "Landmark",
+    "duration": 5,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "1925-08-06",
+    "city": "Dublin",
+    "nameplate": "Commercial SE",
+    "duration": 23,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "1920-05-11",
+    "city": "Newcastle",
+    "nameplate": "Landmark",
+    "duration": 28,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "1929-06-10",
+    "city": "Manchester",
+    "nameplate": "Landmark",
+    "duration": 21,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "1909-06-07",
+    "city": "Cardiff",
+    "nameplate": "Landmark",
+    "duration": 17,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1922-06-19",
+    "city": "Liverpool",
+    "nameplate": "Landmark",
+    "duration": 8,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "1915-03-04",
+    "city": "Newcastle",
+    "nameplate": "Graphite",
+    "duration": 23,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "1915-04-17",
+    "city": "Bristol",
+    "nameplate": "Graphite",
+    "duration": 23,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "1925-09-09",
+    "city": "Edinbrugh",
+    "nameplate": "Landmark",
+    "duration": 15,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "1931-06-19",
+    "city": "Cardiff",
+    "nameplate": "Commercial SE",
+    "duration": 30,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "1907-08-01",
+    "city": "Cardiff",
+    "nameplate": "Commercial SE",
+    "duration": 3,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "1931-12-06",
+    "city": "Dublin",
+    "nameplate": "Landmark",
+    "duration": 21,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "1920-09-09",
+    "city": "London",
+    "nameplate": "Commercial SE",
+    "duration": 28,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "1908-06-26",
+    "city": "Edinbrugh",
+    "nameplate": "Commercial SE",
+    "duration": 9,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "1909-02-25",
+    "city": "Manchester",
+    "nameplate": "Landmark",
+    "duration": 26,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1931-08-25",
+    "city": "Manchester",
+    "nameplate": "Landmark",
+    "duration": 21,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "1926-09-02",
+    "city": "Birmingham",
+    "nameplate": "Graphite",
+    "duration": 1,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "1932-02-23",
+    "city": "Birmingham",
+    "nameplate": "Commercial SE",
+    "duration": 21,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "1927-05-06",
+    "city": "Glasgow",
+    "nameplate": "Landmark",
+    "duration": 16,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1906-10-20",
+    "city": "Dublin",
+    "nameplate": "Landmark",
+    "duration": 20,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "1927-06-04",
+    "city": "Dublin",
+    "nameplate": "Commercial SE",
+    "duration": 30,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1931-02-15",
+    "city": "Manchester",
+    "nameplate": "Commercial SE",
+    "duration": 21,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "1930-08-05",
+    "city": "Manchester",
+    "nameplate": "Graphite",
+    "duration": 21,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1928-02-26",
+    "city": "Cardiff",
+    "nameplate": "Graphite",
+    "duration": 22,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1921-12-31",
+    "city": "Bristol",
+    "nameplate": "Landmark",
+    "duration": 22,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1907-07-05",
+    "city": "Edinbrugh",
+    "nameplate": "Commercial SE",
+    "duration": 12,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "1929-01-17",
+    "city": "Bristol",
+    "nameplate": "Landmark",
+    "duration": 27,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "1924-06-21",
+    "city": "London",
+    "nameplate": "Landmark",
+    "duration": 14,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1923-10-07",
+    "city": "Birmingham",
+    "nameplate": "SE Tech",
+    "duration": 17,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1934-11-06",
+    "city": "Cardiff",
+    "nameplate": "HSE Black",
+    "duration": 24,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1907-08-18",
+    "city": "Bristol",
+    "nameplate": "HSE Black",
+    "duration": 7,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1912-12-19",
+    "city": "Glasgow",
+    "nameplate": "HSE Luxury",
+    "duration": 20,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1906-12-24",
+    "city": "Birmingham",
+    "nameplate": "SE Tech",
+    "duration": 18,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1919-12-06",
+    "city": "Newcastle",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 6,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1916-08-07",
+    "city": "Newcastle",
+    "nameplate": "HSE Luxury",
+    "duration": 11,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1913-04-01",
+    "city": "Dublin",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 17,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1923-10-20",
+    "city": "Newcastle",
+    "nameplate": "SE Tech",
+    "duration": 6,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1930-09-09",
+    "city": "Dublin",
+    "nameplate": "HSE Black",
+    "duration": 30,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1906-10-02",
+    "city": "London",
+    "nameplate": "HSE",
+    "duration": 30,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1913-09-26",
+    "city": "Edinbrugh",
+    "nameplate": "HSE Black",
+    "duration": 7,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1929-03-05",
+    "city": "Birmingham",
+    "nameplate": "HSE Luxury",
+    "duration": 23,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1920-12-09",
+    "city": "Dublin",
+    "nameplate": "SE",
+    "duration": 13,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1921-08-10",
+    "city": "Newcastle",
+    "nameplate": "HSE Luxury",
+    "duration": 22,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1908-12-28",
+    "city": "Bristol",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 24,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1926-03-14",
+    "city": "Liverpool",
+    "nameplate": "HSE Black",
+    "duration": 16,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1910-09-06",
+    "city": "London",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 14,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1936-02-04",
+    "city": "Birmingham",
+    "nameplate": "SE Tech",
+    "duration": 23,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1923-07-21",
+    "city": "London",
+    "nameplate": "HSE",
+    "duration": 25,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1923-10-02",
+    "city": "Liverpool",
+    "nameplate": "HSE",
+    "duration": 24,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1910-07-22",
+    "city": "Dublin",
+    "nameplate": "HSE Black",
+    "duration": 7,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1918-03-13",
+    "city": "Liverpool",
+    "nameplate": "HSE Luxury",
+    "duration": 26,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1909-02-27",
+    "city": "Manchester",
+    "nameplate": "HSE",
+    "duration": 22,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1919-11-01",
+    "city": "Bristol",
+    "nameplate": "HSE Luxury",
+    "duration": 29,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1923-11-15",
+    "city": "Birmingham",
+    "nameplate": "HSE",
+    "duration": 8,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1912-01-16",
+    "city": "Glasgow",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 9,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1911-09-14",
+    "city": "Birmingham",
+    "nameplate": "HSE Luxury",
+    "duration": 1,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1919-09-12",
+    "city": "Dublin",
+    "nameplate": "SE",
+    "duration": 11,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1911-03-06",
+    "city": "Bristol",
+    "nameplate": "HSE Black",
+    "duration": 16,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1927-04-27",
+    "city": "Newcastle",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 6,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1930-05-14",
+    "city": "Newcastle",
+    "nameplate": "HSE Black",
+    "duration": 4,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1928-07-29",
+    "city": "Newcastle",
+    "nameplate": "HSE Black",
+    "duration": 2,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1910-08-18",
+    "city": "Newcastle",
+    "nameplate": "HSE Luxury",
+    "duration": 25,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1925-11-28",
+    "city": "Liverpool",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 1,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1916-12-18",
+    "city": "Dublin",
+    "nameplate": "SE",
+    "duration": 5,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1932-09-14",
+    "city": "Glasgow",
+    "nameplate": "HSE Luxury",
+    "duration": 19,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1914-09-12",
+    "city": "Glasgow",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 28,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1907-03-27",
+    "city": "Liverpool",
+    "nameplate": "HSE",
+    "duration": 12,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1929-03-31",
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 28,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1927-06-28",
+    "city": "Birmingham",
+    "nameplate": "HSE",
+    "duration": 23,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1909-05-14",
+    "city": "Glasgow",
+    "nameplate": "HSE Black",
+    "duration": 6,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1929-11-08",
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 27,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1913-03-24",
+    "city": "Edinbrugh",
+    "nameplate": "HSE",
+    "duration": 14,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1922-08-29",
+    "city": "Bristol",
+    "nameplate": "HSE Luxury",
+    "duration": 7,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1935-04-16",
+    "city": "Bristol",
+    "nameplate": "HSE",
+    "duration": 2,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1915-01-22",
+    "city": "Cardiff",
+    "nameplate": "SE Tech",
+    "duration": 23,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1910-07-25",
+    "city": "Bristol",
+    "nameplate": "HSE Black",
+    "duration": 11,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1909-09-15",
+    "city": "Manchester",
+    "nameplate": "HSE Luxury",
+    "duration": 10,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1926-09-11",
+    "city": "Liverpool",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 13,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1936-05-15",
+    "city": "Glasgow",
+    "nameplate": "HSE Black",
+    "duration": 20,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1915-01-23",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 29,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1914-11-25",
+    "city": "Liverpool",
+    "nameplate": "HSE",
+    "duration": 1,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1922-09-20",
+    "city": "Birmingham",
+    "nameplate": "HSE",
+    "duration": 10,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1927-05-03",
+    "city": "Dublin",
+    "nameplate": "HSE Black",
+    "duration": 7,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1932-09-15",
+    "city": "Cardiff",
+    "nameplate": "SE",
+    "duration": 28,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1920-02-03",
+    "city": "Birmingham",
+    "nameplate": "SE Tech",
+    "duration": 9,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1932-06-09",
+    "city": "Edinbrugh",
+    "nameplate": "HSE Luxury",
+    "duration": 29,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1914-01-25",
+    "city": "Glasgow",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 28,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1925-11-02",
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 15,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1933-10-31",
+    "city": "Edinbrugh",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 27,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1927-06-22",
+    "city": "Dublin",
+    "nameplate": "SE",
+    "duration": 4,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1922-07-08",
+    "city": "Birmingham",
+    "nameplate": "SE Tech",
+    "duration": 30,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1926-04-08",
+    "city": "Manchester",
+    "nameplate": "SE",
+    "duration": 7,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1922-12-26",
+    "city": "London",
+    "nameplate": "HSE Luxury",
+    "duration": 25,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1922-10-25",
+    "city": "Edinbrugh",
+    "nameplate": "HSE",
+    "duration": 8,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1918-06-13",
+    "city": "Edinbrugh",
+    "nameplate": "SE",
+    "duration": 28,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1915-07-13",
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 11,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1932-04-11",
+    "city": "Dublin",
+    "nameplate": "HSE Black",
+    "duration": 18,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1913-06-06",
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 26,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1913-06-09",
+    "city": "Manchester",
+    "nameplate": "HSE",
+    "duration": 2,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1921-04-22",
+    "city": "London",
+    "nameplate": "HSE Luxury",
+    "duration": 17,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1907-06-12",
+    "city": "Manchester",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 28,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1910-09-25",
+    "city": "Newcastle",
+    "nameplate": "HSE Luxury",
+    "duration": 5,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1913-10-16",
+    "city": "Cardiff",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 23,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1935-02-11",
+    "city": "Edinbrugh",
+    "nameplate": "HSE Luxury",
+    "duration": 29,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1907-03-17",
+    "city": "Birmingham",
+    "nameplate": "HSE Black",
+    "duration": 3,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1925-10-23",
+    "city": "Bristol",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 24,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1929-12-27",
+    "city": "Newcastle",
+    "nameplate": "SE Tech",
+    "duration": 23,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1936-02-03",
+    "city": "Cardiff",
+    "nameplate": "HSE",
+    "duration": 17,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1918-12-11",
+    "city": "Liverpool",
+    "nameplate": "SE",
+    "duration": 9,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1913-10-11",
+    "city": "Dublin",
+    "nameplate": "HSE Black",
+    "duration": 20,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1916-11-20",
+    "city": "Birmingham",
+    "nameplate": "SE",
+    "duration": 24,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1919-02-15",
+    "city": "Newcastle",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 28,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1914-07-27",
+    "city": "Dublin",
+    "nameplate": "HSE Luxury",
+    "duration": 6,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1924-09-10",
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 28,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1920-06-07",
+    "city": "Glasgow",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 29,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1920-07-05",
+    "city": "Dublin",
+    "nameplate": "SE",
+    "duration": 6,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1928-06-30",
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 8,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1920-09-21",
+    "city": "Glasgow",
+    "nameplate": "HSE Dynamic Lux",
+    "duration": 12,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1933-04-11",
+    "city": "Edinbrugh",
+    "nameplate": "HSE Luxury",
+    "duration": 9,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1926-09-29",
+    "city": "Cardiff",
+    "nameplate": "HSE",
+    "duration": 21,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1923-04-25",
+    "city": "Edinbrugh",
+    "nameplate": "HSE Black",
+    "duration": 15,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1919-10-15",
+    "city": "London",
+    "nameplate": "HSE Luxury",
+    "duration": 15,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1912-10-23",
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 4,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1923-07-03",
+    "city": "Manchester",
+    "nameplate": "SE",
+    "duration": 11,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1917-08-15",
+    "city": "London",
+    "nameplate": "HSE Luxury",
+    "duration": 30,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1935-05-04",
+    "city": "Dublin",
+    "nameplate": "SE",
+    "duration": 5,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1912-09-25",
+    "city": "London",
+    "nameplate": "HSE",
+    "duration": 12,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "1933-10-29",
+    "city": "Birmingham",
+    "nameplate": "HSE",
+    "duration": 30,
+    "dropout": 4
+  }
+]
