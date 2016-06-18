@@ -81,6 +81,8 @@ function getDatedModelAmounts(model, startDate, endDate){
     var NPhseBlack = 0;
     var NPhseLuxury = 0;
 
+
+
     for (i = 0; i < data.length; i++){ 
         if (data[i].model == model //Filter by Car Model
             && data[i].date >= startDate && data[i].date <= endDate //Filter by Date            
@@ -92,60 +94,91 @@ function getDatedModelAmounts(model, startDate, endDate){
         //Second if statement to check what the current sessions nameplate is,
         //then increments a variable 
         if (data[i].model == model){
-            if (data[i].nameplate == "Vogue"){
+            if (data[i].nameplate == "Vogue"
+                && data[i].date >= startDate && data[i].date <= endDate
+            ){
                 NPvogue ++; 
             } 
-            else if (data[i].nameplate == "Vogue SE"){
+            else if (data[i].nameplate == "Vogue SE"
+                     && data[i].date >= startDate && data[i].date <= endDate
+            ){
                 NPvogueSE ++;
             } 
-            else if (data[i].nameplate == "Autobiography"){
+            else if (data[i].nameplate == "Autobiography"
+                     && data[i].date >= startDate && data[i].date <= endDate
+            ){
                 NPautobiography ++;           
             } 
-            else if (data[i].nameplate == "SVAutobiography"){
+            else if (data[i].nameplate == "SVAutobiography"
+                     && data[i].date >= startDate && data[i].date <= endDate
+            ){
                 NPSVautobiography ++;           
             } 
-            else if (data[i].nameplate == "Autobiography Dynamic"){
+            else if (data[i].nameplate == "Autobiography Dynamic"
+                    && data[i].date >= startDate && data[i].date <= endDate)
+            {
                 NPautobiographyDynamic ++;           
             } 
-            else if (data[i].nameplate == "HSE"){
+            else if (data[i].nameplate == "HSE"
+                     && data[i].date >= startDate && data[i].date <= endDate
+            ){
                 NPhse ++;           
             } 
-            else if (data[i].nameplate == "HSE Dynamic"){
+            else if (data[i].nameplate == "HSE Dynamic"
+                     && data[i].date >= startDate && data[i].date <= endDate
+            ){
                 NPhseDynamic ++;       
             } 
-            else if (data[i].nameplate == "SVR"){
+            else if (data[i].nameplate == "SVR"
+                     && data[i].date >= startDate && data[i].date <= endDate
+            ){
                 NPsvr ++;           
             } 
-            else if (data[i].nameplate == "SE"){
+            else if (data[i].nameplate == "SE"
+                     && data[i].date >= startDate && data[i].date <= endDate
+            ){
                 NPse ++;
             }
-            else if (data[i].nameplate == "SE Tech"){
+            else if (data[i].nameplate == "SE Tech"
+                     && data[i].date >= startDate && data[i].date <= endDate
+            ){
                 NPseTech ++;           
             } 
-            else if (data[i].nameplate == "HSE Dynamic Lux"){
+            else if (data[i].nameplate == "HSE Dynamic Lux"
+                     && data[i].date >= startDate && data[i].date <= endDate
+            ){
                 NPhseDynamicLux ++
             } 
-            else if (data[i].nameplate == "Graphite"){
+            else if (data[i].nameplate == "Graphite"
+                     && data[i].date >= startDate && data[i].date <= endDate
+            ){
                 NPgraphite ++;           
             } 
-            else if (data[i].nameplate == "Landmark"){
+            else if (data[i].nameplate == "Landmark"
+                     && data[i].date >= startDate && data[i].date <= endDate
+            ){
                 NPlandmark ++;           
             } 
-            else if (data[i].nameplate == "Commercial SE"){
+            else if (data[i].nameplate == "Commercial SE"
+                    && data[i].date >= startDate && data[i].date <= endDate
+            ){
                 NPcommercialSE ++;           
             } 
-            else if (data[i].nameplate == "HSE Black"){
+            else if (data[i].nameplate == "HSE Black"
+                    && data[i].date >= startDate && data[i].date <= endDate
+            ){
                 NPhseBlack ++;           
             } 
-            else if (data[i].nameplate == "HSE Luxury"){
+            else if (data[i].nameplate == "HSE Luxury"
+                    && data[i].date >= startDate && data[i].date <= endDate
+            ){
                 NPhseLuxury ++;           
             }            
         }
 
     };
 
-    //Updated object with the number of found models and nameplates
-    
+    //Updated object with the number of found models and nameplates    
     countedModels[model]["Amount"] = filteredSession;
     countedModels[model]["NPvogue"] = NPvogue;
     countedModels[model]["NPvogueSE"] = NPvogueSE;
@@ -189,6 +222,7 @@ getDatedModelAmounts("Discovery Sport", "2015-01-01", "2015-12-30");
 
 console.log(countedModels);
 
+        
 
 //Draw model bubbles
 var modelsRangeRover = frame
@@ -196,9 +230,56 @@ var modelsRangeRover = frame
                        .attr('cy', 340)
                        .attr('cx', 100)
                        .attr('r', 0)
-                       .on('click', function(d){
-                            console.log("hovered")
+
+                       .on('click', function(){
+                            
+                            var inflatedBubbleRadius = 200; 
+                            var inflatedBubbleXpos = 390;
+
+                            //Change amount of a nameplate found into a percentage of the width of the inflated bubble
+                            var RangeRoverVogueAmount = countedModels["Range Rover"]["NPvogue"] / countedModels["Range Rover"]["Amount"] * inflatedBubbleRadius;
+                            var RangeRoverVogueSEAmount = countedModels["Range Rover"]["NPvogueSE"] / countedModels["Range Rover"]["Amount"] * inflatedBubbleRadius;
+                            var RangeRoverAutobiographyAmount = countedModels["Range Rover"]["NPautobiography"] / countedModels["Range Rover"]["Amount"] * inflatedBubbleRadius;
+                            var RangeRoverSVAutobiographyAmount = countedModels["Range Rover"]["NPSVautobiography"] / countedModels["Range Rover"]["Amount"] * inflatedBubbleRadius;
+
+
+                            //Work out xPos based on previous bubbles xPos
+                            var vogueBubbleXpos = inflatedBubbleXpos - inflatedBubbleRadius + RangeRoverVogueAmount;
+                            var vogueSEBubbleXpos = vogueBubbleXpos + RangeRoverVogueAmount + RangeRoverVogueSEAmount;
+                            var autobiographyBubbleXpos = vogueSEBubbleXpos + RangeRoverVogueSEAmount + RangeRoverAutobiographyAmount;
+                            var SVautobiographyBubbleXpos = autobiographyBubbleXpos + RangeRoverAutobiographyAmount + RangeRoverSVAutobiographyAmount;
+
+                            modelsRangeRover.transition()
+                            .duration(1000)
+                            .attr('r', inflatedBubbleRadius)
+                            .attr('cx', inflatedBubbleXpos);
+
+                            var vogueBubble = frame
+                               .append('circle')
+                               .attr('cy', 340)
+                               .attr('cx', vogueBubbleXpos)
+                               .attr('r', RangeRoverVogueAmount )
+                               .attr('class', 'nameplate-bubble');
+                            var vogueSEBubble = frame
+                               .append('circle')
+                               .attr('cy', 340)
+                               .attr('cx', vogueSEBubbleXpos)
+                               .attr('r', RangeRoverVogueSEAmount)
+                               .attr('class', 'nameplate-bubble');
+                            var autobiographyBubble = frame
+                               .append('circle')
+                               .attr('cy', 340)
+                               .attr('cx', autobiographyBubbleXpos)
+                               .attr('r', RangeRoverAutobiographyAmount)
+                               .attr('class', 'nameplate-bubble');
+                            var SVautobiographyBubble = frame
+                               .append('circle')
+                               .attr('cy', 340)
+                               .attr('cx', SVautobiographyBubbleXpos)
+                               .attr('r', RangeRoverSVAutobiographyAmount)
+                               .attr('class', 'nameplate-bubble');
                         })
+
                        .attr('class', 'model-bubble');
 
 var modelsRangeRoverSport = frame
@@ -231,22 +312,19 @@ var modelsDiscoverySport = frame
 
 
 
-// .attr('r', someObject["Range Rover"]["npVogue"]);
 
 
-var nameplateDiscoverySportVogue = frame
-                       .append('circle')
-                       .attr('cy', 340)
-                       .attr('cx', 1060)
-                       .attr('r', 0)
-                       .attr('class', 'model-bubble');
+
+
+
+
 
 //Animates the radius of the model-bubbles
 // Takes carModel and numOfCarModel as parameters,
 // so you can invoke grow with any model.
 function grow(carModel, numOfCarModel) {
   carModel.transition()
-        .duration(2000)
+        .duration(1000)
         .attr('r', numOfCarModel)
 }
 
@@ -291,6 +369,8 @@ $("#dateFrom, #dateTo").change(function(){
 
     console.log(countedModels);
 
+
+
     //Animates the radius of the model-bubbles
     // Takes carModel and numOfCarModel as parameters,
     // so you can invoke grow with any model.
@@ -306,6 +386,10 @@ $("#dateFrom, #dateTo").change(function(){
     grow(modelsRangeRoverEvoque, countedModels['Range Rover Evoque']['Amount']);
     grow(modelsDiscovery, countedModels['Discovery']['Amount']);
     grow(modelsDiscoverySport, countedModels['Discovery Sport']['Amount']);
+
+
+
+    console.log(countedModels);
      
 
 });
@@ -321,14 +405,10 @@ $("#dateFrom, #dateTo").change(function(){
 
 
 
-
-
-
-
-
+/////////////////////////////////
+//////Bubble Pack Layout////////
+///////////////////////////////
 
 
 
 }); //End of data loading function
-
-

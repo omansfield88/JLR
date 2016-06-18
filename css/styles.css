@@ -36,6 +36,9 @@ body {
   border: 1px solid red; }
 
 .model-bubble {
-  fill: url(#grad1); }
+  fill: url(#model-bubble); }
+
+.nameplate-bubble {
+  fill: url(#nameplate-bubble); }
 
 /*# sourceMappingURL=styles.css.map */
