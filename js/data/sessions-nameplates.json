@@ -1,3370 +1,4002 @@
 [
   {
-    "model": "Range Rover",
-    "date": "2015-05-06",
-    "city": "Glasgow",
-    "nameplate": "Autobiography",
-    "duration": 27,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-01-29",
-    "city": "Liverpool",
-    "nameplate": "Vogue",
-    "duration": 29,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-09-24",
-    "city": "Bristol",
-    "nameplate": "SVAutobiography",
-    "duration": 11,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-07-29",
-    "city": "Glasgow",
-    "nameplate": "Vogue",
-    "duration": 19,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-03-24",
-    "city": "Liverpool",
-    "nameplate": "Vogue SE",
-    "duration": 8,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-02-10",
-    "city": "Birmingham",
-    "nameplate": "Vogue",
-    "duration": 21,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-11-19",
-    "city": "Dublin",
-    "nameplate": "SVAutobiography",
-    "duration": 8,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-07-09",
-    "city": "London",
-    "nameplate": "SVAutobiography",
-    "duration": 12,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-05-28",
-    "city": "Liverpool",
-    "nameplate": "Autobiography",
-    "duration": 23,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-11-15",
-    "city": "Bristol",
-    "nameplate": "SVAutobiography",
-    "duration": 11,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-02-19",
-    "city": "London",
-    "nameplate": "SVAutobiography",
-    "duration": 6,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-04-06",
-    "city": "Cardiff",
-    "nameplate": "Vogue",
-    "duration": 15,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-07-27",
-    "city": "Edinbrugh",
-    "nameplate": "Vogue",
-    "duration": 27,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-07-04",
-    "city": "London",
-    "nameplate": "Vogue",
-    "duration": 8,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-12-15",
-    "city": "London",
-    "nameplate": "Autobiography",
-    "duration": 26,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-03-13",
-    "city": "Cardiff",
-    "nameplate": "Vogue SE",
-    "duration": 29,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-11-14",
-    "city": "Liverpool",
-    "nameplate": "Vogue SE",
-    "duration": 1,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-05-12",
-    "city": "Manchester",
-    "nameplate": "Autobiography",
-    "duration": 30,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-02-01",
-    "city": "London",
-    "nameplate": "Vogue",
-    "duration": 16,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-02-23",
-    "city": "Newcastle",
-    "nameplate": "Autobiography",
-    "duration": 4,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-08-08",
-    "city": "Birmingham",
-    "nameplate": "Vogue SE",
-    "duration": 20,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-07-06",
-    "city": "Cardiff",
-    "nameplate": "SVAutobiography",
-    "duration": 23,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-05-13",
-    "city": "Glasgow",
-    "nameplate": "SVAutobiography",
-    "duration": 2,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-12-31",
-    "city": "Newcastle",
-    "nameplate": "Autobiography",
-    "duration": 16,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-02-15",
-    "city": "Dublin",
-    "nameplate": "Autobiography",
-    "duration": 7,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-06-09",
-    "city": "Newcastle",
-    "nameplate": "Vogue SE",
-    "duration": 15,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-05-12",
-    "city": "Bristol",
-    "nameplate": "SVAutobiography",
-    "duration": 26,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-01-16",
-    "city": "Glasgow",
-    "nameplate": "Vogue SE",
-    "duration": 26,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-10-27",
-    "city": "Birmingham",
-    "nameplate": "SVAutobiography",
-    "duration": 23,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-07-02",
-    "city": "Dublin",
-    "nameplate": "Vogue SE",
-    "duration": 30,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-02-11",
-    "city": "Manchester",
-    "nameplate": "SVAutobiography",
-    "duration": 25,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-01-12",
-    "city": "Glasgow",
-    "nameplate": "SVAutobiography",
-    "duration": 19,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-08-10",
-    "city": "Manchester",
-    "nameplate": "Vogue",
-    "duration": 16,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-09-27",
-    "city": "Cardiff",
-    "nameplate": "Autobiography",
-    "duration": 22,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-06-22",
-    "city": "Bristol",
-    "nameplate": "Vogue SE",
-    "duration": 26,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-09-23",
-    "city": "Bristol",
-    "nameplate": "Vogue",
-    "duration": 6,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-12-15",
-    "city": "Glasgow",
-    "nameplate": "Autobiography",
-    "duration": 5,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-06-28",
-    "city": "Bristol",
-    "nameplate": "SVAutobiography",
-    "duration": 15,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-04-24",
-    "city": "Liverpool",
-    "nameplate": "SVAutobiography",
-    "duration": 6,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-07-06",
-    "city": "Edinbrugh",
-    "nameplate": "Vogue SE",
-    "duration": 1,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-05-09",
-    "city": "Liverpool",
-    "nameplate": "Autobiography",
-    "duration": 30,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-02-23",
-    "city": "Cardiff",
-    "nameplate": "SVAutobiography",
-    "duration": 13,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-04-07",
-    "city": "Newcastle",
-    "nameplate": "Autobiography",
-    "duration": 15,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-01-27",
-    "city": "Birmingham",
-    "nameplate": "Autobiography",
-    "duration": 7,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-11-24",
-    "city": "Glasgow",
-    "nameplate": "Autobiography",
-    "duration": 5,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-05-31",
-    "city": "Edinbrugh",
-    "nameplate": "Autobiography",
-    "duration": 4,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-09-12",
-    "city": "Newcastle",
-    "nameplate": "Autobiography",
-    "duration": 3,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-07-19",
-    "city": "Newcastle",
-    "nameplate": "Vogue SE",
-    "duration": 11,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-12-28",
-    "city": "Glasgow",
-    "nameplate": "Autobiography",
-    "duration": 5,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-03-12",
-    "city": "Cardiff",
-    "nameplate": "SVAutobiography",
-    "duration": 3,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-02-27",
-    "city": "Bristol",
-    "nameplate": "Autobiography",
-    "duration": 6,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-04-08",
-    "city": "London",
-    "nameplate": "Vogue SE",
-    "duration": 8,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-11-20",
-    "city": "Dublin",
-    "nameplate": "Vogue SE",
-    "duration": 8,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-06-05",
-    "city": "Edinbrugh",
-    "nameplate": "Vogue",
-    "duration": 25,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-01-10",
-    "city": "Manchester",
-    "nameplate": "Autobiography",
-    "duration": 20,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-09-16",
-    "city": "Manchester",
-    "nameplate": "Autobiography",
-    "duration": 27,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-05-04",
-    "city": "Liverpool",
-    "nameplate": "Vogue",
-    "duration": 8,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-01-23",
-    "city": "Liverpool",
-    "nameplate": "Autobiography",
-    "duration": 18,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-08-25",
-    "city": "Dublin",
-    "nameplate": "Autobiography",
-    "duration": 28,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-03-18",
-    "city": "Birmingham",
-    "nameplate": "Vogue",
-    "duration": 20,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-06-24",
-    "city": "Liverpool",
-    "nameplate": "Vogue",
-    "duration": 26,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-01-19",
-    "city": "Dublin",
-    "nameplate": "Autobiography",
-    "duration": 23,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-10-26",
-    "city": "Bristol",
-    "nameplate": "Vogue",
-    "duration": 8,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-03-12",
-    "city": "Birmingham",
-    "nameplate": "Vogue",
-    "duration": 10,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-08-25",
-    "city": "Dublin",
-    "nameplate": "Vogue",
-    "duration": 16,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-11-19",
-    "city": "Cardiff",
-    "nameplate": "SVAutobiography",
-    "duration": 9,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-02-19",
-    "city": "Manchester",
-    "nameplate": "Autobiography",
-    "duration": 8,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-12-22",
-    "city": "Edinbrugh",
-    "nameplate": "Vogue",
-    "duration": 26,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-11-25",
-    "city": "Dublin",
-    "nameplate": "Vogue",
-    "duration": 9,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-10-24",
-    "city": "Edinbrugh",
-    "nameplate": "SVAutobiography",
-    "duration": 12,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-11-27",
-    "city": "Bristol",
-    "nameplate": "Autobiography",
-    "duration": 13,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-12-03",
-    "city": "Liverpool",
-    "nameplate": "SVAutobiography",
-    "duration": 9,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-05-06",
-    "city": "Glasgow",
-    "nameplate": "Vogue",
-    "duration": 1,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-01-01",
-    "city": "Newcastle",
-    "nameplate": "Vogue",
-    "duration": 24,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-12-21",
-    "city": "Dublin",
-    "nameplate": "Vogue",
-    "duration": 15,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-07-17",
-    "city": "Bristol",
-    "nameplate": "Vogue SE",
-    "duration": 18,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-07-08",
-    "city": "Glasgow",
-    "nameplate": "SVAutobiography",
-    "duration": 4,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-07-02",
-    "city": "Birmingham",
-    "nameplate": "Autobiography",
-    "duration": 25,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-04-25",
-    "city": "Bristol",
-    "nameplate": "Vogue",
-    "duration": 26,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover",
-    "date": "2015-04-20",
-    "city": "Manchester",
-    "nameplate": "Vogue SE",
-    "duration": 1,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-02-15",
-    "city": "Liverpool",
-    "nameplate": "HSE Dynamic",
-    "duration": 2,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-09-26",
-    "city": "Manchester",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 24,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-03-22",
-    "city": "Cardiff",
-    "nameplate": "SVR",
-    "duration": 14,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-05-20",
-    "city": "Dublin",
-    "nameplate": "HSE Dynamic",
-    "duration": 13,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-09-19",
-    "city": "Liverpool",
-    "nameplate": "HSE",
-    "duration": 29,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-01-08",
-    "city": "Glasgow",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 22,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-08-16",
-    "city": "Glasgow",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 5,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-05-04",
-    "city": "Bristol",
-    "nameplate": "SVR",
-    "duration": 17,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-04-04",
-    "city": "Edinbrugh",
-    "nameplate": "SVR",
-    "duration": 2,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-12-06",
-    "city": "London",
-    "nameplate": "HSE Dynamic",
-    "duration": 6,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-02-07",
-    "city": "Manchester",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 29,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-10-31",
-    "city": "Birmingham",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 7,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-05-19",
-    "city": "Bristol",
-    "nameplate": "HSE Dynamic",
-    "duration": 10,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-07-17",
-    "city": "Edinbrugh",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 16,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-02-02",
-    "city": "Liverpool",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 3,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-09-10",
-    "city": "Dublin",
-    "nameplate": "HSE Dynamic",
-    "duration": 22,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-03-03",
-    "city": "Glasgow",
-    "nameplate": "HSE Dynamic",
-    "duration": 13,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-08-31",
-    "city": "Liverpool",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 15,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-06-29",
-    "city": "London",
-    "nameplate": "HSE Dynamic",
-    "duration": 13,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-12-07",
-    "city": "Dublin",
-    "nameplate": "HSE Dynamic",
-    "duration": 14,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-03-10",
-    "city": "Manchester",
-    "nameplate": "HSE",
-    "duration": 7,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-05-07",
-    "city": "Edinbrugh",
-    "nameplate": "HSE",
-    "duration": 21,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-10-20",
-    "city": "Bristol",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 30,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-10-07",
-    "city": "Edinbrugh",
-    "nameplate": "SVR",
-    "duration": 7,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-05-30",
-    "city": "Newcastle",
-    "nameplate": "SVR",
-    "duration": 29,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-08-15",
-    "city": "Manchester",
-    "nameplate": "SVR",
-    "duration": 8,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-12-22",
-    "city": "London",
-    "nameplate": "SVR",
-    "duration": 7,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-05-04",
-    "city": "Newcastle",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 23,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-01-01",
-    "city": "Liverpool",
-    "nameplate": "SVR",
-    "duration": 6,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-03-02",
-    "city": "Bristol",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 30,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-04-29",
-    "city": "Dublin",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 12,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-02-18",
-    "city": "Cardiff",
-    "nameplate": "HSE Dynamic",
-    "duration": 11,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-07-13",
-    "city": "Newcastle",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 16,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-11-23",
-    "city": "Dublin",
-    "nameplate": "HSE",
-    "duration": 22,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-01-21",
-    "city": "Cardiff",
-    "nameplate": "HSE Dynamic",
-    "duration": 15,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-08-20",
-    "city": "Birmingham",
-    "nameplate": "SVR",
-    "duration": 22,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-08-24",
-    "city": "London",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 6,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-03-05",
-    "city": "Manchester",
-    "nameplate": "SVR",
-    "duration": 16,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-09-07",
-    "city": "Newcastle",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 7,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-10-02",
-    "city": "Manchester",
-    "nameplate": "HSE Dynamic",
-    "duration": 30,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-04-02",
-    "city": "Dublin",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 12,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-09-06",
-    "city": "Liverpool",
-    "nameplate": "SVR",
-    "duration": 9,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-05-23",
-    "city": "Dublin",
-    "nameplate": "HSE",
-    "duration": 30,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-03-10",
-    "city": "Glasgow",
-    "nameplate": "HSE",
-    "duration": 14,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-12-16",
-    "city": "Dublin",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 16,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-02-21",
-    "city": "Newcastle",
-    "nameplate": "HSE Dynamic",
-    "duration": 21,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-03-31",
-    "city": "London",
-    "nameplate": "HSE",
-    "duration": 23,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-03-28",
-    "city": "Newcastle",
-    "nameplate": "HSE",
-    "duration": 4,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-07-26",
-    "city": "Glasgow",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 16,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-04-08",
-    "city": "Manchester",
-    "nameplate": "HSE",
-    "duration": 15,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-12-04",
-    "city": "Edinbrugh",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 1,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-06-24",
-    "city": "Newcastle",
-    "nameplate": "HSE Dynamic",
-    "duration": 28,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Sport",
+    "model": "Discovery Sport",
     "date": "2015-09-08",
-    "city": "Manchester",
-    "nameplate": "HSE Dynamic",
-    "duration": 30,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-01-20",
-    "city": "London",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 6,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-05-21",
-    "city": "Newcastle",
-    "nameplate": "HSE Dynamic",
-    "duration": 2,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-11-15",
-    "city": "Edinbrugh",
-    "nameplate": "HSE",
-    "duration": 10,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-01-13",
     "city": "Bristol",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 24,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-10-20",
-    "city": "Newcastle",
-    "nameplate": "HSE Dynamic",
-    "duration": 14,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-01-14",
-    "city": "London",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 25,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-07-13",
-    "city": "Cardiff",
-    "nameplate": "HSE",
-    "duration": 14,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-12-15",
-    "city": "Cardiff",
-    "nameplate": "HSE Dynamic",
-    "duration": 4,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-04-24",
-    "city": "Dublin",
-    "nameplate": "SVR",
-    "duration": 11,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-11-17",
-    "city": "Glasgow",
-    "nameplate": "SVR",
-    "duration": 9,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-01-13",
-    "city": "Edinbrugh",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 11,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-08-19",
-    "city": "Cardiff",
-    "nameplate": "HSE",
-    "duration": 8,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-11-08",
-    "city": "Newcastle",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 4,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-08-04",
-    "city": "Glasgow",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 23,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-07-18",
-    "city": "London",
-    "nameplate": "HSE Dynamic",
-    "duration": 16,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-02-05",
-    "city": "Cardiff",
-    "nameplate": "HSE Dynamic",
-    "duration": 11,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-03-12",
-    "city": "Dublin",
-    "nameplate": "SVR",
-    "duration": 22,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-01-02",
-    "city": "Birmingham",
-    "nameplate": "HSE",
-    "duration": 16,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-08-09",
-    "city": "Edinbrugh",
     "nameplate": "SVR",
     "duration": 27,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-05-12",
-    "city": "Liverpool",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 16,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-01-04",
-    "city": "London",
-    "nameplate": "SVR",
-    "duration": 20,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-01-22",
-    "city": "Newcastle",
-    "nameplate": "HSE",
-    "duration": 26,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-06-02",
-    "city": "Dublin",
-    "nameplate": "HSE Dynamic",
-    "duration": 8,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-01-11",
-    "city": "Dublin",
-    "nameplate": "HSE",
-    "duration": 7,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-12-17",
-    "city": "Manchester",
-    "nameplate": "SVR",
-    "duration": 12,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-03-03",
-    "city": "Edinbrugh",
-    "nameplate": "SVR",
-    "duration": 16,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-08-08",
-    "city": "Birmingham",
-    "nameplate": "HSE Dynamic",
-    "duration": 12,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-12-17",
-    "city": "Glasgow",
-    "nameplate": "HSE Dynamic",
-    "duration": 27,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-06-29",
-    "city": "Dublin",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 3,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-04-05",
-    "city": "Bristol",
-    "nameplate": "HSE Dynamic",
-    "duration": 26,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-08-20",
-    "city": "Glasgow",
-    "nameplate": "HSE",
-    "duration": 1,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-11-13",
-    "city": "Dublin",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 15,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-07-09",
-    "city": "Glasgow",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 27,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-03-02",
-    "city": "London",
-    "nameplate": "HSE",
-    "duration": 29,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-09-20",
-    "city": "Birmingham",
-    "nameplate": "SVR",
-    "duration": 4,
     "dropout": 6
   },
   {
-    "model": "Range Rover Sport",
-    "date": "2015-08-02",
-    "city": "Dublin",
-    "nameplate": "HSE",
-    "duration": 24,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-06-22",
-    "city": "Bristol",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 7,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-10-31",
-    "city": "Liverpool",
-    "nameplate": "HSE",
-    "duration": 24,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-05-29",
-    "city": "Liverpool",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 18,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-06-06",
-    "city": "Bristol",
-    "nameplate": "HSE Dynamic",
-    "duration": 30,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-08-05",
-    "city": "Newcastle",
-    "nameplate": "HSE Dynamic",
-    "duration": 28,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-01-28",
-    "city": "Cardiff",
-    "nameplate": "Autoboigraphy Dynamic",
-    "duration": 30,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-12-01",
-    "city": "Birmingham",
-    "nameplate": "SVR",
-    "duration": 17,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-02-27",
-    "city": "Manchester",
-    "nameplate": "HSE Dynamic",
-    "duration": 20,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-02-19",
-    "city": "Dublin",
-    "nameplate": "SVR",
-    "duration": 19,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-02-01",
-    "city": "Manchester",
-    "nameplate": "HSE",
-    "duration": 7,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Sport",
-    "date": "2015-02-15",
-    "city": "Liverpool",
-    "nameplate": "SVR",
-    "duration": 4,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-11-03",
-    "city": "Bristol",
-    "nameplate": "SE",
-    "duration": 18,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-05-12",
-    "city": "Liverpool",
-    "nameplate": "Autobiography",
-    "duration": 19,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-02-16",
-    "city": "Dublin",
-    "nameplate": "SE Tech",
-    "duration": 10,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-09-02",
-    "city": "London",
-    "nameplate": "SE Tech",
-    "duration": 20,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-03-06",
-    "city": "Dublin",
-    "nameplate": "HSE Dynamic",
-    "duration": 13,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-07-15",
-    "city": "Manchester",
-    "nameplate": "HSE Dynamic",
-    "duration": 9,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-08-13",
-    "city": "Manchester",
-    "nameplate": "SE",
-    "duration": 8,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-01-14",
-    "city": "Birmingham",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 11,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-03-27",
-    "city": "Edinbrugh",
-    "nameplate": "SE",
-    "duration": 13,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-09-19",
-    "city": "Edinbrugh",
-    "nameplate": "SE Tech",
-    "duration": 14,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-01-31",
-    "city": "Dublin",
-    "nameplate": "SE",
-    "duration": 22,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-06-13",
-    "city": "Cardiff",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 23,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Evoque",
+    "model": "Discovery",
     "date": "2015-12-24",
-    "city": "Glasgow",
-    "nameplate": "HSE Dynamic",
-    "duration": 18,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-09-19",
     "city": "Cardiff",
-    "nameplate": "Autobiography",
-    "duration": 5,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-10-12",
-    "city": "Dublin",
-    "nameplate": "SE Tech",
-    "duration": 2,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-09-24",
-    "city": "Newcastle",
-    "nameplate": "SE",
-    "duration": 23,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-01-01",
-    "city": "Bristol",
-    "nameplate": "SE",
-    "duration": 11,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-03-11",
-    "city": "Manchester",
-    "nameplate": "SE Tech",
-    "duration": 26,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-06-25",
-    "city": "Manchester",
-    "nameplate": "SE",
-    "duration": 10,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-04-16",
-    "city": "Glasgow",
-    "nameplate": "SE",
-    "duration": 30,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-10-12",
-    "city": "Glasgow",
-    "nameplate": "SE",
-    "duration": 15,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-06-30",
-    "city": "Dublin",
-    "nameplate": "HSE Dynamic",
-    "duration": 11,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-11-17",
-    "city": "Dublin",
-    "nameplate": "HSE Dynamic",
-    "duration": 12,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-05-26",
-    "city": "Liverpool",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 29,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-03-30",
-    "city": "Cardiff",
-    "nameplate": "SE",
-    "duration": 14,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-07-29",
-    "city": "Glasgow",
-    "nameplate": "Autobiography",
-    "duration": 11,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-05-04",
-    "city": "Dublin",
-    "nameplate": "SE",
-    "duration": 17,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-11-10",
-    "city": "Glasgow",
-    "nameplate": "SE Tech",
-    "duration": 17,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-03-25",
-    "city": "Bristol",
-    "nameplate": "SE Tech",
-    "duration": 10,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-04-18",
-    "city": "Glasgow",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 14,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-11-15",
-    "city": "Birmingham",
     "nameplate": "SE Tech",
     "duration": 7,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-11-18",
-    "city": "Birmingham",
-    "nameplate": "SE",
-    "duration": 2,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-12-08",
-    "city": "Newcastle",
-    "nameplate": "Autobiography",
-    "duration": 15,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-10-28",
-    "city": "Glasgow",
-    "nameplate": "HSE Dynamic",
-    "duration": 13,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-11-09",
-    "city": "Glasgow",
-    "nameplate": "Autobiography",
-    "duration": 4,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-07-27",
-    "city": "Bristol",
-    "nameplate": "SE Tech",
-    "duration": 5,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-01-06",
-    "city": "Edinbrugh",
-    "nameplate": "HSE Dynamic",
-    "duration": 13,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-07-25",
-    "city": "Bristol",
-    "nameplate": "Autobiography",
-    "duration": 29,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-07-01",
-    "city": "Bristol",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 29,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-09-14",
-    "city": "Dublin",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 25,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-06-26",
-    "city": "Dublin",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 1,
     "dropout": 6
   },
   {
     "model": "Range Rover Evoque",
-    "date": "2015-02-09",
-    "city": "Manchester",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 23,
-    "dropout": 1
+    "date": "2015-12-06",
+    "city": "Edinbrugh",
+    "nameplate": "SE Tech",
+    "duration": 8,
+    "dropout": 3
   },
   {
-    "model": "Range Rover Evoque",
-    "date": "2015-06-01",
-    "city": "Manchester",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 21,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-11-16",
-    "city": "Birmingham",
-    "nameplate": "HSE Dynamic",
-    "duration": 12,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-08-25",
-    "city": "Glasgow",
-    "nameplate": "Autobiography",
-    "duration": 15,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-01-29",
-    "city": "Birmingham",
-    "nameplate": "SE",
-    "duration": 11,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-08-28",
+    "model": "Range Rover Sport",
+    "date": "2015-11-12",
     "city": "Dublin",
-    "nameplate": "HSE Dynamic Lux",
+    "nameplate": "Vogue",
     "duration": 18,
     "dropout": 1
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-07-23",
-    "city": "Manchester",
-    "nameplate": "SE",
-    "duration": 10,
-    "dropout": 4
   },
   {
     "model": "Range Rover Evoque",
     "date": "2015-04-11",
-    "city": "Bristol",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 8,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-05-15",
-    "city": "Cardiff",
-    "nameplate": "SE Tech",
-    "duration": 14,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-06-20",
     "city": "Liverpool",
-    "nameplate": "HSE Dynamic",
-    "duration": 4,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-01-11",
-    "city": "Glasgow",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 23,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-05-23",
-    "city": "Newcastle",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 23,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-07-22",
-    "city": "Edinbrugh",
-    "nameplate": "SE",
-    "duration": 11,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-12-15",
-    "city": "London",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 30,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-02-14",
-    "city": "Cardiff",
-    "nameplate": "HSE Dynamic",
-    "duration": 5,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-12-08",
-    "city": "Glasgow",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 18,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-08-22",
-    "city": "Liverpool",
-    "nameplate": "SE",
-    "duration": 1,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-05-11",
-    "city": "Cardiff",
-    "nameplate": "SE",
-    "duration": 23,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-06-30",
-    "city": "London",
     "nameplate": "SE Tech",
-    "duration": 7,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-06-13",
-    "city": "Dublin",
-    "nameplate": "SE",
     "duration": 27,
-    "dropout": 4
+    "dropout": 5
   },
   {
-    "model": "Range Rover Evoque",
-    "date": "2015-12-26",
-    "city": "Liverpool",
-    "nameplate": "SE",
-    "duration": 30,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-11-08",
-    "city": "Dublin",
-    "nameplate": "SE",
-    "duration": 30,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-09-03",
+    "model": "Range Rover Sport",
+    "date": "2015-08-19",
     "city": "Glasgow",
-    "nameplate": "SE Tech",
-    "duration": 12,
-    "dropout": 5
+    "nameplate": "Vogue",
+    "duration": 4,
+    "dropout": 6
   },
   {
     "model": "Range Rover Evoque",
-    "date": "2015-03-09",
-    "city": "Bristol",
-    "nameplate": "Autobiography",
-    "duration": 6,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-03-24",
-    "city": "Dublin",
-    "nameplate": "SE",
+    "date": "2015-11-23",
+    "city": "Birmingham",
+    "nameplate": "Vogue",
     "duration": 11,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-10-02",
-    "city": "Edinbrugh",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 22,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-03-26",
-    "city": "Liverpool",
-    "nameplate": "SE Tech",
-    "duration": 20,
     "dropout": 2
   },
   {
-    "model": "Range Rover Evoque",
-    "date": "2015-06-01",
-    "city": "London",
-    "nameplate": "SE Tech",
-    "duration": 20,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-10-17",
-    "city": "London",
-    "nameplate": "Autobiography",
-    "duration": 8,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-12-26",
-    "city": "Bristol",
-    "nameplate": "Autobiography",
-    "duration": 18,
-    "dropout": 2
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-05-18",
-    "city": "Manchester",
-    "nameplate": "HSE Dynamic",
-    "duration": 6,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-06-12",
-    "city": "Bristol",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 6,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-05-28",
-    "city": "Edinbrugh",
-    "nameplate": "Autobiography",
-    "duration": 6,
-    "dropout": 6
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-04-21",
+    "model": "Discovery Sport",
+    "date": "2015-02-07",
     "city": "Cardiff",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 16,
-    "dropout": 1
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-03-25",
-    "city": "Manchester",
-    "nameplate": "SE",
-    "duration": 29,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-04-24",
-    "city": "Dublin",
-    "nameplate": "SE",
-    "duration": 5,
+    "nameplate": "SVR",
+    "duration": 6,
     "dropout": 2
   },
   {
-    "model": "Range Rover Evoque",
-    "date": "2015-05-28",
+    "model": "Discovery Sport",
+    "date": "2015-01-31",
     "city": "Glasgow",
     "nameplate": "SE Tech",
-    "duration": 7,
-    "dropout": 5
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-08-01",
-    "city": "Bristol",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 26,
-    "dropout": 3
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-09-14",
-    "city": "Glasgow",
-    "nameplate": "Autobiography",
-    "duration": 28,
-    "dropout": 4
-  },
-  {
-    "model": "Range Rover Evoque",
-    "date": "2015-02-03",
-    "city": "Cardiff",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 16,
-    "dropout": 6
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-12-27",
-    "city": "Glasgow",
-    "nameplate": "Landmark",
-    "duration": 26,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-07-31",
-    "city": "London",
-    "nameplate": "Commercial SE",
     "duration": 24,
     "dropout": 2
   },
   {
     "model": "Discovery",
-    "date": "2015-02-05",
+    "date": "2015-02-16",
+    "city": "Edinbrugh",
+    "nameplate": "Vogue",
+    "duration": 8,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-09-09",
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 24,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-08-11",
+    "city": "Birmingham",
+    "nameplate": "HSE",
+    "duration": 30,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-09-16",
     "city": "Cardiff",
-    "nameplate": "Commercial SE",
+    "nameplate": "SVR",
+    "duration": 28,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-12-21",
+    "city": "London",
+    "nameplate": "HSE",
+    "duration": 4,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-11-24",
+    "city": "London",
+    "nameplate": "HSE",
+    "duration": 22,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-09-03",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 12,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-07-02",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 24,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-06-02",
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 16,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-08-14",
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 7,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-02-02",
+    "city": "Newcastle",
+    "nameplate": "SVR",
+    "duration": 15,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-10-01",
+    "city": "Manchester",
+    "nameplate": "SVR",
+    "duration": 25,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-08-06",
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 10,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-05-01",
+    "city": "Glasgow",
+    "nameplate": "SVR",
+    "duration": 20,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-10-11",
+    "city": "Edinbrugh",
+    "nameplate": "HSE",
+    "duration": 11,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-01-15",
+    "city": "Birmingham",
+    "nameplate": "SE Tech",
+    "duration": 14,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-07-03",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 20,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-04-04",
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 25,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-06-19",
+    "city": "Birmingham",
+    "nameplate": "HSE",
     "duration": 10,
     "dropout": 4
   },
   {
-    "model": "Discovery",
-    "date": "2015-07-04",
-    "city": "Newcastle",
-    "nameplate": "Commercial SE",
-    "duration": 26,
-    "dropout": 2
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-03-06",
-    "city": "Glasgow",
-    "nameplate": "Commercial SE",
-    "duration": 5,
-    "dropout": 3
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-02-10",
-    "city": "Edinbrugh",
-    "nameplate": "Graphite",
-    "duration": 23,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-01-10",
-    "city": "Cardiff",
-    "nameplate": "Landmark",
-    "duration": 26,
-    "dropout": 6
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-02-06",
-    "city": "Edinbrugh",
-    "nameplate": "Graphite",
-    "duration": 5,
-    "dropout": 6
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-11-01",
-    "city": "Edinbrugh",
-    "nameplate": "Graphite",
-    "duration": 4,
-    "dropout": 3
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-08-01",
+    "model": "Range Rover Sport",
+    "date": "2015-11-21",
     "city": "Liverpool",
-    "nameplate": "Graphite",
+    "nameplate": "HSE",
     "duration": 17,
-    "dropout": 2
+    "dropout": 6
   },
   {
-    "model": "Discovery",
+    "model": "Range Rover Evoque",
     "date": "2015-12-08",
-    "city": "Newcastle",
-    "nameplate": "Landmark",
-    "duration": 30,
-    "dropout": 3
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-09-22",
-    "city": "London",
-    "nameplate": "Landmark",
-    "duration": 14,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-03-14",
-    "city": "Bristol",
-    "nameplate": "Landmark",
-    "duration": 3,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-08-15",
-    "city": "Bristol",
-    "nameplate": "Landmark",
-    "duration": 25,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-03-11",
-    "city": "Bristol",
-    "nameplate": "Commercial SE",
-    "duration": 30,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-06-23",
-    "city": "Cardiff",
-    "nameplate": "Graphite",
-    "duration": 6,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-03-04",
-    "city": "Newcastle",
-    "nameplate": "Graphite",
-    "duration": 29,
-    "dropout": 2
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-07-20",
-    "city": "Cardiff",
-    "nameplate": "Commercial SE",
-    "duration": 29,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-08-24",
-    "city": "Manchester",
-    "nameplate": "Graphite",
-    "duration": 23,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-06-07",
-    "city": "Glasgow",
-    "nameplate": "Graphite",
-    "duration": 2,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-11-23",
-    "city": "Glasgow",
-    "nameplate": "Commercial SE",
-    "duration": 22,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-09-29",
-    "city": "Glasgow",
-    "nameplate": "Commercial SE",
-    "duration": 15,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-12-16",
-    "city": "Birmingham",
-    "nameplate": "Commercial SE",
-    "duration": 9,
-    "dropout": 3
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-03-07",
-    "city": "Cardiff",
-    "nameplate": "Landmark",
-    "duration": 20,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-12-01",
-    "city": "Newcastle",
-    "nameplate": "Commercial SE",
-    "duration": 14,
-    "dropout": 3
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-04-01",
-    "city": "Edinbrugh",
-    "nameplate": "Graphite",
-    "duration": 11,
-    "dropout": 3
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-07-20",
-    "city": "Edinbrugh",
-    "nameplate": "Landmark",
-    "duration": 22,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-12-26",
-    "city": "Cardiff",
-    "nameplate": "Graphite",
-    "duration": 28,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-02-10",
-    "city": "Newcastle",
-    "nameplate": "Commercial SE",
-    "duration": 13,
-    "dropout": 3
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-11-25",
-    "city": "Dublin",
-    "nameplate": "Landmark",
-    "duration": 21,
-    "dropout": 6
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-10-12",
-    "city": "London",
-    "nameplate": "Commercial SE",
-    "duration": 25,
-    "dropout": 2
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-11-27",
-    "city": "Birmingham",
-    "nameplate": "Graphite",
-    "duration": 14,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-06-05",
-    "city": "Dublin",
-    "nameplate": "Commercial SE",
-    "duration": 22,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-12-07",
-    "city": "London",
-    "nameplate": "Commercial SE",
-    "duration": 17,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-11-04",
-    "city": "London",
-    "nameplate": "Landmark",
-    "duration": 17,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-12-16",
-    "city": "Bristol",
-    "nameplate": "Graphite",
-    "duration": 3,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-09-07",
-    "city": "Bristol",
-    "nameplate": "Commercial SE",
-    "duration": 9,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-12-20",
-    "city": "Glasgow",
-    "nameplate": "Commercial SE",
-    "duration": 26,
-    "dropout": 2
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-09-16",
-    "city": "Cardiff",
-    "nameplate": "Commercial SE",
-    "duration": 13,
-    "dropout": 2
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-01-22",
-    "city": "London",
-    "nameplate": "Commercial SE",
-    "duration": 14,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-05-21",
-    "city": "Manchester",
-    "nameplate": "Graphite",
-    "duration": 8,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-07-23",
-    "city": "London",
-    "nameplate": "Landmark",
-    "duration": 27,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-08-13",
     "city": "Liverpool",
-    "nameplate": "Commercial SE",
-    "duration": 14,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-10-13",
-    "city": "London",
-    "nameplate": "Graphite",
-    "duration": 8,
-    "dropout": 2
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-02-06",
-    "city": "Dublin",
-    "nameplate": "Graphite",
-    "duration": 2,
-    "dropout": 6
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-04-22",
-    "city": "Cardiff",
-    "nameplate": "Graphite",
-    "duration": 11,
-    "dropout": 6
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-04-17",
-    "city": "Bristol",
-    "nameplate": "Commercial SE",
-    "duration": 23,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-10-14",
-    "city": "Liverpool",
-    "nameplate": "Graphite",
-    "duration": 28,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-08-05",
-    "city": "Newcastle",
-    "nameplate": "Commercial SE",
-    "duration": 28,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-03-06",
-    "city": "Newcastle",
-    "nameplate": "Commercial SE",
-    "duration": 17,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-08-28",
-    "city": "Birmingham",
-    "nameplate": "Graphite",
-    "duration": 3,
-    "dropout": 6
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-02-28",
-    "city": "London",
-    "nameplate": "Graphite",
-    "duration": 15,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-04-27",
-    "city": "Liverpool",
-    "nameplate": "Landmark",
+    "nameplate": "SE Tech",
     "duration": 16,
-    "dropout": 6
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-10-12",
-    "city": "Newcastle",
-    "nameplate": "Commercial SE",
-    "duration": 24,
-    "dropout": 6
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-06-26",
-    "city": "Edinbrugh",
-    "nameplate": "Commercial SE",
-    "duration": 14,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-05-03",
-    "city": "London",
-    "nameplate": "Graphite",
-    "duration": 7,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-04-10",
-    "city": "Glasgow",
-    "nameplate": "Graphite",
-    "duration": 25,
-    "dropout": 3
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-07-09",
-    "city": "Manchester",
-    "nameplate": "Landmark",
-    "duration": 17,
     "dropout": 2
   },
   {
-    "model": "Discovery",
-    "date": "2015-07-01",
+    "model": "Range Rover Sport",
+    "date": "2015-04-26",
     "city": "Bristol",
-    "nameplate": "Commercial SE",
-    "duration": 15,
-    "dropout": 1
+    "nameplate": "SE Tech",
+    "duration": 24,
+    "dropout": 4
   },
   {
-    "model": "Discovery",
-    "date": "2015-05-09",
-    "city": "Glasgow",
-    "nameplate": "Commercial SE",
-    "duration": 9,
+    "model": "Range Rover Sport",
+    "date": "2015-01-19",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 13,
     "dropout": 3
   },
   {
-    "model": "Discovery",
-    "date": "2015-07-29",
-    "city": "Newcastle",
-    "nameplate": "Commercial SE",
-    "duration": 6,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-06-28",
+    "model": "Range Rover",
+    "date": "2015-05-08",
     "city": "Glasgow",
-    "nameplate": "Commercial SE",
-    "duration": 7,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-07-16",
-    "city": "Birmingham",
-    "nameplate": "Commercial SE",
-    "duration": 23,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-11-15",
-    "city": "Glasgow",
-    "nameplate": "Commercial SE",
-    "duration": 3,
+    "nameplate": "Vogue",
+    "duration": 26,
     "dropout": 6
   },
   {
-    "model": "Discovery",
-    "date": "2015-09-16",
-    "city": "Cardiff",
-    "nameplate": "Graphite",
-    "duration": 7,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-12-26",
-    "city": "Dublin",
-    "nameplate": "Landmark",
-    "duration": 19,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-10-26",
-    "city": "Cardiff",
-    "nameplate": "Landmark",
-    "duration": 22,
-    "dropout": 6
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-06-29",
-    "city": "London",
-    "nameplate": "Graphite",
-    "duration": 25,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-10-12",
+    "model": "Range Rover Evoque",
+    "date": "2015-02-05",
     "city": "Manchester",
-    "nameplate": "Graphite",
-    "duration": 15,
-    "dropout": 3
+    "nameplate": "SVR",
+    "duration": 20,
+    "dropout": 5
   },
   {
-    "model": "Discovery",
-    "date": "2015-10-17",
-    "city": "London",
-    "nameplate": "Graphite",
-    "duration": 12,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-04-27",
-    "city": "Glasgow",
-    "nameplate": "Commercial SE",
-    "duration": 27,
+    "model": "Range Rover Evoque",
+    "date": "2015-07-13",
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 30,
     "dropout": 6
   },
   {
-    "model": "Discovery",
-    "date": "2015-07-16",
+    "model": "Range Rover Sport",
+    "date": "2015-02-14",
+    "city": "Glasgow",
+    "nameplate": "SVR",
+    "duration": 30,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-08-26",
     "city": "Liverpool",
-    "nameplate": "Graphite",
+    "nameplate": "SE Tech",
+    "duration": 6,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-06-16",
+    "city": "Cardiff",
+    "nameplate": "HSE",
+    "duration": 17,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-04-25",
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 28,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-04-22",
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 28,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-12-19",
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 24,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-01-04",
+    "city": "Newcastle",
+    "nameplate": "HSE",
+    "duration": 26,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-06-09",
+    "city": "Dublin",
+    "nameplate": "Vogue",
     "duration": 7,
     "dropout": 6
   },
   {
-    "model": "Discovery",
-    "date": "2015-07-29",
-    "city": "Newcastle",
-    "nameplate": "Landmark",
+    "model": "Range Rover Evoque",
+    "date": "2015-08-14",
+    "city": "Dublin",
+    "nameplate": "SVR",
     "duration": 5,
     "dropout": 2
   },
   {
-    "model": "Discovery",
-    "date": "2015-08-06",
-    "city": "Dublin",
-    "nameplate": "Commercial SE",
-    "duration": 23,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-05-11",
+    "model": "Discovery Sport",
+    "date": "2015-05-29",
     "city": "Newcastle",
-    "nameplate": "Landmark",
-    "duration": 28,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-06-10",
-    "city": "Manchester",
-    "nameplate": "Landmark",
-    "duration": 21,
-    "dropout": 2
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-06-07",
-    "city": "Cardiff",
-    "nameplate": "Landmark",
-    "duration": 17,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-06-19",
-    "city": "Liverpool",
-    "nameplate": "Landmark",
-    "duration": 8,
-    "dropout": 3
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-03-04",
-    "city": "Newcastle",
-    "nameplate": "Graphite",
-    "duration": 23,
-    "dropout": 2
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-04-17",
-    "city": "Bristol",
-    "nameplate": "Graphite",
-    "duration": 23,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-09-09",
-    "city": "Edinbrugh",
-    "nameplate": "Landmark",
-    "duration": 15,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-06-19",
-    "city": "Cardiff",
-    "nameplate": "Commercial SE",
-    "duration": 30,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-08-01",
-    "city": "Cardiff",
-    "nameplate": "Commercial SE",
-    "duration": 3,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-12-06",
-    "city": "Dublin",
-    "nameplate": "Landmark",
-    "duration": 21,
-    "dropout": 2
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-09-09",
-    "city": "London",
-    "nameplate": "Commercial SE",
-    "duration": 28,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-06-26",
-    "city": "Edinbrugh",
-    "nameplate": "Commercial SE",
-    "duration": 9,
-    "dropout": 6
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-02-25",
-    "city": "Manchester",
-    "nameplate": "Landmark",
-    "duration": 26,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-08-25",
-    "city": "Manchester",
-    "nameplate": "Landmark",
-    "duration": 21,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-09-02",
-    "city": "Birmingham",
-    "nameplate": "Graphite",
-    "duration": 1,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-02-23",
-    "city": "Birmingham",
-    "nameplate": "Commercial SE",
-    "duration": 21,
-    "dropout": 6
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-05-06",
-    "city": "Glasgow",
-    "nameplate": "Landmark",
-    "duration": 16,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-10-20",
-    "city": "Dublin",
-    "nameplate": "Landmark",
-    "duration": 20,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-06-04",
-    "city": "Dublin",
-    "nameplate": "Commercial SE",
-    "duration": 30,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-02-15",
-    "city": "Manchester",
-    "nameplate": "Commercial SE",
-    "duration": 21,
-    "dropout": 2
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-08-05",
-    "city": "Manchester",
-    "nameplate": "Graphite",
-    "duration": 21,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-02-26",
-    "city": "Cardiff",
-    "nameplate": "Graphite",
-    "duration": 22,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-12-31",
-    "city": "Bristol",
-    "nameplate": "Landmark",
-    "duration": 22,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-07-05",
-    "city": "Edinbrugh",
-    "nameplate": "Commercial SE",
-    "duration": 12,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-01-17",
-    "city": "Bristol",
-    "nameplate": "Landmark",
-    "duration": 27,
-    "dropout": 2
-  },
-  {
-    "model": "Discovery",
-    "date": "2015-06-21",
-    "city": "London",
-    "nameplate": "Landmark",
-    "duration": 14,
-    "dropout": 3
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-10-07",
-    "city": "Birmingham",
-    "nameplate": "SE Tech",
-    "duration": 17,
-    "dropout": 2
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-11-06",
-    "city": "Cardiff",
-    "nameplate": "HSE Black",
-    "duration": 24,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-08-18",
-    "city": "Bristol",
-    "nameplate": "HSE Black",
-    "duration": 7,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-12-19",
-    "city": "Glasgow",
-    "nameplate": "HSE Luxury",
-    "duration": 20,
-    "dropout": 2
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-12-24",
-    "city": "Birmingham",
-    "nameplate": "SE Tech",
+    "nameplate": "SVR",
     "duration": 18,
     "dropout": 6
   },
   {
-    "model": "Discovery Sport",
-    "date": "2015-12-06",
-    "city": "Newcastle",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 6,
-    "dropout": 3
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-08-07",
-    "city": "Newcastle",
-    "nameplate": "HSE Luxury",
-    "duration": 11,
-    "dropout": 3
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-04-01",
-    "city": "Dublin",
-    "nameplate": "HSE Dynamic Lux",
+    "model": "Range Rover Sport",
+    "date": "2015-02-07",
+    "city": "Bristol",
+    "nameplate": "SVR",
     "duration": 17,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-10-20",
-    "city": "Newcastle",
-    "nameplate": "SE Tech",
-    "duration": 6,
-    "dropout": 2
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-09-09",
-    "city": "Dublin",
-    "nameplate": "HSE Black",
-    "duration": 30,
-    "dropout": 5
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-10-02",
-    "city": "London",
-    "nameplate": "HSE",
-    "duration": 30,
     "dropout": 6
   },
   {
-    "model": "Discovery Sport",
-    "date": "2015-09-26",
+    "model": "Range Rover Evoque",
+    "date": "2015-06-22",
     "city": "Edinbrugh",
-    "nameplate": "HSE Black",
-    "duration": 7,
+    "nameplate": "HSE",
+    "duration": 27,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-06-12",
+    "city": "Cardiff",
+    "nameplate": "SE Tech",
+    "duration": 12,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-05-13",
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 29,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-01-15",
+    "city": "Edinbrugh",
+    "nameplate": "SE Tech",
+    "duration": 23,
     "dropout": 4
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-03-05",
-    "city": "Birmingham",
-    "nameplate": "HSE Luxury",
-    "duration": 23,
+    "date": "2015-03-09",
+    "city": "Newcastle",
+    "nameplate": "SVR",
+    "duration": 19,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-01-02",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 29,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-03-31",
+    "city": "London",
+    "nameplate": "HSE",
+    "duration": 5,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-02-14",
+    "city": "Manchester",
+    "nameplate": "Vogue",
+    "duration": 18,
     "dropout": 5
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-12-09",
-    "city": "Dublin",
-    "nameplate": "SE",
-    "duration": 13,
+    "date": "2015-03-29",
+    "city": "Liverpool",
+    "nameplate": "Vogue",
+    "duration": 12,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-02-05",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 7,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-10-23",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 14,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-05-23",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 17,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-01-12",
+    "city": "Edinbrugh",
+    "nameplate": "SE Tech",
+    "duration": 23,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-02-07",
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 27,
     "dropout": 3
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-08-10",
+    "date": "2015-06-23",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 21,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-09-29",
+    "city": "Edinbrugh",
+    "nameplate": "Vogue",
+    "duration": 5,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-11-09",
     "city": "Newcastle",
-    "nameplate": "HSE Luxury",
-    "duration": 22,
+    "nameplate": "HSE",
+    "duration": 25,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-10-07",
+    "city": "Edinbrugh",
+    "nameplate": "Vogue",
+    "duration": 12,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-02-25",
+    "city": "Cardiff",
+    "nameplate": "SVR",
+    "duration": 7,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-08-02",
+    "city": "Glasgow",
+    "nameplate": "Vogue",
+    "duration": 26,
     "dropout": 2
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-12-28",
-    "city": "Bristol",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 24,
+    "date": "2015-05-17",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 18,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-01-18",
+    "city": "Dublin",
+    "nameplate": "HSE",
+    "duration": 7,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-07-22",
+    "city": "Newcastle",
+    "nameplate": "SE Tech",
+    "duration": 8,
     "dropout": 3
   },
   {
-    "model": "Discovery Sport",
-    "date": "2015-03-14",
-    "city": "Liverpool",
-    "nameplate": "HSE Black",
+    "model": "Range Rover Evoque",
+    "date": "2015-01-07",
+    "city": "Edinbrugh",
+    "nameplate": "HSE",
     "duration": 16,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-09-18",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 14,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-12-16",
+    "city": "Birmingham",
+    "nameplate": "SE Tech",
+    "duration": 11,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-09-07",
+    "city": "Dublin",
+    "nameplate": "Vogue",
+    "duration": 15,
     "dropout": 1
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-09-06",
+    "date": "2015-10-24",
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 26,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-01-12",
+    "city": "Bristol",
+    "nameplate": "HSE",
+    "duration": 15,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-10-13",
     "city": "London",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 14,
+    "nameplate": "Vogue",
+    "duration": 27,
     "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-12-18",
+    "city": "Glasgow",
+    "nameplate": "Vogue",
+    "duration": 28,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-06-11",
+    "city": "Cardiff",
+    "nameplate": "SE Tech",
+    "duration": 26,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-07-10",
+    "city": "Edinbrugh",
+    "nameplate": "HSE",
+    "duration": 21,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-02-03",
+    "city": "Birmingham",
+    "nameplate": "Vogue",
+    "duration": 4,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-08-30",
+    "city": "Newcastle",
+    "nameplate": "SE Tech",
+    "duration": 18,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-05-06",
+    "city": "Liverpool",
+    "nameplate": "HSE",
+    "duration": 18,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-04-13",
+    "city": "Dublin",
+    "nameplate": "HSE",
+    "duration": 2,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-06-22",
+    "city": "Edinbrugh",
+    "nameplate": "Vogue",
+    "duration": 29,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-04-11",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 9,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-12-07",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 6,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-08-18",
+    "city": "Newcastle",
+    "nameplate": "SE Tech",
+    "duration": 24,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-10-12",
+    "city": "Birmingham",
+    "nameplate": "SE Tech",
+    "duration": 10,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-11-04",
+    "city": "Manchester",
+    "nameplate": "Vogue",
+    "duration": 3,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-08-13",
+    "city": "Cardiff",
+    "nameplate": "SVR",
+    "duration": 12,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-06-10",
+    "city": "Newcastle",
+    "nameplate": "Vogue",
+    "duration": 23,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-11-06",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 29,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-10-16",
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 22,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-01-14",
+    "city": "Newcastle",
+    "nameplate": "SE Tech",
+    "duration": 4,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-10-28",
+    "city": "Edinbrugh",
+    "nameplate": "Vogue",
+    "duration": 9,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-11-05",
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 6,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-09-01",
+    "city": "Glasgow",
+    "nameplate": "SVR",
+    "duration": 10,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-09-01",
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 4,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-05-08",
+    "city": "Manchester",
+    "nameplate": "Vogue",
+    "duration": 20,
+    "dropout": 2
   },
   {
     "model": "Discovery Sport",
     "date": "2015-02-04",
     "city": "Birmingham",
-    "nameplate": "SE Tech",
-    "duration": 23,
-    "dropout": 2
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-07-21",
-    "city": "London",
     "nameplate": "HSE",
-    "duration": 25,
-    "dropout": 3
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-10-02",
-    "city": "Liverpool",
-    "nameplate": "HSE",
-    "duration": 24,
-    "dropout": 2
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-07-22",
-    "city": "Dublin",
-    "nameplate": "HSE Black",
-    "duration": 7,
+    "duration": 29,
     "dropout": 6
   },
   {
-    "model": "Discovery Sport",
-    "date": "2015-03-13",
-    "city": "Liverpool",
-    "nameplate": "HSE Luxury",
-    "duration": 26,
-    "dropout": 3
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-02-27",
-    "city": "Manchester",
+    "model": "Range Rover Sport",
+    "date": "2015-07-11",
+    "city": "Cardiff",
     "nameplate": "HSE",
-    "duration": 22,
-    "dropout": 1
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-11-01",
-    "city": "Bristol",
-    "nameplate": "HSE Luxury",
-    "duration": 29,
+    "duration": 4,
     "dropout": 4
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-11-15",
+    "date": "2015-05-28",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 3,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-05-02",
+    "city": "Liverpool",
+    "nameplate": "Vogue",
+    "duration": 18,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-09-07",
+    "city": "Cardiff",
+    "nameplate": "SE Tech",
+    "duration": 6,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-04-06",
+    "city": "Edinbrugh",
+    "nameplate": "SE Tech",
+    "duration": 26,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-07-12",
+    "city": "Dublin",
+    "nameplate": "Vogue",
+    "duration": 9,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-06-22",
+    "city": "Glasgow",
+    "nameplate": "SE Tech",
+    "duration": 7,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-11-13",
+    "city": "Glasgow",
+    "nameplate": "SVR",
+    "duration": 26,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-08-28",
+    "city": "Newcastle",
+    "nameplate": "SE Tech",
+    "duration": 3,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-10-27",
+    "city": "London",
+    "nameplate": "SVR",
+    "duration": 14,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-08-08",
+    "city": "Newcastle",
+    "nameplate": "SVR",
+    "duration": 17,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-02-11",
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 4,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-03-20",
+    "city": "Cardiff",
+    "nameplate": "SE Tech",
+    "duration": 15,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-10-18",
+    "city": "Cardiff",
+    "nameplate": "SE Tech",
+    "duration": 20,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-02-20",
+    "city": "Glasgow",
+    "nameplate": "Vogue",
+    "duration": 22,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-04-24",
+    "city": "Newcastle",
+    "nameplate": "Vogue",
+    "duration": 29,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-02-15",
+    "city": "Liverpool",
+    "nameplate": "HSE",
+    "duration": 9,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-08-24",
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 20,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-10-09",
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 24,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-05-19",
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 25,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-01-01",
     "city": "Birmingham",
+    "nameplate": "Vogue",
+    "duration": 12,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-06-30",
+    "city": "Newcastle",
+    "nameplate": "HSE",
+    "duration": 6,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-11-13",
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 18,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-05-13",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 18,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-07-16",
+    "city": "Glasgow",
+    "nameplate": "Vogue",
+    "duration": 25,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-07-03",
+    "city": "Manchester",
+    "nameplate": "HSE",
+    "duration": 24,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-03-13",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 30,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-12-27",
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 12,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-07-14",
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 26,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-12-09",
+    "city": "Birmingham",
+    "nameplate": "SE Tech",
+    "duration": 13,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-12-28",
+    "city": "Newcastle",
+    "nameplate": "SVR",
+    "duration": 7,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-04-04",
+    "city": "Liverpool",
+    "nameplate": "HSE",
+    "duration": 8,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-07-01",
+    "city": "Cardiff",
+    "nameplate": "Vogue",
+    "duration": 8,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-04-16",
+    "city": "Cardiff",
+    "nameplate": "HSE",
+    "duration": 19,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-08-25",
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 18,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-02-28",
+    "city": "Dublin",
+    "nameplate": "Vogue",
+    "duration": 17,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-09-21",
+    "city": "Newcastle",
+    "nameplate": "HSE",
+    "duration": 9,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-10-14",
+    "city": "Dublin",
+    "nameplate": "Vogue",
+    "duration": 8,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-08-21",
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 4,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-06-30",
+    "city": "Bristol",
+    "nameplate": "HSE",
+    "duration": 27,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-03-19",
+    "city": "Bristol",
+    "nameplate": "HSE",
+    "duration": 14,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-01-28",
+    "city": "Edinbrugh",
+    "nameplate": "HSE",
+    "duration": 3,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-09-04",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 10,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-10-02",
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 17,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-07-20",
+    "city": "Glasgow",
+    "nameplate": "HSE",
+    "duration": 11,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-11-15",
+    "city": "Newcastle",
+    "nameplate": "SE Tech",
+    "duration": 29,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-09-13",
+    "city": "Manchester",
+    "nameplate": "SVR",
+    "duration": 14,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-12-11",
+    "city": "Edinbrugh",
+    "nameplate": "SE Tech",
+    "duration": 13,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-02-23",
+    "city": "Glasgow",
+    "nameplate": "HSE",
+    "duration": 18,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-11-09",
+    "city": "Manchester",
+    "nameplate": "SVR",
+    "duration": 29,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-07-08",
+    "city": "Birmingham",
+    "nameplate": "HSE",
+    "duration": 14,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-05-08",
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 26,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-07-07",
+    "city": "Birmingham",
+    "nameplate": "HSE",
+    "duration": 3,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-04-04",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 17,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-09-17",
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 29,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-01-11",
+    "city": "Birmingham",
+    "nameplate": "HSE",
+    "duration": 24,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-09-17",
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 25,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-09-07",
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 29,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-10-26",
+    "city": "Newcastle",
+    "nameplate": "Vogue",
+    "duration": 11,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-05-07",
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 10,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-05-02",
+    "city": "Glasgow",
+    "nameplate": "SE Tech",
+    "duration": 3,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-12-22",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 8,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-01-13",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 1,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-07-19",
+    "city": "Liverpool",
+    "nameplate": "SE Tech",
+    "duration": 27,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-06-29",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 6,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-07-10",
+    "city": "Cardiff",
+    "nameplate": "HSE",
+    "duration": 5,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-12-21",
+    "city": "Cardiff",
+    "nameplate": "Vogue",
+    "duration": 8,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-01-27",
+    "city": "Cardiff",
+    "nameplate": "Vogue",
+    "duration": 24,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-10-16",
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 1,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-10-16",
+    "city": "Cardiff",
+    "nameplate": "SE Tech",
+    "duration": 15,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-09-07",
+    "city": "Glasgow",
+    "nameplate": "SVR",
+    "duration": 26,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-01-25",
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 12,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-11-05",
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 4,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-03-09",
+    "city": "Birmingham",
+    "nameplate": "HSE",
+    "duration": 12,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-03-30",
+    "city": "Bristol",
+    "nameplate": "Vogue",
+    "duration": 16,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-10-05",
+    "city": "Birmingham",
+    "nameplate": "SE Tech",
+    "duration": 25,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-01-20",
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 5,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-11-20",
+    "city": "Liverpool",
+    "nameplate": "Vogue",
+    "duration": 3,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-01-12",
+    "city": "Liverpool",
+    "nameplate": "SE Tech",
+    "duration": 28,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-06-10",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 8,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-02-28",
+    "city": "Liverpool",
+    "nameplate": "Vogue",
+    "duration": 6,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-03-18",
+    "city": "Dublin",
+    "nameplate": "HSE",
+    "duration": 11,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-10-31",
+    "city": "Cardiff",
+    "nameplate": "HSE",
+    "duration": 30,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-04-11",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 22,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-01-17",
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 4,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-11-18",
+    "city": "Dublin",
+    "nameplate": "HSE",
+    "duration": 17,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-08-21",
+    "city": "Glasgow",
+    "nameplate": "SVR",
+    "duration": 17,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-11-19",
+    "city": "Newcastle",
+    "nameplate": "SVR",
+    "duration": 28,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-12-03",
+    "city": "Newcastle",
+    "nameplate": "Vogue",
+    "duration": 5,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-12-05",
+    "city": "Glasgow",
+    "nameplate": "Vogue",
+    "duration": 8,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-11-27",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 14,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-07-11",
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 7,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-01-18",
+    "city": "Edinbrugh",
+    "nameplate": "Vogue",
+    "duration": 7,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-08-08",
+    "city": "London",
+    "nameplate": "SVR",
+    "duration": 23,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-07-18",
+    "city": "Newcastle",
+    "nameplate": "Vogue",
+    "duration": 7,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-06-25",
+    "city": "Newcastle",
+    "nameplate": "HSE",
+    "duration": 24,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-03-20",
+    "city": "Dublin",
+    "nameplate": "HSE",
+    "duration": 8,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-02-05",
+    "city": "Birmingham",
+    "nameplate": "HSE",
+    "duration": 3,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-02-27",
+    "city": "Cardiff",
+    "nameplate": "HSE",
+    "duration": 5,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-06-30",
+    "city": "Birmingham",
+    "nameplate": "HSE",
+    "duration": 6,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-09-01",
+    "city": "Manchester",
+    "nameplate": "HSE",
+    "duration": 28,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-10-01",
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 17,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-01-31",
+    "city": "Glasgow",
+    "nameplate": "Vogue",
+    "duration": 30,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-03-22",
+    "city": "Bristol",
+    "nameplate": "Vogue",
+    "duration": 10,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-04-15",
+    "city": "Bristol",
+    "nameplate": "Vogue",
+    "duration": 8,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-01-24",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 10,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-01-31",
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 7,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-09-29",
+    "city": "Glasgow",
     "nameplate": "HSE",
     "duration": 8,
     "dropout": 6
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-01-16",
-    "city": "Glasgow",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 9,
+    "date": "2015-12-15",
+    "city": "Manchester",
+    "nameplate": "SVR",
+    "duration": 21,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-10-19",
+    "city": "Edinbrugh",
+    "nameplate": "HSE",
+    "duration": 21,
     "dropout": 5
   },
   {
-    "model": "Discovery Sport",
-    "date": "2015-09-14",
-    "city": "Birmingham",
-    "nameplate": "HSE Luxury",
-    "duration": 1,
+    "model": "Range Rover",
+    "date": "2015-07-05",
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 3,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-11-25",
+    "city": "Dublin",
+    "nameplate": "HSE",
+    "duration": 15,
     "dropout": 2
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-09-12",
-    "city": "Dublin",
-    "nameplate": "SE",
-    "duration": 11,
-    "dropout": 4
+    "date": "2015-02-05",
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 25,
+    "dropout": 5
   },
   {
-    "model": "Discovery Sport",
-    "date": "2015-03-06",
-    "city": "Bristol",
-    "nameplate": "HSE Black",
+    "model": "Range Rover",
+    "date": "2015-08-27",
+    "city": "Cardiff",
+    "nameplate": "SVR",
     "duration": 16,
-    "dropout": 4
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-07-14",
+    "city": "Edinbrugh",
+    "nameplate": "Vogue",
+    "duration": 9,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-03-10",
+    "city": "Cardiff",
+    "nameplate": "Vogue",
+    "duration": 23,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-09-13",
+    "city": "Dublin",
+    "nameplate": "HSE",
+    "duration": 2,
+    "dropout": 3
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-04-27",
-    "city": "Newcastle",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 6,
+    "date": "2015-09-23",
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 14,
     "dropout": 1
   },
   {
-    "model": "Discovery Sport",
-    "date": "2015-05-14",
+    "model": "Range Rover Sport",
+    "date": "2015-11-29",
+    "city": "Cardiff",
+    "nameplate": "Vogue",
+    "duration": 26,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-07-16",
     "city": "Newcastle",
-    "nameplate": "HSE Black",
+    "nameplate": "SE Tech",
+    "duration": 4,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-10-17",
+    "city": "Newcastle",
+    "nameplate": "SVR",
+    "duration": 6,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-09-29",
+    "city": "Dublin",
+    "nameplate": "Vogue",
+    "duration": 16,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-03-01",
+    "city": "Edinbrugh",
+    "nameplate": "Vogue",
+    "duration": 16,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-12-09",
+    "city": "Newcastle",
+    "nameplate": "SVR",
+    "duration": 30,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-10-21",
+    "city": "Bristol",
+    "nameplate": "Vogue",
+    "duration": 19,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-02-25",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 1,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-03-01",
+    "city": "Birmingham",
+    "nameplate": "SE Tech",
+    "duration": 8,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-08-31",
+    "city": "Cardiff",
+    "nameplate": "HSE",
+    "duration": 22,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-08-01",
+    "city": "Cardiff",
+    "nameplate": "Vogue",
+    "duration": 26,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-02-07",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 3,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-08-15",
+    "city": "Liverpool",
+    "nameplate": "Vogue",
+    "duration": 1,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-03-09",
+    "city": "Glasgow",
+    "nameplate": "HSE",
+    "duration": 7,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-07-18",
+    "city": "Manchester",
+    "nameplate": "SVR",
+    "duration": 27,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-06-15",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 10,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-06-16",
+    "city": "Liverpool",
+    "nameplate": "Vogue",
+    "duration": 30,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-08-06",
+    "city": "Bristol",
+    "nameplate": "HSE",
+    "duration": 4,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-10-13",
+    "city": "London",
+    "nameplate": "HSE",
+    "duration": 18,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-03-13",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 21,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-05-27",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 6,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-05-24",
+    "city": "Cardiff",
+    "nameplate": "SVR",
+    "duration": 23,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-05-16",
+    "city": "Cardiff",
+    "nameplate": "SE Tech",
+    "duration": 3,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-07-24",
+    "city": "Glasgow",
+    "nameplate": "SE Tech",
+    "duration": 8,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-10-11",
+    "city": "Birmingham",
+    "nameplate": "Vogue",
+    "duration": 14,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-01-01",
+    "city": "Liverpool",
+    "nameplate": "SE Tech",
+    "duration": 7,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-09-06",
+    "city": "London",
+    "nameplate": "SVR",
+    "duration": 16,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-08-09",
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 18,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-10-01",
+    "city": "Dublin",
+    "nameplate": "Vogue",
+    "duration": 2,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-08-04",
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 7,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-03-19",
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 20,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-07-21",
+    "city": "London",
+    "nameplate": "SVR",
+    "duration": 23,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-02-14",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 1,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-09-08",
+    "city": "Cardiff",
+    "nameplate": "HSE",
+    "duration": 29,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-06-15",
+    "city": "Liverpool",
+    "nameplate": "HSE",
     "duration": 4,
     "dropout": 4
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-07-29",
+    "date": "2015-08-23",
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 22,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-04-20",
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 9,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-05-16",
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 3,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-06-19",
     "city": "Newcastle",
-    "nameplate": "HSE Black",
-    "duration": 2,
+    "nameplate": "Vogue",
+    "duration": 13,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-02-05",
+    "city": "Birmingham",
+    "nameplate": "HSE",
+    "duration": 15,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-02-10",
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 6,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-04-25",
+    "city": "Manchester",
+    "nameplate": "Vogue",
+    "duration": 4,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-12-23",
+    "city": "Edinbrugh",
+    "nameplate": "SE Tech",
+    "duration": 30,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-06-01",
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 22,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-05-29",
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 4,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-05-23",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 24,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-01-11",
+    "city": "Glasgow",
+    "nameplate": "Vogue",
+    "duration": 18,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-07-29",
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 30,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-11-08",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 1,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-05-17",
+    "city": "London",
+    "nameplate": "SVR",
+    "duration": 23,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-11-29",
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 29,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-11-07",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 6,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-08-23",
+    "city": "Manchester",
+    "nameplate": "SVR",
+    "duration": 27,
     "dropout": 2
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-08-18",
+    "date": "2015-06-10",
+    "city": "Glasgow",
+    "nameplate": "SVR",
+    "duration": 3,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-02-15",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 13,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-01-02",
+    "city": "Liverpool",
+    "nameplate": "SE Tech",
+    "duration": 10,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-08-24",
     "city": "Newcastle",
-    "nameplate": "HSE Luxury",
-    "duration": 25,
+    "nameplate": "Vogue",
+    "duration": 6,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-08-14",
+    "city": "Manchester",
+    "nameplate": "HSE",
+    "duration": 8,
     "dropout": 5
   },
   {
-    "model": "Discovery Sport",
-    "date": "2015-11-28",
-    "city": "Liverpool",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 1,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-12-18",
-    "city": "Dublin",
-    "nameplate": "SE",
-    "duration": 5,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-09-14",
+    "model": "Range Rover",
+    "date": "2015-03-25",
     "city": "Glasgow",
-    "nameplate": "HSE Luxury",
-    "duration": 19,
-    "dropout": 4
+    "nameplate": "SE Tech",
+    "duration": 29,
+    "dropout": 2
   },
   {
-    "model": "Discovery Sport",
-    "date": "2015-09-12",
-    "city": "Glasgow",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 28,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-03-27",
-    "city": "Liverpool",
+    "model": "Range Rover Sport",
+    "date": "2015-06-06",
+    "city": "Cardiff",
     "nameplate": "HSE",
+    "duration": 26,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-11-02",
+    "city": "Manchester",
+    "nameplate": "Vogue",
+    "duration": 21,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-12-27",
+    "city": "Cardiff",
+    "nameplate": "SE Tech",
+    "duration": 18,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-10-01",
+    "city": "Liverpool",
+    "nameplate": "SE Tech",
+    "duration": 2,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-10-30",
+    "city": "Glasgow",
+    "nameplate": "Vogue",
+    "duration": 10,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-04-11",
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 7,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-09-04",
+    "city": "Cardiff",
+    "nameplate": "Vogue",
+    "duration": 9,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-12-09",
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 15,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-01-26",
+    "city": "Birmingham",
+    "nameplate": "Vogue",
+    "duration": 25,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-06-28",
+    "city": "Cardiff",
+    "nameplate": "SVR",
     "duration": 12,
     "dropout": 6
   },
   {
+    "model": "Range Rover Evoque",
+    "date": "2015-03-17",
+    "city": "Bristol",
+    "nameplate": "HSE",
+    "duration": 30,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-12-28",
+    "city": "Cardiff",
+    "nameplate": "SVR",
+    "duration": 18,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-04-09",
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 9,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-01-08",
+    "city": "Bristol",
+    "nameplate": "Vogue",
+    "duration": 28,
+    "dropout": 3
+  },
+  {
     "model": "Discovery Sport",
-    "date": "2015-03-31",
+    "date": "2015-08-28",
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 22,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-04-25",
+    "city": "Bristol",
+    "nameplate": "HSE",
+    "duration": 24,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-08-20",
     "city": "Manchester",
+    "nameplate": "Vogue",
+    "duration": 18,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-09-07",
+    "city": "Edinbrugh",
+    "nameplate": "SE Tech",
+    "duration": 25,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-09-27",
+    "city": "Edinbrugh",
+    "nameplate": "SE Tech",
+    "duration": 24,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-12-27",
+    "city": "Bristol",
+    "nameplate": "Vogue",
+    "duration": 8,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-10-02",
+    "city": "Cardiff",
+    "nameplate": "Vogue",
+    "duration": 5,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-07-08",
+    "city": "Cardiff",
+    "nameplate": "Vogue",
+    "duration": 8,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-04-28",
+    "city": "Edinbrugh",
+    "nameplate": "Vogue",
+    "duration": 17,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-04-21",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 17,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-04-20",
+    "city": "Dublin",
+    "nameplate": "HSE",
+    "duration": 18,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-06-12",
+    "city": "Newcastle",
+    "nameplate": "SVR",
+    "duration": 11,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-11-19",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 9,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-12-21",
+    "city": "London",
+    "nameplate": "SVR",
+    "duration": 29,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-09-04",
+    "city": "Dublin",
+    "nameplate": "HSE",
+    "duration": 13,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-03-19",
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 28,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-05-03",
+    "city": "Newcastle",
+    "nameplate": "SE Tech",
+    "duration": 19,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-12-30",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 3,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-08-28",
+    "city": "Birmingham",
+    "nameplate": "SE Tech",
+    "duration": 15,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-11-12",
+    "city": "Edinbrugh",
+    "nameplate": "SE Tech",
+    "duration": 18,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-02-06",
+    "city": "Liverpool",
+    "nameplate": "SE Tech",
+    "duration": 13,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-10-27",
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 1,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-07-18",
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 25,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-04-25",
+    "city": "Newcastle",
+    "nameplate": "Vogue",
+    "duration": 8,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-02-02",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 12,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-09-07",
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 21,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-02-26",
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 2,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-08-30",
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 21,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-07-01",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 28,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-03-16",
+    "city": "Dublin",
+    "nameplate": "Vogue",
+    "duration": 24,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-11-01",
+    "city": "Liverpool",
+    "nameplate": "Vogue",
+    "duration": 12,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-04-03",
+    "city": "Newcastle",
+    "nameplate": "Vogue",
+    "duration": 7,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-04-03",
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 16,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-04-30",
+    "city": "Birmingham",
+    "nameplate": "HSE",
+    "duration": 19,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-10-20",
+    "city": "Liverpool",
+    "nameplate": "SE Tech",
+    "duration": 6,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-01-01",
+    "city": "Edinbrugh",
+    "nameplate": "SE Tech",
+    "duration": 16,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-05-13",
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 12,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-12-31",
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 30,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-02-09",
+    "city": "Bristol",
+    "nameplate": "Vogue",
+    "duration": 17,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-03-25",
+    "city": "Glasgow",
+    "nameplate": "SVR",
+    "duration": 2,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-11-19",
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 23,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-06-07",
+    "city": "Dublin",
+    "nameplate": "HSE",
+    "duration": 18,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-10-29",
+    "city": "Edinbrugh",
+    "nameplate": "Vogue",
+    "duration": 24,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-02-15",
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 8,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-12-02",
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 17,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-06-15",
+    "city": "Bristol",
+    "nameplate": "HSE",
+    "duration": 23,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-01-17",
+    "city": "Cardiff",
+    "nameplate": "HSE",
+    "duration": 25,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-06-23",
+    "city": "London",
+    "nameplate": "SVR",
+    "duration": 16,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-11-30",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 17,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-10-10",
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 13,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-07-04",
+    "city": "Birmingham",
+    "nameplate": "HSE",
+    "duration": 28,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-11-21",
+    "city": "Cardiff",
+    "nameplate": "Vogue",
+    "duration": 3,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-01-26",
+    "city": "Dublin",
+    "nameplate": "Vogue",
+    "duration": 11,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-02-20",
+    "city": "Edinbrugh",
+    "nameplate": "SE Tech",
+    "duration": 14,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-03-12",
+    "city": "Newcastle",
+    "nameplate": "HSE",
+    "duration": 30,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-02-26",
+    "city": "Newcastle",
     "nameplate": "SE Tech",
     "duration": 28,
     "dropout": 2
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-06-28",
-    "city": "Birmingham",
+    "date": "2015-03-27",
+    "city": "Cardiff",
     "nameplate": "HSE",
     "duration": 23,
     "dropout": 1
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-05-14",
-    "city": "Glasgow",
-    "nameplate": "HSE Black",
-    "duration": 6,
-    "dropout": 3
+    "date": "2015-11-07",
+    "city": "Birmingham",
+    "nameplate": "Vogue",
+    "duration": 14,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-05-22",
+    "city": "Cardiff",
+    "nameplate": "SE Tech",
+    "duration": 18,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-06-03",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 29,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-10-31",
+    "city": "Birmingham",
+    "nameplate": "Vogue",
+    "duration": 11,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-06-12",
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 20,
+    "dropout": 4
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-11-08",
+    "date": "2015-09-05",
     "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 18,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-08-06",
+    "city": "Edinbrugh",
+    "nameplate": "Vogue",
+    "duration": 5,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-07-02",
+    "city": "Birmingham",
+    "nameplate": "HSE",
+    "duration": 26,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-10-16",
+    "city": "Glasgow",
+    "nameplate": "HSE",
+    "duration": 9,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-10-28",
+    "city": "Birmingham",
+    "nameplate": "Vogue",
+    "duration": 11,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-06-12",
+    "city": "Edinbrugh",
+    "nameplate": "HSE",
+    "duration": 26,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-02-10",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 21,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-05-15",
+    "city": "Glasgow",
+    "nameplate": "SE Tech",
+    "duration": 1,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-10-05",
+    "city": "London",
+    "nameplate": "HSE",
+    "duration": 8,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-02-27",
+    "city": "Bristol",
     "nameplate": "SE Tech",
     "duration": 27,
     "dropout": 4
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-03-24",
-    "city": "Edinbrugh",
+    "date": "2015-05-03",
+    "city": "Liverpool",
     "nameplate": "HSE",
-    "duration": 14,
-    "dropout": 3
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-08-29",
-    "city": "Bristol",
-    "nameplate": "HSE Luxury",
-    "duration": 7,
+    "duration": 20,
     "dropout": 5
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-09-10",
+    "date": "2015-02-07",
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 10,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-09-07",
     "city": "Manchester",
-    "nameplate": "SE Tech",
-    "duration": 28,
-    "dropout": 3
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-06-07",
-    "city": "Glasgow",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 29,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-07-05",
-    "city": "Dublin",
-    "nameplate": "SE",
-    "duration": 6,
-    "dropout": 4
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-06-30",
-    "city": "Dublin",
-    "nameplate": "SE Tech",
-    "duration": 8,
-    "dropout": 6
-  },
-  {
-    "model": "Discovery Sport",
-    "date": "2015-09-21",
-    "city": "Glasgow",
-    "nameplate": "HSE Dynamic Lux",
-    "duration": 12,
+    "nameplate": "SVR",
+    "duration": 26,
     "dropout": 2
   },
   {
-    "model": "Discovery Sport",
-    "date": "2015-04-11",
-    "city": "Edinbrugh",
-    "nameplate": "HSE Luxury",
+    "model": "Range Rover",
+    "date": "2015-08-31",
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 4,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-03-11",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 17,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-06-11",
+    "city": "Glasgow",
+    "nameplate": "SVR",
+    "duration": 28,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-08-02",
+    "city": "London",
+    "nameplate": "HSE",
     "duration": 9,
     "dropout": 4
   },
   {
-    "model": "Discovery Sport",
-    "date": "2015-09-29",
-    "city": "Cardiff",
+    "model": "Range Rover",
+    "date": "2015-01-30",
+    "city": "Edinbrugh",
     "nameplate": "HSE",
-    "duration": 21,
+    "duration": 4,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-01-09",
+    "city": "Glasgow",
+    "nameplate": "SVR",
+    "duration": 22,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-06-30",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 10,
     "dropout": 6
   },
   {
-    "model": "Discovery Sport",
-    "date": "2015-04-25",
+    "model": "Range Rover Sport",
+    "date": "2015-07-14",
+    "city": "Cardiff",
+    "nameplate": "SE Tech",
+    "duration": 9,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-01-19",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 28,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-11-23",
+    "city": "Liverpool",
+    "nameplate": "HSE",
+    "duration": 8,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-02-24",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 27,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-11-24",
+    "city": "Manchester",
+    "nameplate": "Vogue",
+    "duration": 5,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-09-15",
+    "city": "Manchester",
+    "nameplate": "Vogue",
+    "duration": 24,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-11-14",
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 30,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-08-06",
     "city": "Edinbrugh",
-    "nameplate": "HSE Black",
+    "nameplate": "SVR",
+    "duration": 6,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-04-01",
+    "city": "Newcastle",
+    "nameplate": "SE Tech",
+    "duration": 20,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-12-05",
+    "city": "Liverpool",
+    "nameplate": "HSE",
     "duration": 15,
     "dropout": 2
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-10-15",
-    "city": "London",
-    "nameplate": "HSE Luxury",
-    "duration": 15,
+    "date": "2015-01-31",
+    "city": "Dublin",
+    "nameplate": "Vogue",
+    "duration": 28,
     "dropout": 5
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-10-23",
+    "date": "2015-07-29",
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 13,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-08-13",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 27,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-09-27",
     "city": "Manchester",
+    "nameplate": "SVR",
+    "duration": 25,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-11-02",
+    "city": "Newcastle",
+    "nameplate": "SVR",
+    "duration": 9,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-06-04",
+    "city": "Cardiff",
     "nameplate": "SE Tech",
     "duration": 4,
     "dropout": 2
   },
   {
-    "model": "Discovery Sport",
-    "date": "2015-07-03",
+    "model": "Range Rover Evoque",
+    "date": "2015-06-03",
     "city": "Manchester",
-    "nameplate": "SE",
-    "duration": 11,
+    "nameplate": "Vogue",
+    "duration": 28,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-08-11",
+    "city": "Manchester",
+    "nameplate": "HSE",
+    "duration": 6,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-03-18",
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 29,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-09-10",
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 2,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-10-08",
+    "city": "Manchester",
+    "nameplate": "SVR",
+    "duration": 1,
     "dropout": 3
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-08-15",
-    "city": "London",
-    "nameplate": "HSE Luxury",
+    "date": "2015-03-24",
+    "city": "Edinbrugh",
+    "nameplate": "HSE",
+    "duration": 4,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-11-13",
+    "city": "Glasgow",
+    "nameplate": "SE Tech",
+    "duration": 13,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-06-12",
+    "city": "Glasgow",
+    "nameplate": "HSE",
+    "duration": 20,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-11-17",
+    "city": "Cardiff",
+    "nameplate": "Vogue",
+    "duration": 27,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-04-19",
+    "city": "Newcastle",
+    "nameplate": "HSE",
+    "duration": 22,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-01-01",
+    "city": "Cardiff",
+    "nameplate": "SE Tech",
+    "duration": 11,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-12-31",
+    "city": "Newcastle",
+    "nameplate": "Vogue",
+    "duration": 26,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-05-16",
+    "city": "Cardiff",
+    "nameplate": "SE Tech",
+    "duration": 13,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-05-29",
+    "city": "Dublin",
+    "nameplate": "Vogue",
+    "duration": 22,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-01-12",
+    "city": "Bristol",
+    "nameplate": "SVR",
     "duration": 30,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-03-04",
+    "city": "Liverpool",
+    "nameplate": "SE Tech",
+    "duration": 15,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-04-08",
+    "city": "London",
+    "nameplate": "HSE",
+    "duration": 6,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-10-14",
+    "city": "London",
+    "nameplate": "SE Tech",
+    "duration": 23,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-01-29",
+    "city": "London",
+    "nameplate": "HSE",
+    "duration": 12,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-11-12",
+    "city": "Dublin",
+    "nameplate": "HSE",
+    "duration": 26,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-01-15",
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 18,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-08-11",
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 13,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-12-09",
+    "city": "Manchester",
+    "nameplate": "HSE",
+    "duration": 7,
     "dropout": 4
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-05-04",
+    "date": "2015-11-16",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 12,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-11-01",
+    "city": "Liverpool",
+    "nameplate": "Vogue",
+    "duration": 17,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-09-16",
+    "city": "Glasgow",
+    "nameplate": "SE Tech",
+    "duration": 28,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-04-13",
+    "city": "Glasgow",
+    "nameplate": "HSE",
+    "duration": 17,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-12-26",
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 6,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-03-01",
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 19,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-09-22",
+    "city": "Newcastle",
+    "nameplate": "SVR",
+    "duration": 15,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-10-28",
+    "city": "Manchester",
+    "nameplate": "HSE",
+    "duration": 25,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-06-27",
+    "city": "Cardiff",
+    "nameplate": "SVR",
+    "duration": 2,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-04-18",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 9,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-09-28",
+    "city": "Newcastle",
+    "nameplate": "HSE",
+    "duration": 8,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-08-17",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 20,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-09-09",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 4,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-01-11",
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 3,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-10-14",
     "city": "Dublin",
-    "nameplate": "SE",
+    "nameplate": "HSE",
+    "duration": 27,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-11-01",
+    "city": "Cardiff",
+    "nameplate": "Vogue",
+    "duration": 29,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-01-15",
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 15,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-01-03",
+    "city": "Cardiff",
+    "nameplate": "SE Tech",
+    "duration": 8,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-02-22",
+    "city": "Edinbrugh",
+    "nameplate": "SE Tech",
+    "duration": 27,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-01-16",
+    "city": "Manchester",
+    "nameplate": "Vogue",
+    "duration": 9,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-08-26",
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 18,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-10-29",
+    "city": "Dublin",
+    "nameplate": "Vogue",
+    "duration": 21,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-06-04",
+    "city": "Birmingham",
+    "nameplate": "HSE",
+    "duration": 16,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-09-08",
+    "city": "Newcastle",
+    "nameplate": "Vogue",
     "duration": 5,
     "dropout": 4
   },
   {
+    "model": "Discovery",
+    "date": "2015-02-12",
+    "city": "Glasgow",
+    "nameplate": "SE Tech",
+    "duration": 26,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-09-05",
+    "city": "Liverpool",
+    "nameplate": "SE Tech",
+    "duration": 30,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-12-02",
+    "city": "Bristol",
+    "nameplate": "Vogue",
+    "duration": 12,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-02-07",
+    "city": "Manchester",
+    "nameplate": "HSE",
+    "duration": 23,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-11-22",
+    "city": "Edinbrugh",
+    "nameplate": "HSE",
+    "duration": 20,
+    "dropout": 4
+  },
+  {
     "model": "Discovery Sport",
-    "date": "2015-09-25",
+    "date": "2015-05-14",
+    "city": "Manchester",
+    "nameplate": "SE Tech",
+    "duration": 13,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-05-05",
+    "city": "London",
+    "nameplate": "SVR",
+    "duration": 1,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-10-10",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 11,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-12-06",
+    "city": "Manchester",
+    "nameplate": "Vogue",
+    "duration": 6,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-09-19",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 10,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-08-23",
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 13,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-10-26",
+    "city": "Newcastle",
+    "nameplate": "Vogue",
+    "duration": 5,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-07-26",
+    "city": "Manchester",
+    "nameplate": "SVR",
+    "duration": 16,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-08-31",
+    "city": "Manchester",
+    "nameplate": "HSE",
+    "duration": 6,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-11-14",
+    "city": "Manchester",
+    "nameplate": "HSE",
+    "duration": 5,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-02-20",
+    "city": "Liverpool",
+    "nameplate": "Vogue",
+    "duration": 26,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-05-27",
+    "city": "Newcastle",
+    "nameplate": "SE Tech",
+    "duration": 8,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-06-13",
+    "city": "Cardiff",
+    "nameplate": "Vogue",
+    "duration": 3,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-09-20",
     "city": "London",
     "nameplate": "HSE",
-    "duration": 12,
+    "duration": 30,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-05-16",
+    "city": "Manchester",
+    "nameplate": "HSE",
+    "duration": 23,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-12-10",
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 3,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-09-16",
+    "city": "Liverpool",
+    "nameplate": "SE Tech",
+    "duration": 6,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-01-05",
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 25,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-10-13",
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 4,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-04-24",
+    "city": "London",
+    "nameplate": "SVR",
+    "duration": 28,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-05-08",
+    "city": "Edinbrugh",
+    "nameplate": "SE Tech",
+    "duration": 20,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-09-29",
+    "city": "Cardiff",
+    "nameplate": "SVR",
+    "duration": 24,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-09-19",
+    "city": "London",
+    "nameplate": "SVR",
+    "duration": 22,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-10-30",
+    "city": "Bristol",
+    "nameplate": "HSE",
+    "duration": 15,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-09-22",
+    "city": "Dublin",
+    "nameplate": "SE Tech",
+    "duration": 16,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-11-20",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 10,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-02-07",
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 20,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-03-31",
+    "city": "Bristol",
+    "nameplate": "SE Tech",
+    "duration": 11,
+    "dropout": 6
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-03-24",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 3,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-01-16",
+    "city": "Manchester",
+    "nameplate": "Vogue",
+    "duration": 2,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-05-21",
+    "city": "Glasgow",
+    "nameplate": "HSE",
+    "duration": 28,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-09-02",
+    "city": "Edinbrugh",
+    "nameplate": "Vogue",
+    "duration": 21,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-03-28",
+    "city": "Dublin",
+    "nameplate": "SVR",
+    "duration": 16,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-07-13",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 16,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-11-20",
+    "city": "Bristol",
+    "nameplate": "Vogue",
+    "duration": 27,
+    "dropout": 3
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-02-16",
+    "city": "Bristol",
+    "nameplate": "SVR",
+    "duration": 14,
     "dropout": 5
   },
   {
     "model": "Discovery Sport",
-    "date": "2015-10-29",
+    "date": "2015-01-05",
     "city": "Birmingham",
+    "nameplate": "SE Tech",
+    "duration": 20,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-08-08",
+    "city": "Bristol",
+    "nameplate": "Vogue",
+    "duration": 8,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-03-31",
+    "city": "Liverpool",
+    "nameplate": "SVR",
+    "duration": 17,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-05-28",
+    "city": "Cardiff",
+    "nameplate": "SE Tech",
+    "duration": 7,
+    "dropout": 6
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-06-14",
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 1,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-04-15",
+    "city": "Newcastle",
     "nameplate": "HSE",
-    "duration": 30,
+    "duration": 16,
+    "dropout": 1
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-05-17",
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 21,
     "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-10-12",
+    "city": "Birmingham",
+    "nameplate": "Vogue",
+    "duration": 21,
+    "dropout": 4
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-02-07",
+    "city": "Birmingham",
+    "nameplate": "Vogue",
+    "duration": 9,
+    "dropout": 2
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-01-25",
+    "city": "Glasgow",
+    "nameplate": "Vogue",
+    "duration": 20,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-03-31",
+    "city": "Glasgow",
+    "nameplate": "Vogue",
+    "duration": 14,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-04-07",
+    "city": "Dublin",
+    "nameplate": "HSE",
+    "duration": 22,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Sport",
+    "date": "2015-07-22",
+    "city": "London",
+    "nameplate": "Vogue",
+    "duration": 4,
+    "dropout": 5
+  },
+  {
+    "model": "Discovery Sport",
+    "date": "2015-11-14",
+    "city": "Birmingham",
+    "nameplate": "SVR",
+    "duration": 1,
+    "dropout": 2
+  },
+  {
+    "model": "Discovery",
+    "date": "2015-04-25",
+    "city": "Edinbrugh",
+    "nameplate": "SVR",
+    "duration": 2,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-10-05",
+    "city": "Newcastle",
+    "nameplate": "SVR",
+    "duration": 23,
+    "dropout": 3
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-02-08",
+    "city": "Liverpool",
+    "nameplate": "SE Tech",
+    "duration": 29,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-06-09",
+    "city": "Cardiff",
+    "nameplate": "SE Tech",
+    "duration": 24,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-07-31",
+    "city": "Glasgow",
+    "nameplate": "SVR",
+    "duration": 7,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-02-28",
+    "city": "Liverpool",
+    "nameplate": "SE Tech",
+    "duration": 5,
+    "dropout": 1
+  },
+  {
+    "model": "Range Rover",
+    "date": "2015-07-08",
+    "city": "Edinbrugh",
+    "nameplate": "HSE",
+    "duration": 25,
+    "dropout": 5
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-08-01",
+    "city": "Cardiff",
+    "nameplate": "HSE",
+    "duration": 28,
+    "dropout": 4
+  },
+  {
+    "model": "Range Rover Evoque",
+    "date": "2015-05-20",
+    "city": "Dublin",
+    "nameplate": "Vogue",
+    "duration": 21,
+    "dropout": 5
   }
 ]
