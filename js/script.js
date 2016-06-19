@@ -181,30 +181,47 @@ function showNPBubbles(modelBubble, model, NP1, NP2, NP3, NP4, inflatedBubbleXpo
     .attr('r', inflatedBubbleRadius)
     .attr('cx', inflatedBubbleXpos);
 
+
     var NP1bubble = frame
        .append('circle')
        .attr('cy', 340)
        .attr('cx', NP1xPos)
-       .attr('r', NP1Amount )
+       .attr('r', 0)
        .attr('class', 'nameplate-bubble');
     var NP2bubble = frame
        .append('circle')
        .attr('cy', 340)
        .attr('cx', NP2xPos)
-       .attr('r', NP2Amount)
+       .attr('r', 0)
        .attr('class', 'nameplate-bubble');
     var NP3bubble = frame
        .append('circle')
        .attr('cy', 340)
        .attr('cx', NP3xPos)
-       .attr('r', NP3Amount)
+       .attr('r', 0)
        .attr('class', 'nameplate-bubble');
     var NP4bubble = frame
        .append('circle')
        .attr('cy', 340)
        .attr('cx', NP4xPos)
-       .attr('r', NP4Amount)
+       .attr('r', 0)
        .attr('class', 'nameplate-bubble');
+
+    //Inflate the nameplate bubbles shortly after the clicked model bubble
+    setTimeout(function(){
+        NP1bubble.transition()
+            .duration(1000)
+            .attr('r', NP1Amount)
+        NP2bubble.transition()
+            .duration(1000)
+            .attr('r', NP2Amount)
+        NP3bubble.transition()
+            .duration(1000)
+            .attr('r', NP3Amount)
+        NP4bubble.transition()
+            .duration(1000)
+            .attr('r', NP4Amount)
+    },500);
 };
 
 
@@ -218,7 +235,31 @@ var modelsRangeRover = frame
                        .attr('r', 0)
 
                        .on('click', function(){
-                           showNPBubbles(modelsRangeRover, "Range Rover", "NPvogue", "NPseTech", "NPhse", "NPsvr", 300)
+                            //Animate radius of all nameplate bubbles to 0, then remove them
+                            frame.selectAll(".nameplate-bubble").transition()
+                                                                .duration(500)
+                                                                .attr('r', 0)
+                                                                .remove()
+
+                            //Return any inflated bubbles to their original sizes and positions
+                            modelsRangeRoverSport.transition()
+                                .duration(1000)
+                                .attr('r', countedModels["Range Rover Sport"]["Amount"])
+                                .attr('cx', 340)
+                            modelsRangeRoverEvoque.transition()
+                                .duration(1000)
+                                .attr('r', countedModels["Range Rover Evoque"]["Amount"])
+                                .attr('cx', 580)
+                            modelsDiscovery.transition()
+                                .duration(1000)
+                                .attr('r', countedModels["Discovery"]["Amount"])
+                                .attr('cx', 820)
+                            modelsDiscoverySport.transition()
+                                .duration(1000)
+                                .attr('r', countedModels["Discovery Sport"]["Amount"])
+                                .attr('cx', 1060)
+                            //Inflate this model bubble and show nameplate bubbles
+                            showNPBubbles(modelsRangeRover, "Range Rover", "NPvogue", "NPseTech", "NPhse", "NPsvr", 300)
                         });
 
 
@@ -229,6 +270,30 @@ var modelsRangeRoverSport = frame
                        .attr('cx', 340)
                        .attr('r', 0)
                        .on('click', function(){
+                           //Animate radius of all nameplate bubbles to 0, then remove them
+                            frame.selectAll(".nameplate-bubble").transition()
+                                                                .duration(500)
+                                                                .attr('r', 0)
+                                                                .remove()
+
+                            //Return any inflated bubbles to their original sizes and positions
+                            modelsRangeRover.transition()
+                                .duration(1000)
+                                .attr('r', countedModels["Range Rover"]["Amount"])
+                                .attr('cx', 100)
+                            modelsRangeRoverEvoque.transition()
+                                .duration(1000)
+                                .attr('r', countedModels["Range Rover Evoque"]["Amount"])
+                                .attr('cx', 580)
+                            modelsDiscovery.transition()
+                                .duration(1000)
+                                .attr('r', countedModels["Discovery"]["Amount"])
+                                .attr('cx', 820)
+                            modelsDiscoverySport.transition()
+                                .duration(1000)
+                                .attr('r', countedModels["Discovery Sport"]["Amount"])
+                                .attr('cx', 1060)
+                            //Inflate this model bubble and show nameplate bubbles
                            showNPBubbles(modelsRangeRoverSport, "Range Rover Sport", "NPvogue", "NPseTech", "NPhse", "NPsvr", 500)
                         });
 
@@ -239,6 +304,30 @@ var modelsRangeRoverEvoque = frame
                        .attr('cx', 580)
                        .attr('r', 0)
                        .on('click', function(){
+                            //Animate radius of all nameplate bubbles to 0, then remove them
+                            frame.selectAll(".nameplate-bubble").transition()
+                                                                .duration(500)
+                                                                .attr('r', 0)
+                                                                .remove()
+
+                            //Return any inflated bubbles to their original sizes and positions
+                            modelsRangeRoverSport.transition()
+                                .duration(1000)
+                                .attr('r', countedModels["Range Rover Sport"]["Amount"])
+                                .attr('cx', 340)
+                            modelsRangeRover.transition()
+                                .duration(1000)
+                                .attr('r', countedModels["Range Rover"]["Amount"])
+                                .attr('cx', 100)
+                            modelsDiscovery.transition()
+                                .duration(1000)
+                                .attr('r', countedModels["Discovery"]["Amount"])
+                                .attr('cx', 820)
+                            modelsDiscoverySport.transition()
+                                .duration(1000)
+                                .attr('r', countedModels["Discovery Sport"]["Amount"])
+                                .attr('cx', 1060)
+                            //Inflate this model bubble and show nameplate bubbles
                            showNPBubbles(modelsRangeRoverEvoque, "Range Rover Evoque", "NPvogue", "NPseTech", "NPhse", "NPsvr", 600)
                         });
 
@@ -249,6 +338,30 @@ var modelsDiscovery = frame
                        .attr('cx', 820)
                        .attr('r', 0)
                        .on('click', function(){
+                            //Animate radius of all nameplate bubbles to 0, then remove them
+                            frame.selectAll(".nameplate-bubble").transition()
+                                                                .duration(500)
+                                                                .attr('r', 0)
+                                                                .remove()
+
+                            //Return any inflated bubbles to their original sizes and positions
+                            modelsRangeRoverSport.transition()
+                                .duration(1000)
+                                .attr('r', countedModels["Range Rover Sport"]["Amount"])
+                                .attr('cx', 340)
+                            modelsRangeRoverEvoque.transition()
+                                .duration(1000)
+                                .attr('r', countedModels["Range Rover Evoque"]["Amount"])
+                                .attr('cx', 580)
+                            modelsRangeRover.transition()
+                                .duration(1000)
+                                .attr('r', countedModels["Range Rover"]["Amount"])
+                                .attr('cx', 100)
+                            modelsDiscoverySport.transition()
+                                .duration(1000)
+                                .attr('r', countedModels["Discovery Sport"]["Amount"])
+                                .attr('cx', 1060)
+                            //Inflate this model bubble and show nameplate bubbles
                            showNPBubbles(modelsDiscovery, "Discovery", "NPvogue", "NPseTech", "NPhse", "NPsvr", 700)
                         });
 
@@ -259,6 +372,30 @@ var modelsDiscoverySport = frame
                        .attr('cx', 1060)
                        .attr('r', 0)
                        .on('click', function(){
+                            //Animate radius of all nameplate bubbles to 0, then remove them
+                            frame.selectAll(".nameplate-bubble").transition()
+                                                                .duration(500)
+                                                                .attr('r', 0)
+                                                                .remove()
+                                                                
+                            //Return any inflated bubbles to their original sizes and positions
+                            modelsRangeRoverSport.transition()
+                                .duration(1000)
+                                .attr('r', countedModels["Range Rover Sport"]["Amount"])
+                                .attr('cx', 340)
+                            modelsRangeRoverEvoque.transition()
+                                .duration(1000)
+                                .attr('r', countedModels["Range Rover Evoque"]["Amount"])
+                                .attr('cx', 580)
+                            modelsDiscovery.transition()
+                                .duration(1000)
+                                .attr('r', countedModels["Discovery"]["Amount"])
+                                .attr('cx', 820)
+                            modelsRangeRover.transition()
+                                .duration(1000)
+                                .attr('r', countedModels["Range Rover"]["Amount"])
+                                .attr('cx', 100)
+                            //Inflate this model bubble and show nameplate bubbles
                            showNPBubbles(modelsDiscoverySport, "Discovery Sport", "NPvogue", "NPseTech", "NPhse", "NPsvr", 800)
                         });
 
@@ -331,6 +468,21 @@ $("#dateFrom, #dateTo").change(function(){
             .duration(2000)
             .attr('r', numOfCarModel)
             .attr('cx', originalXpos)
+
+        // setTimeout(function(){
+        //     NP1bubble.transition()
+        //         .duration(1000)
+        //         .attr('r', NP1Amount)
+        //     NP2bubble.transition()
+        //         .duration(1000)
+        //         .attr('r', NP2Amount)
+        //     NP3bubble.transition()
+        //         .duration(1000)
+        //         .attr('r', NP3Amount)
+        //     NP4bubble.transition()
+        //         .duration(1000)
+        //         .attr('r', NP4Amount)
+        // },500);
     }
 
     //Calls animation
