@@ -32,14 +32,10 @@ body{
 }
 
 
-.datepicker{
-    position: absolute;
-    top: 210px;
-    left: 600px;
-}
+
 
 .frame-container{
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
 }
 
@@ -53,4 +49,40 @@ body{
 
 .nameplate-bubble{
   fill: url(#nameplate-bubble);
+}
+
+.model-label{
+    font-family: arial;
+    fill: #ffffff;
+    font-size: 20px;
+}
+
+
+//Datepicker//
+
+input{
+    text-align: center;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #b0b7bb;
+    cursor: pointer;
+}
+
+.datepicker{
+    position: absolute;
+    top: 210px;
+    left: 600px;
+
+}
+
+.ui-datepicker{
+    padding: 10px;
+    background: #ccc;
+    border: 1px solid #fff;
+    td{
+        background: #ddd;
+        text-align: center;
+        padding: 5px;
+    }
 }

@@ -1,4 +1,4 @@
-var width = 1200;
+var width = 1300;
 var height = 700;
 
 var frame = d3.select(".frame-container").append("svg")
@@ -143,17 +143,6 @@ console.log(countedModels);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 //Takes parameters of each model bubble and calculates what size
 //and Xposition each nameplate bubble should be.
 //This function is evoked onClick of a model bubble.
@@ -178,8 +167,9 @@ function showNPBubbles(modelBubble, model, NP1, NP2, NP3, NP4, inflatedBubbleXpo
 
     modelBubble.transition()
     .duration(1000)
+    .attr('cx', inflatedBubbleXpos)
     .attr('r', inflatedBubbleRadius)
-    .attr('cx', inflatedBubbleXpos);
+    
 
 
     var NP1bubble = frame
@@ -227,14 +217,25 @@ function showNPBubbles(modelBubble, model, NP1, NP2, NP3, NP4, inflatedBubbleXpo
 
 
 //Draw model bubbles
+var RangeRoverOriginalXpos = 100;
 var modelsRangeRover = frame
                        .append('circle')
                        .attr('class', 'model-bubble')
+                       .attr('id', 'range-rover-bubble')
                        .attr('cy', 340)
-                       .attr('cx', 100)
+                       .attr('cx', RangeRoverOriginalXpos)
                        .attr('r', 0)
-
                        .on('click', function(){
+
+                            // if( $('.range-rover-bubble').hasClass('inflated') ){
+                            //      modelsRangeRover.transition()
+                            //                 .duration(1000)
+                            //                 .attr('r', countedModels["Range Rover"]["Amount"])
+                            //                 .attr('cx', 100)
+                            //     $('#range-rover-bubble').removeClass('inflated');
+                            // } else{
+
+                            $('#range-rover-bubble').addClass('inflated');
                             //Animate radius of all nameplate bubbles to 0, then remove them
                             frame.selectAll(".nameplate-bubble").transition()
                                                                 .duration(500)
@@ -245,29 +246,65 @@ var modelsRangeRover = frame
                             modelsRangeRoverSport.transition()
                                 .duration(1000)
                                 .attr('r', countedModels["Range Rover Sport"]["Amount"])
-                                .attr('cx', 340)
+                                .attr('cx', 525)
                             modelsRangeRoverEvoque.transition()
                                 .duration(1000)
                                 .attr('r', countedModels["Range Rover Evoque"]["Amount"])
-                                .attr('cx', 580)
+                                .attr('cx', 750)
                             modelsDiscovery.transition()
                                 .duration(1000)
                                 .attr('r', countedModels["Discovery"]["Amount"])
-                                .attr('cx', 820)
+                                .attr('cx', 975)
                             modelsDiscoverySport.transition()
                                 .duration(1000)
                                 .attr('r', countedModels["Discovery Sport"]["Amount"])
-                                .attr('cx', 1060)
+                                .attr('cx', DiscoverySportOriginalXpos)
+
+
+
                             //Inflate this model bubble and show nameplate bubbles
-                            showNPBubbles(modelsRangeRover, "Range Rover", "NPvogue", "NPseTech", "NPhse", "NPsvr", 300)
-                        });
+                            showNPBubbles(modelsRangeRover, "Range Rover", "NPvogue", "NPseTech", "NPhse", "NPsvr", 200)
+
+                          //};
+
+                            
+
+                            //Move model label down
+                            RangeRoverLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 600)
+                                         .attr("x", 200)
+
+                            //Move all other lables back up
+                            RangeRoverSportLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 500)
+                                         .attr("x", 525)
+                            RangeRoverEvoqueLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 500)
+                                         .attr("x", 750)
+                            DiscoveryLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 500)
+                                         .attr("x", 975)
+                            DiscoverySportLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 500)
+                                         .attr("x", DiscoverySportOriginalXpos)
 
 
+
+                         });
+
+
+var RangeRoverSportOriginalXpos = 375;
 var modelsRangeRoverSport = frame
                        .append('circle')
                        .attr('class', 'model-bubble')
+                       .attr('id', 'range-rover-sport-bubble')
                        .attr('cy', 340)
-                       .attr('cx', 340)
+                       .attr('cx', RangeRoverSportOriginalXpos)
                        .attr('r', 0)
                        .on('click', function(){
                            //Animate radius of all nameplate bubbles to 0, then remove them
@@ -280,28 +317,55 @@ var modelsRangeRoverSport = frame
                             modelsRangeRover.transition()
                                 .duration(1000)
                                 .attr('r', countedModels["Range Rover"]["Amount"])
-                                .attr('cx', 100)
+                                .attr('cx', RangeRoverOriginalXpos)
                             modelsRangeRoverEvoque.transition()
                                 .duration(1000)
                                 .attr('r', countedModels["Range Rover Evoque"]["Amount"])
-                                .attr('cx', 580)
+                                .attr('cx', RangeRoverEvoqueOriginalXpos)
                             modelsDiscovery.transition()
                                 .duration(1000)
                                 .attr('r', countedModels["Discovery"]["Amount"])
-                                .attr('cx', 820)
+                                .attr('cx', DiscoveryOriginalXpos)
                             modelsDiscoverySport.transition()
                                 .duration(1000)
                                 .attr('r', countedModels["Discovery Sport"]["Amount"])
-                                .attr('cx', 1060)
+                                .attr('cx', DiscoverySportOriginalXpos)
+
                             //Inflate this model bubble and show nameplate bubbles
-                           showNPBubbles(modelsRangeRoverSport, "Range Rover Sport", "NPvogue", "NPseTech", "NPhse", "NPsvr", 500)
+                           showNPBubbles(modelsRangeRoverSport, "Range Rover Sport", "NPvogue", "NPseTech", "NPhse", "NPsvr", RangeRoverSportOriginalXpos)
+
+                            //Move model label down
+                            RangeRoverSportLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 600)
+                                         .attr("x", RangeRoverSportOriginalXpos)
+
+                            //Move all other lables back up
+                            RangeRoverLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 500)
+                                         .attr("x", RangeRoverOriginalXpos)
+                            RangeRoverEvoqueLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 500)
+                                         .attr("x", RangeRoverEvoqueOriginalXpos)
+                            DiscoveryLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 500)
+                                         .attr("x", DiscoveryOriginalXpos)
+                            DiscoverySportLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 500)
+                                         .attr("x", DiscoverySportOriginalXpos)
                         });
 
+var RangeRoverEvoqueOriginalXpos = 650;
 var modelsRangeRoverEvoque = frame
                        .append('circle')
                        .attr('class', 'model-bubble')
+                       .attr('id', 'range-rover-evoque-bubble')
                        .attr('cy', 340)
-                       .attr('cx', 580)
+                       .attr('cx', RangeRoverEvoqueOriginalXpos)
                        .attr('r', 0)
                        .on('click', function(){
                             //Animate radius of all nameplate bubbles to 0, then remove them
@@ -314,28 +378,54 @@ var modelsRangeRoverEvoque = frame
                             modelsRangeRoverSport.transition()
                                 .duration(1000)
                                 .attr('r', countedModels["Range Rover Sport"]["Amount"])
-                                .attr('cx', 340)
+                                .attr('cx', RangeRoverSportOriginalXpos)
                             modelsRangeRover.transition()
                                 .duration(1000)
                                 .attr('r', countedModels["Range Rover"]["Amount"])
-                                .attr('cx', 100)
+                                .attr('cx', RangeRoverOriginalXpos)
                             modelsDiscovery.transition()
                                 .duration(1000)
                                 .attr('r', countedModels["Discovery"]["Amount"])
-                                .attr('cx', 820)
+                                .attr('cx', DiscoveryOriginalXpos)
                             modelsDiscoverySport.transition()
                                 .duration(1000)
                                 .attr('r', countedModels["Discovery Sport"]["Amount"])
-                                .attr('cx', 1060)
+                                .attr('cx', DiscoverySportOriginalXpos)
                             //Inflate this model bubble and show nameplate bubbles
-                           showNPBubbles(modelsRangeRoverEvoque, "Range Rover Evoque", "NPvogue", "NPseTech", "NPhse", "NPsvr", 600)
+                           showNPBubbles(modelsRangeRoverEvoque, "Range Rover Evoque", "NPvogue", "NPseTech", "NPhse", "NPsvr", RangeRoverEvoqueOriginalXpos)
+
+                            //Move model label down
+                            RangeRoverEvoqueLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 600)
+                                         .attr("x", RangeRoverEvoqueOriginalXpos)
+
+                            //Move all other lables back up
+                            RangeRoverSportLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 500)
+                                         .attr("x", RangeRoverSportOriginalXpos)
+                            RangeRoverLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 500)
+                                         .attr("x", RangeRoverOriginalXpos)
+                            DiscoveryLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 500)
+                                         .attr("x", DiscoveryOriginalXpos)
+                            DiscoverySportLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 500)
+                                         .attr("x", DiscoverySportOriginalXpos)
                         });
 
+var DiscoveryOriginalXpos = 925;
 var modelsDiscovery = frame
                        .append('circle')
                        .attr('class', 'model-bubble')
+                       .attr('id', 'discovery-bubble')
                        .attr('cy', 340)
-                       .attr('cx', 820)
+                       .attr('cx', DiscoveryOriginalXpos)
                        .attr('r', 0)
                        .on('click', function(){
                             //Animate radius of all nameplate bubbles to 0, then remove them
@@ -348,28 +438,56 @@ var modelsDiscovery = frame
                             modelsRangeRoverSport.transition()
                                 .duration(1000)
                                 .attr('r', countedModels["Range Rover Sport"]["Amount"])
-                                .attr('cx', 340)
+                                .attr('cx', RangeRoverSportOriginalXpos)
                             modelsRangeRoverEvoque.transition()
                                 .duration(1000)
                                 .attr('r', countedModels["Range Rover Evoque"]["Amount"])
-                                .attr('cx', 580)
+                                .attr('cx', RangeRoverEvoqueOriginalXpos)
                             modelsRangeRover.transition()
                                 .duration(1000)
                                 .attr('r', countedModels["Range Rover"]["Amount"])
-                                .attr('cx', 100)
+                                .attr('cx', RangeRoverOriginalXpos)
                             modelsDiscoverySport.transition()
                                 .duration(1000)
                                 .attr('r', countedModels["Discovery Sport"]["Amount"])
-                                .attr('cx', 1060)
+                                .attr('cx', DiscoverySportOriginalXpos)
                             //Inflate this model bubble and show nameplate bubbles
-                           showNPBubbles(modelsDiscovery, "Discovery", "NPvogue", "NPseTech", "NPhse", "NPsvr", 700)
+                           showNPBubbles(modelsDiscovery, "Discovery", "NPvogue", "NPseTech", "NPhse", "NPsvr", DiscoveryOriginalXpos)
+
+                            //Move model label down
+                            DiscoveryLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 600)
+                                         .attr("x", DiscoveryOriginalXpos)
+
+                            //Move all other lables back up
+                            RangeRoverSportLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 500)
+                                         .attr("x", RangeRoverSportOriginalXpos)
+
+                            RangeRoverEvoqueLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 500)
+                                         .attr("x", RangeRoverEvoqueOriginalXpos)
+                            RangeRoverLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 500)
+                                         .attr("x", RangeRoverOriginalXpos)
+                            DiscoverySportLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 500)
+                                         .attr("x", DiscoverySportOriginalXpos)
+
                         });
 
+var DiscoverySportOriginalXpos = 1200;
 var modelsDiscoverySport = frame
                        .append('circle')
                        .attr('class', 'model-bubble')
+                       .attr('id', 'discovery-sport-bubble')
                        .attr('cy', 340)
-                       .attr('cx', 1060)
+                       .attr('cx', DiscoverySportOriginalXpos)
                        .attr('r', 0)
                        .on('click', function(){
                             //Animate radius of all nameplate bubbles to 0, then remove them
@@ -377,33 +495,51 @@ var modelsDiscoverySport = frame
                                                                 .duration(500)
                                                                 .attr('r', 0)
                                                                 .remove()
-                                                                
+
                             //Return any inflated bubbles to their original sizes and positions
                             modelsRangeRoverSport.transition()
                                 .duration(1000)
                                 .attr('r', countedModels["Range Rover Sport"]["Amount"])
-                                .attr('cx', 340)
+                                .attr('cx', 325)
                             modelsRangeRoverEvoque.transition()
                                 .duration(1000)
                                 .attr('r', countedModels["Range Rover Evoque"]["Amount"])
-                                .attr('cx', 580)
+                                .attr('cx', 550)
                             modelsDiscovery.transition()
                                 .duration(1000)
                                 .attr('r', countedModels["Discovery"]["Amount"])
-                                .attr('cx', 820)
+                                .attr('cx', 775)
                             modelsRangeRover.transition()
                                 .duration(1000)
                                 .attr('r', countedModels["Range Rover"]["Amount"])
-                                .attr('cx', 100)
+                                .attr('cx', RangeRoverOriginalXpos)
                             //Inflate this model bubble and show nameplate bubbles
-                           showNPBubbles(modelsDiscoverySport, "Discovery Sport", "NPvogue", "NPseTech", "NPhse", "NPsvr", 800)
+                           showNPBubbles(modelsDiscoverySport, "Discovery Sport", "NPvogue", "NPseTech", "NPhse", "NPsvr", 1100)
+
+                            //Move model label down
+                            DiscoverySportLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 600)
+                                         .attr("x", 1100)
+
+                            //Move all other lables back up
+                            RangeRoverSportLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 500)
+                                         .attr("x", 325)
+                            RangeRoverEvoqueLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 500)
+                                         .attr("x", 550)
+                            DiscoveryLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 500)
+                                         .attr("x", 775)
+                            RangeRoverLabel.transition()
+                                         .duration(1000)
+                                         .attr("y", 500)
+                                         .attr("x", RangeRoverOriginalXpos)
                         });
-
-
-
-
-
-
 
 
 
@@ -432,7 +568,6 @@ grow(modelsDiscoverySport, countedModels['Discovery Sport']['Amount']);
 ////////Update bubbles on date change//////
 //////////////////////////////////////////
 
-
 $("#dateFrom, #dateTo").change(function(){
 
     //Get date from inside the input field
@@ -460,6 +595,8 @@ $("#dateFrom, #dateTo").change(function(){
 
 
 
+
+
     //Animates the radius of the model-bubbles
     // Takes carModel and numOfCarModel as parameters,
     // so you can invoke updateModelBubbles with any model.
@@ -467,7 +604,10 @@ $("#dateFrom, #dateTo").change(function(){
       carModel.transition()
             .duration(2000)
             .attr('r', numOfCarModel)
-            .attr('cx', originalXpos)
+
+            // Commeted this out because the model bubbles were
+            // shifting xPos when the dates updated
+            // .attr('cx', originalXpos)
 
         // setTimeout(function(){
         //     NP1bubble.transition()
@@ -495,24 +635,113 @@ $("#dateFrom, #dateTo").change(function(){
 
 
     console.log(countedModels);
+
+        //Animate radius of all nameplate bubbles to 0, then remove them
+    frame.selectAll(".nameplate-bubble").transition()
+                                        .duration(500)
+                                        .attr('r', 0)
+                                        .remove()
+                                        
+    //Return any inflated bubbles to their original sizes and positions
+    modelsRangeRover.transition()
+        .duration(1000)
+        .attr('r', countedModels["Range Rover"]["Amount"])
+        .attr('cx', RangeRoverOriginalXpos)
+    modelsRangeRoverSport.transition()
+        .duration(1000)
+        .attr('r', countedModels["Range Rover Sport"]["Amount"])
+        .attr('cx', RangeRoverSportOriginalXpos)
+    modelsRangeRoverEvoque.transition()
+        .duration(1000)
+        .attr('r', countedModels["Range Rover Evoque"]["Amount"])
+        .attr('cx', RangeRoverEvoqueOriginalXpos)
+    modelsDiscovery.transition()
+        .duration(1000)
+        .attr('r', countedModels["Discovery"]["Amount"])
+        .attr('cx', DiscoveryOriginalXpos)
+    modelsDiscoverySport.transition()
+        .duration(1000)
+        .attr('r', countedModels["Discovery Sport"]["Amount"])
+        .attr('cx', DiscoverySportOriginalXpos)
+
+    //Move all other lables back up
+
+    RangeRoverLabel.transition()
+                 .duration(1000)
+                 .attr("y", 500)
+                 .attr("x", RangeRoverOriginalXpos)
+    RangeRoverSportLabel.transition()
+                 .duration(1000)
+                 .attr("y", 500)
+                 .attr("x", RangeRoverSportOriginalXpos)
+    RangeRoverEvoqueLabel.transition()
+                 .duration(1000)
+                 .attr("y", 500)
+                 .attr("x", RangeRoverEvoqueOriginalXpos)
+    DiscoveryLabel.transition()
+                 .duration(1000)
+                 .attr("y", 500)
+                 .attr("x", DiscoveryOriginalXpos)
+    DiscoverySportLabel.transition()
+                 .duration(1000)
+                 .attr("y", 500)
+                 .attr("x", DiscoverySportOriginalXpos)
      
 
 });
 
 
-///////////////////////////////////////////////////
-////////////Dive into nameplates//////////////////
-/////////////////////////////////////////////////
+
+//Lables//
+// var textLabels = text
+//                  .attr("x", function(d) { return d.cx; })
+//                  .attr("y", 500)
+//                  .text("Range Rover")
+//                  .attr("font-family", "sans-serif")
+//                  .attr("font-size", "20px")
+//                  .attr("fill", "red");
+
+var RangeRoverLabel = frame.append("text")
+                          .text("Range Rover")
+                          .attr("text-anchor", "middle")
+                          .attr("x", RangeRoverOriginalXpos)
+                          .attr("y", 500)
+                          .attr("class", "model-label");
+
+var RangeRoverSportLabel = frame.append("text")
+                          .text("Range Rover Sport")
+                          .attr("text-anchor", "middle")
+                          .attr("x", RangeRoverSportOriginalXpos)
+                          .attr("y", 500)
+                          .attr("class", "model-label");
+
+var RangeRoverEvoqueLabel = frame.append("text")
+                          .text("Range Rover Evoque")
+                          .attr("text-anchor", "middle")
+                          .attr("x", RangeRoverEvoqueOriginalXpos)
+                          .attr("y", 500)
+                          .attr("class", "model-label");
+
+var DiscoveryLabel = frame.append("text")
+                          .text("Discovery")
+                          .attr("text-anchor", "middle")
+                          .attr("x", DiscoveryOriginalXpos)
+                          .attr("y", 500)
+                          .attr("class", "model-label");
+
+var DiscoverySportLabel = frame.append("text")
+                          .text("Discovery Sport")
+                          .attr("text-anchor", "middle")
+                          .attr("x", DiscoverySportOriginalXpos)
+                          .attr("y", 500)
+                          .attr("class", "model-label");
+              
 
 
 
 
 
 
-
-/////////////////////////////////
-//////Bubble Pack Layout////////
-///////////////////////////////
 
 
 

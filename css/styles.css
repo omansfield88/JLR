@@ -23,13 +23,8 @@ body {
     top: 157px;
     left: 500px; }
 
-.datepicker {
-  position: absolute;
-  top: 210px;
-  left: 600px; }
-
 .frame-container {
-  width: 1200px;
+  width: 1300px;
   margin: 0 auto; }
 
 .svg-frame {
@@ -40,5 +35,32 @@ body {
 
 .nameplate-bubble {
   fill: url(#nameplate-bubble); }
+
+.model-label {
+  font-family: arial;
+  fill: #ffffff;
+  font-size: 20px; }
+
+input {
+  text-align: center;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #b0b7bb;
+  cursor: pointer; }
+
+.datepicker {
+  position: absolute;
+  top: 210px;
+  left: 600px; }
+
+.ui-datepicker {
+  padding: 10px;
+  background: #ccc;
+  border: 1px solid #fff; }
+  .ui-datepicker td {
+    background: #ddd;
+    text-align: center;
+    padding: 5px; }
 
 /*# sourceMappingURL=styles.css.map */
