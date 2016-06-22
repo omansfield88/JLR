@@ -12,6 +12,12 @@ body {
   background: -webkit-radial-gradient(center, ellipse cover, #494e53 0%, #33373b 100%);
   background: radial-gradient(ellipse at center, #494e53 0%, #33373b 100%); }
 
+@font-face {
+  font-family: LandRoverLight;
+  src: url(/Fonts/LandRover-Light.ttf); }
+@font-face {
+  font-family: LandRoverDemi;
+  src: url(/Fonts/LandRover-Demi.ttf); }
 .datescreen-wrapper {
   width: 100%;
   margin: 0 auto; }
@@ -37,9 +43,19 @@ body {
   fill: url(#nameplate-bubble); }
 
 .model-label {
-  font-family: arial;
+  font-family: LandRoverDemi;
   fill: #ffffff;
   font-size: 20px; }
+
+.model-bubble-amount {
+  font-family: LandRoverDemi;
+  fill: #ffffff;
+  font-size: 40px; }
+
+.nameplate-bubble-amount {
+  font-family: LandRoverDemi;
+  fill: #ffffff;
+  font-size: 30px; }
 
 input {
   text-align: center;

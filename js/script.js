@@ -67,9 +67,6 @@ function getDatedModelAmounts(model, startDate, endDate){
     var NPsvr = 0;   
     var NPseTech = 0;
    
-
-
-
     for (i = 0; i < data.length; i++){ 
         if (data[i].model == model //Filter by Car Model
             && data[i].date >= startDate && data[i].date <= endDate //Filter by Date            
@@ -141,11 +138,53 @@ getDatedModelAmounts("Discovery Sport", "2015-01-01", "2015-12-30");
 
 console.log(countedModels);
 
+var defaultYpos = 340;
+
+
+
+
+
+
+
+
 
 
 //Takes parameters of each model bubble and calculates what size
 //and Xposition each nameplate bubble should be.
 //This function is evoked onClick of a model bubble.
+
+var NPxPositions = {
+    "Range Rover": {        
+        "NPvogue": 1,
+        "NPseTech": 1,
+        "NPhse": 1,
+        "NPsvr": 1
+    },
+    "Range Rover Sport": {        
+        "NPvogue": 1,
+        "NPseTech": 1,
+        "NPhse": 1,
+        "NPsvr": 1
+    },
+    "Range Rover Evoque": {        
+        "NPvogue": 1,
+        "NPseTech": 1,
+        "NPhse": 1,
+        "NPsvr": 1
+    },
+    "Discovery": {        
+        "NPvogue": 1,
+        "NPseTech": 1,
+        "NPhse": 1,
+        "NPsvr": 1
+    },
+    "Discovery Sport": {        
+        "NPvogue": 1,
+        "NPseTech": 1,
+        "NPhse": 1,
+        "NPsvr": 1
+    }
+}
 
 function showNPBubbles(modelBubble, model, NP1, NP2, NP3, NP4, inflatedBubbleXpos){
 
@@ -174,25 +213,25 @@ function showNPBubbles(modelBubble, model, NP1, NP2, NP3, NP4, inflatedBubbleXpo
 
     var NP1bubble = frame
        .append('circle')
-       .attr('cy', 340)
+       .attr('cy', defaultYpos)
        .attr('cx', NP1xPos)
        .attr('r', 0)
        .attr('class', 'nameplate-bubble');
     var NP2bubble = frame
        .append('circle')
-       .attr('cy', 340)
+       .attr('cy', defaultYpos)
        .attr('cx', NP2xPos)
        .attr('r', 0)
        .attr('class', 'nameplate-bubble');
     var NP3bubble = frame
        .append('circle')
-       .attr('cy', 340)
+       .attr('cy', defaultYpos)
        .attr('cx', NP3xPos)
        .attr('r', 0)
        .attr('class', 'nameplate-bubble');
     var NP4bubble = frame
        .append('circle')
-       .attr('cy', 340)
+       .attr('cy', defaultYpos)
        .attr('cx', NP4xPos)
        .attr('r', 0)
        .attr('class', 'nameplate-bubble');
@@ -212,7 +251,21 @@ function showNPBubbles(modelBubble, model, NP1, NP2, NP3, NP4, inflatedBubbleXpo
             .duration(1000)
             .attr('r', NP4Amount)
     },500);
+
+
+    //Update NPxPositions object with current nameplate bubble x positions
+    //this is to be read by the text label hover state later
+    NPxPositions[model][NP1] = NP1xPos;
+    NPxPositions[model][NP2] = NP2xPos;
+    NPxPositions[model][NP3] = NP3xPos;
+    NPxPositions[model][NP4] = NP4xPos;
+
+
+
 };
+
+
+
 
 
 
@@ -222,20 +275,14 @@ var modelsRangeRover = frame
                        .append('circle')
                        .attr('class', 'model-bubble')
                        .attr('id', 'range-rover-bubble')
-                       .attr('cy', 340)
+                       .attr('cy', defaultYpos)
                        .attr('cx', RangeRoverOriginalXpos)
                        .attr('r', 0)
                        .on('click', function(){
 
-                            // if( $('.range-rover-bubble').hasClass('inflated') ){
-                            //      modelsRangeRover.transition()
-                            //                 .duration(1000)
-                            //                 .attr('r', countedModels["Range Rover"]["Amount"])
-                            //                 .attr('cx', 100)
-                            //     $('#range-rover-bubble').removeClass('inflated');
-                            // } else{
+                            //Remove model bubble amount       
+                            frame.selectAll(".model-bubble-amount").remove()
 
-                            $('#range-rover-bubble').addClass('inflated');
                             //Animate radius of all nameplate bubbles to 0, then remove them
                             frame.selectAll(".nameplate-bubble").transition()
                                                                 .duration(500)
@@ -261,13 +308,19 @@ var modelsRangeRover = frame
                                 .attr('cx', DiscoverySportOriginalXpos)
 
 
-
                             //Inflate this model bubble and show nameplate bubbles
                             showNPBubbles(modelsRangeRover, "Range Rover", "NPvogue", "NPseTech", "NPhse", "NPsvr", 200)
 
-                          //};
 
+                            drawNameplateAmountLabels("Range Rover", "NPvogue")
+                            drawNameplateAmountLabels("Range Rover", "NPseTech")
+                            drawNameplateAmountLabels("Range Rover", "NPhse")
+                            drawNameplateAmountLabels("Range Rover", "NPsvr")
+                                   
                             
+
+                               
+
 
                             //Move model label down
                             RangeRoverLabel.transition()
@@ -293,9 +346,8 @@ var modelsRangeRover = frame
                                          .attr("y", 500)
                                          .attr("x", DiscoverySportOriginalXpos)
 
-
-
                          });
+
 
 
 var RangeRoverSportOriginalXpos = 375;
@@ -303,10 +355,14 @@ var modelsRangeRoverSport = frame
                        .append('circle')
                        .attr('class', 'model-bubble')
                        .attr('id', 'range-rover-sport-bubble')
-                       .attr('cy', 340)
+                       .attr('cy', defaultYpos)
                        .attr('cx', RangeRoverSportOriginalXpos)
                        .attr('r', 0)
                        .on('click', function(){
+
+                            //Remove model bubble amount       
+                            frame.selectAll(".model-bubble-amount").remove()
+
                            //Animate radius of all nameplate bubbles to 0, then remove them
                             frame.selectAll(".nameplate-bubble").transition()
                                                                 .duration(500)
@@ -364,10 +420,14 @@ var modelsRangeRoverEvoque = frame
                        .append('circle')
                        .attr('class', 'model-bubble')
                        .attr('id', 'range-rover-evoque-bubble')
-                       .attr('cy', 340)
+                       .attr('cy', defaultYpos)
                        .attr('cx', RangeRoverEvoqueOriginalXpos)
                        .attr('r', 0)
                        .on('click', function(){
+
+                            //Remove model bubble amount       
+                            frame.selectAll(".model-bubble-amount").remove()
+
                             //Animate radius of all nameplate bubbles to 0, then remove them
                             frame.selectAll(".nameplate-bubble").transition()
                                                                 .duration(500)
@@ -424,10 +484,14 @@ var modelsDiscovery = frame
                        .append('circle')
                        .attr('class', 'model-bubble')
                        .attr('id', 'discovery-bubble')
-                       .attr('cy', 340)
+                       .attr('cy', defaultYpos)
                        .attr('cx', DiscoveryOriginalXpos)
                        .attr('r', 0)
                        .on('click', function(){
+
+                            //Remove model bubble amount       
+                            frame.selectAll(".model-bubble-amount").remove()
+
                             //Animate radius of all nameplate bubbles to 0, then remove them
                             frame.selectAll(".nameplate-bubble").transition()
                                                                 .duration(500)
@@ -486,10 +550,14 @@ var modelsDiscoverySport = frame
                        .append('circle')
                        .attr('class', 'model-bubble')
                        .attr('id', 'discovery-sport-bubble')
-                       .attr('cy', 340)
+                       .attr('cy', defaultYpos)
                        .attr('cx', DiscoverySportOriginalXpos)
                        .attr('r', 0)
                        .on('click', function(){
+
+                            //Remove model bubble amount       
+                            frame.selectAll(".model-bubble-amount").remove()
+
                             //Animate radius of all nameplate bubbles to 0, then remove them
                             frame.selectAll(".nameplate-bubble").transition()
                                                                 .duration(500)
@@ -692,14 +760,7 @@ $("#dateFrom, #dateTo").change(function(){
 
 
 
-//Lables//
-// var textLabels = text
-//                  .attr("x", function(d) { return d.cx; })
-//                  .attr("y", 500)
-//                  .text("Range Rover")
-//                  .attr("font-family", "sans-serif")
-//                  .attr("font-size", "20px")
-//                  .attr("fill", "red");
+//Model Labels//
 
 var RangeRoverLabel = frame.append("text")
                           .text("Range Rover")
@@ -735,7 +796,51 @@ var DiscoverySportLabel = frame.append("text")
                           .attr("x", DiscoverySportOriginalXpos)
                           .attr("y", 500)
                           .attr("class", "model-label");
-              
+
+//Model amounts in bubbles//
+
+
+
+function drawModelAmountLabels(model, modelID, modelBubble){
+
+    modelBubble.on("mouseover", function(){
+        frame.append("text")
+            .text(countedModels[model]["Amount"])
+            .attr("x", function(){
+                return $(modelID).attr("cx")
+            })
+            .attr("y", defaultYpos + 14)
+            .attr("class", "model-bubble-amount")
+            .attr("text-anchor", "middle")
+    })
+
+    modelBubble.on("mouseout", function(){
+        frame.selectAll(".model-bubble-amount").remove()
+    })
+
+}
+
+function drawNameplateAmountLabels(model, nameplate){
+    frame.append("text")
+    .text(countedModels[model][nameplate])
+    .attr("y", defaultYpos)
+    .attr("x", NPxPositions[model][nameplate])
+    .attr("class", "nameplate-bubble-amount")
+    .attr("text-anchor", "middle")
+}
+
+
+
+drawModelAmountLabels("Range Rover", "#range-rover-bubble", modelsRangeRover);
+drawModelAmountLabels("Range Rover Sport", "#range-rover-sport-bubble", modelsRangeRoverSport);
+drawModelAmountLabels("Range Rover Evoque", "#range-rover-evoque-bubble", modelsRangeRoverEvoque);
+drawModelAmountLabels("Discovery", "#discovery-bubble", modelsDiscovery);
+drawModelAmountLabels("Discovery Sport", "#discovery-sport-bubble", modelsDiscoverySport);
+
+
+
+
+
 
 
 
