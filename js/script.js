@@ -1,4 +1,4 @@
-var width = 1300;
+var width = 1305;
 var height = 700;
 
 var frame = d3.select(".frame-container").append("svg")
@@ -149,10 +149,10 @@ var defaultYpos = 340;
 
 
 
-//Takes parameters of each model bubble and calculates what size
-//and Xposition each nameplate bubble should be.
-//This function is evoked onClick of a model bubble.
 
+
+//Captures nameplate xPositions to be used to
+//position labels later
 var NPxPositions = {
     "Range Rover": {        
         "NPvogue": 1,
@@ -185,6 +185,10 @@ var NPxPositions = {
         "NPsvr": 1
     }
 }
+
+//Takes parameters of each model bubble and calculates what size
+//and Xposition each nameplate bubble should be.
+//This function is evoked onClick of a model bubble.
 
 function showNPBubbles(modelBubble, model, NP1, NP2, NP3, NP4, inflatedBubbleXpos){
 
@@ -282,6 +286,8 @@ var modelsRangeRover = frame
 
                             //Remove model bubble amount       
                             frame.selectAll(".model-bubble-amount").remove()
+                            //Remove nameplate bubble amounts
+                            frame.selectAll(".nameplate-bubble-amount").remove()
 
                             //Animate radius of all nameplate bubbles to 0, then remove them
                             frame.selectAll(".nameplate-bubble").transition()
@@ -312,13 +318,17 @@ var modelsRangeRover = frame
                             showNPBubbles(modelsRangeRover, "Range Rover", "NPvogue", "NPseTech", "NPhse", "NPsvr", 200)
 
 
+                            //Invoke function which draws nameplate amount labels
                             drawNameplateAmountLabels("Range Rover", "NPvogue")
                             drawNameplateAmountLabels("Range Rover", "NPseTech")
                             drawNameplateAmountLabels("Range Rover", "NPhse")
-                            drawNameplateAmountLabels("Range Rover", "NPsvr")
-                                   
+                            drawNameplateAmountLabels("Range Rover", "NPsvr")                                   
                             
-
+                            //Invoke function which draws nameplate tooltip labels
+                            drawNameplateTooltipLabels("Range Rover", "Vogue", "NPvogue")
+                            drawNameplateTooltipLabels("Range Rover", "SE Tech", "NPseTech")
+                            drawNameplateTooltipLabels("Range Rover", "HSE", "NPhse")
+                            drawNameplateTooltipLabels("Range Rover", "SVR", "NPsvr")
                                
 
 
@@ -362,6 +372,8 @@ var modelsRangeRoverSport = frame
 
                             //Remove model bubble amount       
                             frame.selectAll(".model-bubble-amount").remove()
+                            //Remove nameplate bubble amounts
+                            frame.selectAll(".nameplate-bubble-amount").remove()
 
                            //Animate radius of all nameplate bubbles to 0, then remove them
                             frame.selectAll(".nameplate-bubble").transition()
@@ -389,6 +401,18 @@ var modelsRangeRoverSport = frame
 
                             //Inflate this model bubble and show nameplate bubbles
                            showNPBubbles(modelsRangeRoverSport, "Range Rover Sport", "NPvogue", "NPseTech", "NPhse", "NPsvr", RangeRoverSportOriginalXpos)
+
+                            //Invoke function which draws nameplate amount labels
+                            drawNameplateAmountLabels("Range Rover Sport", "NPvogue")
+                            drawNameplateAmountLabels("Range Rover Sport", "NPseTech")
+                            drawNameplateAmountLabels("Range Rover Sport", "NPhse")
+                            drawNameplateAmountLabels("Range Rover Sport", "NPsvr")
+
+                            //Invoke function which draws nameplate tooltip labels
+                            drawNameplateTooltipLabels("Range Rover Sport", "Vogue", "NPvogue")
+                            drawNameplateTooltipLabels("Range Rover Sport", "SE Tech", "NPseTech")
+                            drawNameplateTooltipLabels("Range Rover Sport", "HSE", "NPhse")
+                            drawNameplateTooltipLabels("Range Rover Sport", "SVR", "NPsvr")
 
                             //Move model label down
                             RangeRoverSportLabel.transition()
@@ -427,6 +451,8 @@ var modelsRangeRoverEvoque = frame
 
                             //Remove model bubble amount       
                             frame.selectAll(".model-bubble-amount").remove()
+                            //Remove nameplate bubble amounts
+                            frame.selectAll(".nameplate-bubble-amount").remove()
 
                             //Animate radius of all nameplate bubbles to 0, then remove them
                             frame.selectAll(".nameplate-bubble").transition()
@@ -451,8 +477,21 @@ var modelsRangeRoverEvoque = frame
                                 .duration(1000)
                                 .attr('r', countedModels["Discovery Sport"]["Amount"])
                                 .attr('cx', DiscoverySportOriginalXpos)
+
                             //Inflate this model bubble and show nameplate bubbles
                            showNPBubbles(modelsRangeRoverEvoque, "Range Rover Evoque", "NPvogue", "NPseTech", "NPhse", "NPsvr", RangeRoverEvoqueOriginalXpos)
+
+                           //Invoke function which draws nameplate amount labels
+                            drawNameplateAmountLabels("Range Rover Evoque", "NPvogue")
+                            drawNameplateAmountLabels("Range Rover Evoque", "NPseTech")
+                            drawNameplateAmountLabels("Range Rover Evoque", "NPhse")
+                            drawNameplateAmountLabels("Range Rover Evoque", "NPsvr")
+
+                            //Invoke function which draws nameplate tooltip labels
+                            drawNameplateTooltipLabels("Range Rover Evoque", "Vogue", "NPvogue")
+                            drawNameplateTooltipLabels("Range Rover Evoque", "SE Tech", "NPseTech")
+                            drawNameplateTooltipLabels("Range Rover Evoque", "HSE", "NPhse")
+                            drawNameplateTooltipLabels("Range Rover Evoque", "SVR", "NPsvr")
 
                             //Move model label down
                             RangeRoverEvoqueLabel.transition()
@@ -491,6 +530,8 @@ var modelsDiscovery = frame
 
                             //Remove model bubble amount       
                             frame.selectAll(".model-bubble-amount").remove()
+                            //Remove nameplate bubble amounts
+                            frame.selectAll(".nameplate-bubble-amount").remove()
 
                             //Animate radius of all nameplate bubbles to 0, then remove them
                             frame.selectAll(".nameplate-bubble").transition()
@@ -515,8 +556,21 @@ var modelsDiscovery = frame
                                 .duration(1000)
                                 .attr('r', countedModels["Discovery Sport"]["Amount"])
                                 .attr('cx', DiscoverySportOriginalXpos)
+
                             //Inflate this model bubble and show nameplate bubbles
                            showNPBubbles(modelsDiscovery, "Discovery", "NPvogue", "NPseTech", "NPhse", "NPsvr", DiscoveryOriginalXpos)
+
+                            //Invoke function which draws nameplate amount labels
+                            drawNameplateAmountLabels("Discovery", "NPvogue")
+                            drawNameplateAmountLabels("Discovery", "NPseTech")
+                            drawNameplateAmountLabels("Discovery", "NPhse")
+                            drawNameplateAmountLabels("Discovery", "NPsvr")
+
+                            //Invoke function which draws nameplate tooltip labels
+                            drawNameplateTooltipLabels("Discovery", "Vogue", "NPvogue")
+                            drawNameplateTooltipLabels("Discovery", "SE Tech", "NPseTech")
+                            drawNameplateTooltipLabels("Discovery", "HSE", "NPhse")
+                            drawNameplateTooltipLabels("Discovery", "SVR", "NPsvr")
 
                             //Move model label down
                             DiscoveryLabel.transition()
@@ -557,6 +611,8 @@ var modelsDiscoverySport = frame
 
                             //Remove model bubble amount       
                             frame.selectAll(".model-bubble-amount").remove()
+                            //Remove nameplate bubble amounts
+                            frame.selectAll(".nameplate-bubble-amount").remove()
 
                             //Animate radius of all nameplate bubbles to 0, then remove them
                             frame.selectAll(".nameplate-bubble").transition()
@@ -581,9 +637,22 @@ var modelsDiscoverySport = frame
                                 .duration(1000)
                                 .attr('r', countedModels["Range Rover"]["Amount"])
                                 .attr('cx', RangeRoverOriginalXpos)
+
                             //Inflate this model bubble and show nameplate bubbles
                            showNPBubbles(modelsDiscoverySport, "Discovery Sport", "NPvogue", "NPseTech", "NPhse", "NPsvr", 1100)
+                            
+                            //Invoke function which draws nameplate amount labels
+                            drawNameplateAmountLabels("Discovery Sport", "NPvogue")
+                            drawNameplateAmountLabels("Discovery Sport", "NPseTech")
+                            drawNameplateAmountLabels("Discovery Sport", "NPhse")
+                            drawNameplateAmountLabels("Discovery Sport", "NPsvr")
 
+                            //Invoke function which draws nameplate tooltip labels
+                            drawNameplateTooltipLabels("Discovery Sport", "Vogue", "NPvogue")
+                            drawNameplateTooltipLabels("Discovery Sport", "SE Tech", "NPseTech")
+                            drawNameplateTooltipLabels("Discovery Sport", "HSE", "NPhse")
+                            drawNameplateTooltipLabels("Discovery Sport", "SVR", "NPsvr")
+                            
                             //Move model label down
                             DiscoverySportLabel.transition()
                                          .duration(1000)
@@ -704,11 +773,13 @@ $("#dateFrom, #dateTo").change(function(){
 
     console.log(countedModels);
 
-        //Animate radius of all nameplate bubbles to 0, then remove them
+    //Animate radius of all nameplate bubbles to 0, then remove them
     frame.selectAll(".nameplate-bubble").transition()
                                         .duration(500)
                                         .attr('r', 0)
                                         .remove()
+    //Remove nameplate bubble amounts
+    frame.selectAll(".nameplate-bubble-amount").remove()
                                         
     //Return any inflated bubbles to their original sizes and positions
     modelsRangeRover.transition()
@@ -802,7 +873,6 @@ var DiscoverySportLabel = frame.append("text")
 
 
 function drawModelAmountLabels(model, modelID, modelBubble){
-
     modelBubble.on("mouseover", function(){
         frame.append("text")
             .text(countedModels[model]["Amount"])
@@ -813,21 +883,40 @@ function drawModelAmountLabels(model, modelID, modelBubble){
             .attr("class", "model-bubble-amount")
             .attr("text-anchor", "middle")
     })
-
     modelBubble.on("mouseout", function(){
         frame.selectAll(".model-bubble-amount").remove()
     })
-
 }
 
 function drawNameplateAmountLabels(model, nameplate){
-    frame.append("text")
-    .text(countedModels[model][nameplate])
-    .attr("y", defaultYpos)
-    .attr("x", NPxPositions[model][nameplate])
-    .attr("class", "nameplate-bubble-amount")
-    .attr("text-anchor", "middle")
+    setTimeout(function(){
+        frame.append("text")
+        .text(countedModels[model][nameplate])
+        .attr("y", defaultYpos + 9)
+        .attr("x", NPxPositions[model][nameplate])
+        .attr("class", "nameplate-bubble-amount")
+        .attr("text-anchor", "middle")
+    }, 1000);
 }
+
+function drawNameplateTooltipLabels(model, nameplate, nameplateID){
+    setTimeout(function(){
+        frame.append("text")
+        .text(nameplate)
+        .attr("y", 600)
+        .attr("x", NPxPositions[model][nameplateID])
+        .attr("class", "nameplate-bubble-amount")
+        .attr("text-anchor", "middle")
+    }, 1000);
+}
+
+
+// function drawNameplateLabels(model, nameplate, modelBubble){
+//     nameplateBubble
+//     frame.append("text")
+//         .text()
+// }
+
 
 
 
