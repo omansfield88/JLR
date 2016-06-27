@@ -2,9 +2,9 @@
   '{{repeat(500)}}',
   {
     model: '{{random("Range Rover", "Range Rover Sport", "Range Rover Evoque", "Discovery", "Discovery Sport")}}',
-    date: '{{date(new Date(1, 1, 2015), new Date(30, 12, 2015), "dd-MM-YYYY")}}',
+    date: '{{date(new Date(2015, 0, 0), new Date(2015, 2, 29), "YYYY-MM-dd")}}',
     city: '{{random("London", "Cardiff", "Edinbrugh", "Manchester", "Liverpool", "Dublin", "Newcastle", "Glasgow", "Birmingham", "Bristol")}}',
-    nameplate: '{{random("Vogue", "Vogue SE", "Autobiography", "SVAutobiography")}}',
+    nameplate: '{{random("Vogue", "SE Tech", "HSE", "SVR")}}',
     duration: '{{integer(1, 30)}}',
     dropout: '{{integer(1, 6)}}'
    

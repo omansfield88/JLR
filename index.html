@@ -9,13 +9,14 @@
     <script src="js/jquery-2.2.0.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
 
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap/latest/css/bootstrap.css" />
+    <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/daterangepicker.css" />
+
+
     <title>JLR</title>
-
-<style>
-
-
-
-</style>
 
 </head>
 
@@ -25,12 +26,11 @@
 <div class="datescreen-wrapper">
     <h2>CAR CONFIGURATOR</h2>
     <div class="datepicker">        
-        <input type="text" id="dateFrom" name="from" value="01-01-2015">
-        <input type="text" id="dateTo" name="to" value="30-12-2015">
-    </div>
-    <div class="frame-container"><!--SVG GOES HERE--></div>
+        <input class="date-input" id="date-input" type="text" name="daterange" value="01/01/2015 - 01/31/2015" />
+    </div>    
 </div>
 
+<div class="frame-container"><!--SVG GOES HERE--></div>
 
 <svg height="0" width="0">
   <defs>
@@ -50,30 +50,33 @@
   </defs>  
 </svg>
 
+<svg height="0" width="0">
+  <defs>
+    <radialGradient id="breakdown-bubble" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="50%" stop-color="#d2effc" stop-opacity="0" />
+      <stop offset="95%" stop-color="#ffffff" stop-opacity="1" /> 
+    </radialGradient>
+  </defs>  
+</svg>
 
 
 <script src="js/script.js"></script>
+
 <script>
 $(function() {
-    $( "#dateFrom" ).datepicker({
-      defaultDate: "+1w",
-      changeMonth: true,
-      numberOfMonths: 1,
-      dateFormat: 'dd-mm-yy',
-      onClose: function( selectedDate ) {
-        $( "#dateTo" ).datepicker( "option", "minDate", selectedDate );
-      }
-    });
-    $( "#dateTo" ).datepicker({
-      defaultDate: "+1w",
-      changeMonth: true,
-      numberOfMonths: 1,
-      dateFormat: 'dd-mm-yy',
-      onClose: function( selectedDate ) {
-        $( "#dateFrom" ).datepicker( "option", "maxDate", selectedDate );
-      }
-    });
+    $('input[name="daterange"]').daterangepicker(
+      {
+          locale: {
+            format: 'DD-MM-YYYY'
+          },
+          startDate: '01-01-2015',
+          endDate: '30-03-2015',
+          minDate: '01-01-2015',
+          maxDate: '30-03-2015'
+      });
   });
+
+
 </script>
 
 </body>

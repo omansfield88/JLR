@@ -29,27 +29,50 @@ body{
 .datescreen-wrapper{
     width: 100%;
     margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    top: 150px;
 
-    h2 {
-        font-family: arial;
+
+    h2{
+        font-family: LandRoverDemi;
         color: #ffffff;
         font-size: 30px;
-        position: absolute;
-        top: 157px;
-        left: 500px;
     }
+
+    .date-input{
+        color: #b0b7bb;
+        font-size: 20px;
+    }
+
 }
+
+input{
+    text-align: center;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #b0b7bb;
+    cursor: pointer;
+}
+
+/*.datepicker{
+    position: absolute;
+    top: 210px;
+    left: 600px;
+    border-radius: 5px;
+}*/
 
 
 
 
 .frame-container{
     width: 1300px;
-    margin: 0 auto;
+    margin: 200px auto 0 auto;
 }
 
 .svg-frame{
-  border: 1px solid red;
+/*  border: 1px solid red;*/
 }
 
 .model-bubble{
@@ -59,6 +82,14 @@ body{
 .nameplate-bubble{
   fill: url(#nameplate-bubble);
 }
+
+.breakdown-bubble{
+    fill: #d2effc;
+}
+
+/*.inflated{
+    filter: url(#white-glow);
+}*/
 
 .model-label{
     font-family: LandRoverDemi;
@@ -78,31 +109,17 @@ body{
     font-size: 30px;
 }
 
-//Datepicker//
+.nameplate-tooltip{
+    fill: #0c121c;
+    width: 100px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+}
 
-input{
-    text-align: center;
-    background: none;
-    border: none;
+.nameplate-tooltip-text{
+    font-family: LandRoverDemi;
+    fill: #ffffff;
     font-size: 20px;
-    color: #b0b7bb;
-    cursor: pointer;
 }
 
-.datepicker{
-    position: absolute;
-    top: 210px;
-    left: 600px;
 
-}
-
-.ui-datepicker{
-    padding: 10px;
-    background: #ccc;
-    border: 1px solid #fff;
-    td{
-        background: #ddd;
-        text-align: center;
-        padding: 5px;
-    }
-}
