@@ -1190,7 +1190,7 @@ var RangeRoverSportLabel = frame.append("text")
                           .attr("class", "model-label");
 
 var RangeRoverEvoqueLabel = frame.append("text")
-                          .text("RANGE ROVE EVOQUE")
+                          .text("RANGE ROVER EVOQUE")
                           .attr("text-anchor", "middle")
                           .attr("x", RangeRoverEvoqueOriginalXpos)
                           .attr("y", 500)
@@ -1213,9 +1213,9 @@ var DiscoverySportLabel = frame.append("text")
                           .attr("fill-opacity", 1)
                           .attr("class", "model-label");
 
+
+
 //Model amounts in bubbles//
-
-
 
 function drawModelAmountLabels(model, modelID, modelBubble){
     if (!$(modelID).hasClass('inflated')){     
@@ -1270,8 +1270,140 @@ function transitionToNextSlide(){
                                         .attr('fill-opacity', 0)
                                         .attr('r', 1000)
                                         .remove();
-    //Shrink clicked model bubble and remain in place
+    
     //Draw graph behind model bubble, lines + axis labels
+    setTimeout(function(){    
+        frame.append("line").attr("x1", 50)
+                            .attr("x2", 100)
+                            .attr("y1", 600)
+                            .attr("y2", 600)
+                            .attr("class", "graph-line-bottom");
+
+        frame.append("line").attr("x1", 50)
+                            .attr("x2", 100)
+                            .attr("y1", 500)
+                            .attr("y2", 500)
+                            .attr("class", "graph-line");
+        frame.append("line").attr("x1", 50)
+                            .attr("x2", 100)
+                            .attr("y1", 400)
+                            .attr("y2", 400)
+                            .attr("class", "graph-line");
+        frame.append("line").attr("x1", 50)
+                            .attr("x2", 100)
+                            .attr("y1", 300)
+                            .attr("y2", 300)
+                            .attr("class", "graph-line");
+        frame.append("line").attr("x1", 50)
+                            .attr("x2", 100)
+                            .attr("y1", 200)
+                            .attr("y2", 200)
+                            .attr("class", "graph-line");
+
+        frame.selectAll(".graph-line, .graph-line-bottom").transition()
+                                      .duration(1000)
+                                      .attr('x2', 1200);
+
+    }, 1000);
+
+
+    //Draw graph labels
+    setTimeout(function(){   
+        frame.append("text").text("MODEL")
+                            .attr("x", 191.5)
+                            .attr("y", 670)
+                            .attr("opacity", 0)
+                            .attr("text-anchor", "middle")
+                            .attr("class", "steps-label")
+        frame.append("text").text("INTERIOR")
+                            .attr("x", 374.5)
+                            .attr("y", 670)
+                            .attr("opacity", 0)
+                            .attr("text-anchor", "middle")
+                            .attr("class", "steps-label")
+        frame.append("text").text("EXTERIOR")
+                            .attr("x", 557.5)
+                            .attr("y", 670)
+                            .attr("opacity", 0)
+                            .attr("text-anchor", "middle")
+                            .attr("class", "steps-label")
+        frame.append("text").text("OPTIONS")
+                            .attr("x", 740.5)
+                            .attr("y", 670)
+                            .attr("opacity", 0)
+                            .attr("text-anchor", "middle")
+                            .attr("class", "steps-label")
+        frame.append("text").text("ACCESSORIES")
+                            .attr("x", 923.5)
+                            .attr("y", 670)
+                            .attr("opacity", 0)
+                            .attr("text-anchor", "middle")
+                            .attr("class", "steps-label")
+        frame.append("text").text("SUMMARY")
+                            .attr("x", 1106.5)
+                            .attr("y", 670)
+                            .attr("opacity", 0)
+                            .attr("text-anchor", "middle")
+                            .attr("class", "steps-label")
+
+        frame.append("text").text("SUMMARY")
+                            .attr("x", 1106.5)
+                            .attr("y", 670)
+                            .attr("opacity", 0)
+                            .attr("text-anchor", "middle")
+                            .attr("class", "steps-label")
+
+        frame.selectAll(".steps-label").transition()
+          .duration(800)
+          .attr('opacity', 1)
+          .attr('y', 650)
+
+        frame.append("text").text("5 MINS")
+                            .attr("x", 50)
+                            .attr("y", 530)
+                            .attr("opacity", 0)
+                            .attr("class", "duration-label")
+                            .attr("id", "five-mins")
+        frame.selectAll("#five-mins").transition()
+                          .duration(800)
+                          .attr('opacity', 1)
+                          .attr('y', 520)
+
+
+        frame.append("text").text("10 MINS")
+                            .attr("x", 50)
+                            .attr("y", 430)
+                            .attr("opacity", 0)
+                            .attr("class", "duration-label")
+                            .attr("id", "ten-mins")
+        frame.selectAll("#ten-mins").transition()
+                          .duration(800)
+                          .attr('opacity', 1)
+                          .attr('y', 420)
+
+        frame.append("text").text("15 MINS")
+                            .attr("x", 50)
+                            .attr("y", 330)
+                            .attr("opacity", 0)
+                            .attr("class", "duration-label")
+                            .attr("id", "fifteen-mins")
+        frame.selectAll("#fifteen-mins").transition()
+                          .duration(800)
+                          .attr('opacity', 1)
+                          .attr('y', 320)
+
+        frame.append("text").text("20 MINS")
+                            .attr("x", 50)
+                            .attr("y", 230)
+                            .attr("opacity", 0)
+                            .attr("class", "duration-label")
+                            .attr("id", "twenty-mins")
+        frame.selectAll("#twenty-mins").transition()
+                          .duration(800)
+                          .attr('opacity', 1)
+                          .attr('y', 220)
+ 
+    }, 1300);
 
 
 }
@@ -1306,7 +1438,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsModelBox)
             .attr('cy', fourthRow)
-        }, 1000)
+        }, 2000)
 
      var point2Bubble = frame.append("circle")
            .attr('class', 'breakdown-bubble')
@@ -1320,7 +1452,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsInteriorBox)
             .attr('cy', fourthRow)
-        }, 1000)
+        }, 2000)
 
     var point3Bubble = frame.append("circle")
            .attr('class', 'breakdown-bubble')
@@ -1334,7 +1466,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsExteriorBox)
             .attr('cy', fourthRow)
-        }, 1000)
+        }, 2000)
 
     var point4Bubble = frame.append("circle")
            .attr('class', 'breakdown-bubble')
@@ -1348,7 +1480,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsOptionsBox)
             .attr('cy', fourthRow)
-        }, 1000)
+        }, 2000)
 
     var point5Bubble = frame.append("circle")
            .attr('class', 'breakdown-bubble')
@@ -1362,7 +1494,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsAccessoriesBox)
             .attr('cy', fourthRow)
-        }, 1000)
+        }, 2000)
 
     var point6Bubble = frame.append("circle")
            .attr('class', 'breakdown-bubble')
@@ -1376,7 +1508,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsSummaryBox)
             .attr('cy', fourthRow)
-        }, 1000)
+        }, 2000)
 
 
 
@@ -1393,7 +1525,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsModelBox)
             .attr('cy', thirdRow)
-        }, 1000)
+        }, 2000)
 
      var point8Bubble = frame.append("circle")
            .attr('class', 'breakdown-bubble')
@@ -1407,7 +1539,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsInteriorBox)
             .attr('cy', thirdRow)
-        }, 1000)
+        }, 2000)
 
     var point9Bubble = frame.append("circle")
            .attr('class', 'breakdown-bubble')
@@ -1421,7 +1553,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsExteriorBox)
             .attr('cy', thirdRow)
-        }, 1000)
+        }, 2000)
 
     var point10Bubble = frame.append("circle")
            .attr('class', 'breakdown-bubble')
@@ -1435,7 +1567,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsOptionsBox)
             .attr('cy', thirdRow)
-        }, 1000)
+        }, 2000)
 
     var point11Bubble = frame.append("circle")
            .attr('class', 'breakdown-bubble')
@@ -1449,7 +1581,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsAccessoriesBox)
             .attr('cy', thirdRow)
-        }, 1000)
+        }, 2000)
 
     var point12Bubble = frame.append("circle")
            .attr('class', 'breakdown-bubble')
@@ -1463,7 +1595,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsSummaryBox)
             .attr('cy', thirdRow)
-        }, 1000)
+        }, 2000)
 
 
 //Second row - 10 to 15 minutes
@@ -1479,7 +1611,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsModelBox)
             .attr('cy', secondRow)
-        }, 1000)
+        }, 2000)
 
      var point14Bubble = frame.append("circle")
            .attr('class', 'breakdown-bubble')
@@ -1493,7 +1625,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsInteriorBox)
             .attr('cy', secondRow)
-        }, 1000)
+        }, 2000)
 
     var point15Bubble = frame.append("circle")
            .attr('class', 'breakdown-bubble')
@@ -1507,7 +1639,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsExteriorBox)
             .attr('cy', secondRow)
-        }, 1000)
+        }, 2000)
 
     var point16Bubble = frame.append("circle")
            .attr('class', 'breakdown-bubble')
@@ -1521,7 +1653,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsOptionsBox)
             .attr('cy', secondRow)
-        }, 1000)
+        }, 2000)
 
     var point17Bubble = frame.append("circle")
            .attr('class', 'breakdown-bubble')
@@ -1535,7 +1667,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsAccessoriesBox)
             .attr('cy', secondRow)
-        }, 1000)
+        }, 2000)
 
     var point18Bubble = frame.append("circle")
            .attr('class', 'breakdown-bubble')
@@ -1549,7 +1681,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsSummaryBox)
             .attr('cy', secondRow)
-        }, 1000)
+        }, 2000)
 
 
 //First row - 15 to 20 minutes
@@ -1565,7 +1697,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsModelBox)
             .attr('cy', firstRow)
-        }, 1000)
+        }, 2000)
 
      var point20Bubble = frame.append("circle")
            .attr('class', 'breakdown-bubble')
@@ -1579,7 +1711,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsInteriorBox)
             .attr('cy', firstRow)
-        }, 1000)
+        }, 2000)
 
     var point21Bubble = frame.append("circle")
            .attr('class', 'breakdown-bubble')
@@ -1593,7 +1725,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsExteriorBox)
             .attr('cy', firstRow)
-        }, 1000)
+        }, 2000)
 
     var point22Bubble = frame.append("circle")
            .attr('class', 'breakdown-bubble')
@@ -1607,7 +1739,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsOptionsBox)
             .attr('cy', firstRow)
-        }, 1000)
+        }, 2000)
 
     var point23Bubble = frame.append("circle")
            .attr('class', 'breakdown-bubble')
@@ -1621,7 +1753,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
             .duration(1000)
             .attr('cx', stepsAccessoriesBox)
             .attr('cy', firstRow)
-        }, 1000)
+        }, 2000)
 
     var point24Bubble = frame.append("circle")
            .attr('class', 'breakdown-bubble')
@@ -1630,20 +1762,40 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point24"] *10)
            .attr("fill-opacity", 0)
+           .on("mouseover", function(){
+            console.log("point24");
+            showBreakdownLabel(model, "point24", "#point24-bubble");
+           })
         setTimeout( function(){
            point24Bubble.transition()
             .duration(1000)
             .attr('cx', stepsSummaryBox)
             .attr('cy', firstRow)
-        }, 1000)
+        }, 2000)
 
+    //Fade in breakdown bubbles
     frame.selectAll('.breakdown-bubble').transition()
                                  .duration(1000)
                                  .attr('fill-opacity', 1)
     
 }
 
-
+//Takes model and point to get amount to display
+// Takes pointID to allow JQuery $ to find the SVG circle
+// in the DOM, then look at it's position attributes,
+// in order to use them to position the new label
+function showBreakdownLabel(model, point, pointID){
+    frame.append("text").text(countedModels[model][point])
+                    .attr("x", function(){
+                        return $(pointID).attr("cx");
+                    })
+                    .attr("y", function(){
+                        return $(pointID).attr("cy");
+                    })
+                    .attr("opacity", 1)
+                    .attr("text-anchor", "middle")
+                    .attr("class", "steps-label")
+}
 
 
 
