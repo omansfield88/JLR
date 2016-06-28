@@ -426,7 +426,7 @@ function showNPBubbles(modelBubble, model, NP1, NP2, NP3, NP4, inflatedBubbleXpo
        .attr('cx', NP1xPos)
        .attr('r', 0)
        .attr('class', 'nameplate-bubble')
-       .attr('fill-opacity', 1)
+       .attr('opacity', 1)
        .on('mouseover', function(){
             drawNameplateTooltipLabels(NP1xPos, "Vogue")
        })
@@ -442,7 +442,7 @@ function showNPBubbles(modelBubble, model, NP1, NP2, NP3, NP4, inflatedBubbleXpo
        .attr('cx', NP2xPos)
        .attr('r', 0)
        .attr('class', 'nameplate-bubble')
-       .attr('fill-opacity', 1)
+       .attr('opacity', 1)
        .on('mouseover', function(){
             drawNameplateTooltipLabels(NP2xPos, "SE Tech")
         })
@@ -457,7 +457,7 @@ function showNPBubbles(modelBubble, model, NP1, NP2, NP3, NP4, inflatedBubbleXpo
        .attr('cx', NP3xPos)
        .attr('r', 0)
        .attr('class', 'nameplate-bubble')
-       .attr('fill-opacity', 1)
+       .attr('opacity', 1)
         .on('mouseover', function(){
             drawNameplateTooltipLabels(NP3xPos, "HSE")
        })
@@ -471,7 +471,7 @@ function showNPBubbles(modelBubble, model, NP1, NP2, NP3, NP4, inflatedBubbleXpo
        .attr('cx', NP4xPos)
        .attr('r', 0)
        .attr('class', 'nameplate-bubble')
-       .attr('fill-opacity', 1)
+       .attr('opacity', 1)
         .on('mouseover', function(){
             drawNameplateTooltipLabels(NP4xPos, "SVR")
        })
@@ -506,17 +506,32 @@ function showNPBubbles(modelBubble, model, NP1, NP2, NP3, NP4, inflatedBubbleXpo
     //Draws tooltip when called
     function drawNameplateTooltipLabels(nameplateXpos, nameplate){        
             frame.append("rect")
-                .attr("y",465)
+                .attr("y",455)
                 .attr("x", nameplateXpos)
                 .attr("class", "nameplate-tooltip")
                 .attr("text-anchor", "middle")
+                .attr("opacity", 0)
+                .attr("pointer-events", "none")
+
+                frame.selectAll('.nameplate-tooltip').transition()
+                   .duration(150)
+                   .attr('opacity', 1)
+                   .attr("y", 445)
+
             frame.append("text")
                 .text(nameplate)
-                .attr("y", 470)
+                .attr("y", 460)
                 .attr("x", nameplateXpos)
                 .attr("class", "nameplate-tooltip-text")
                 .attr("text-anchor", "middle")
+                .attr("opacity", 0)
                 .attr("pointer-events", "none")
+
+            frame.selectAll('.nameplate-tooltip-text').transition()
+                               .duration(150)
+                               .attr('opacity', 1)
+                               .attr("y", 450)
+
     }
 
 
@@ -524,11 +539,15 @@ function showNPBubbles(modelBubble, model, NP1, NP2, NP3, NP4, inflatedBubbleXpo
 
 
 
+var RangeRoverOriginalXpos = 100;
+var RangeRoverSportOriginalXpos = 375;
+var RangeRoverEvoqueOriginalXpos = 650;
+var DiscoveryOriginalXpos = 925;
+var DiscoverySportOriginalXpos = 1200;
 
-
+function drawDefaultModelBubbles(){
 
 //Draw model bubbles
-var RangeRoverOriginalXpos = 100;
 var modelsRangeRover = frame
                        .append('circle')
                        .attr('class', 'model-bubble')
@@ -536,7 +555,7 @@ var modelsRangeRover = frame
                        .attr('cy', defaultYpos)
                        .attr('cx', RangeRoverOriginalXpos)
                        .attr('r', 0)
-                       .attr('fill-opacity', 1)
+                       .attr('opacity', 1)
                        .on('mouseover', function(){
                             drawModelAmountLabels("Range Rover", "#range-rover-bubble", modelsRangeRover);
                        })
@@ -548,7 +567,6 @@ var modelsRangeRover = frame
                         // take the user to the next slide.
                             if($(this).hasClass('inflated')){
                                
-                                console.log("yessir");
                                 transitionToNextSlide();
                                 drawBreakdownBubbles("Range Rover", 200, defaultYpos);
 
@@ -557,13 +575,18 @@ var modelsRangeRover = frame
                                     $('#range-rover-sport-bubble').removeClass('inflated');
                                     $('#range-rover-evoque-bubble').removeClass('inflated');
                                     $('#discovery-bubble').removeClass('inflated');
-                                    $('#discovery-sport-bubble').removeClass('inflated');
-
+                                    $('#discovery-sport-bubble').removeClass('inflated');                                    
 
                                     //Remove model bubble amount       
                                     frame.selectAll(".model-bubble-amount").remove()
                                     //Remove nameplate bubble amounts
                                     frame.selectAll(".nameplate-bubble-amount").remove()
+
+                                    //Fade and remove any close buttons
+                                    frame.selectAll(".close-button").transition()
+                                                                    .duration(250)
+                                                                    .attr("opacity", 0)
+                                                                    .remove()
 
                                     //Animate radius of all nameplate bubbles to 0, then remove them
                                     frame.selectAll(".nameplate-bubble").transition()
@@ -602,36 +625,36 @@ var modelsRangeRover = frame
                                                                                               
 
                                     //Move model label down
-                                    RangeRoverLabel.transition()
+                                    frame.selectAll("#range-rover-label").transition()
                                                  .duration(1000)
                                                  .attr("y", 600)
                                                  .attr("x", 200)
 
                                     //Move all other lables back up
-                                    RangeRoverSportLabel.transition()
+                                    frame.selectAll("#range-rover-sport-label").transition()
                                                  .duration(1000)
                                                  .attr("y", 500)
                                                  .attr("x", 525)
-                                    RangeRoverEvoqueLabel.transition()
+                                    frame.selectAll("#range-rover-evoque-label").transition()
                                                  .duration(1000)
                                                  .attr("y", 500)
                                                  .attr("x", 750)
-                                    DiscoveryLabel.transition()
+                                    frame.selectAll("#discovery-label").transition()
                                                  .duration(1000)
                                                  .attr("y", 500)
                                                  .attr("x", 975)
-                                    DiscoverySportLabel.transition()
+                                    frame.selectAll("#discovery-sport-label").transition()
                                                  .duration(1000)
                                                  .attr("y", 500)
                                                  .attr("x", DiscoverySportOriginalXpos)
+
+                                    drawCloseButtonRangeRover(200)
                             }
                         });
 
                             
 
 
-
-var RangeRoverSportOriginalXpos = 375;
 var modelsRangeRoverSport = frame
                        .append('circle')
                        .attr('class', 'model-bubble')
@@ -639,7 +662,7 @@ var modelsRangeRoverSport = frame
                        .attr('cy', defaultYpos)
                        .attr('cx', RangeRoverSportOriginalXpos)
                        .attr('r', 0)
-                       .attr('fill-opacity', 1)
+                       .attr('opacity', 1)
                        .on('mouseover', function(){
                             drawModelAmountLabels("Range Rover Sport", "#range-rover-sport-bubble", modelsRangeRoverSport);
                        })
@@ -666,6 +689,12 @@ var modelsRangeRoverSport = frame
                                 frame.selectAll(".model-bubble-amount").remove()
                                 //Remove nameplate bubble amounts
                                 frame.selectAll(".nameplate-bubble-amount").remove()
+
+                                //Fade and remove any close buttons
+                                    frame.selectAll(".close-button").transition()
+                                                                    .duration(250)
+                                                                    .attr("opacity", 0)
+                                                                    .remove()
 
                                //Animate radius of all nameplate bubbles to 0, then remove them
                                 frame.selectAll(".nameplate-bubble").transition()
@@ -703,32 +732,34 @@ var modelsRangeRoverSport = frame
                                 
 
                                 //Move model label down
-                                RangeRoverSportLabel.transition()
+                                frame.selectAll("#range-rover-sport-label").transition()
                                              .duration(1000)
                                              .attr("y", 600)
                                              .attr("x", RangeRoverSportOriginalXpos)
 
                                 //Move all other lables back up
-                                RangeRoverLabel.transition()
+                                frame.selectAll("#range-rover-label").transition()
                                              .duration(1000)
                                              .attr("y", 500)
                                              .attr("x", RangeRoverOriginalXpos)
-                                RangeRoverEvoqueLabel.transition()
+                                frame.selectAll("#range-rover-evoque-label").transition()
                                              .duration(1000)
                                              .attr("y", 500)
                                              .attr("x", RangeRoverEvoqueOriginalXpos)
-                                DiscoveryLabel.transition()
+                                frame.selectAll("#discovery-label").transition()
                                              .duration(1000)
                                              .attr("y", 500)
                                              .attr("x", DiscoveryOriginalXpos)
-                                DiscoverySportLabel.transition()
+                                frame.selectAll("#discovery-sport-label").transition()
                                              .duration(1000)
                                              .attr("y", 500)
                                              .attr("x", DiscoverySportOriginalXpos)
+
+                                drawCloseButtonRangeRoverSport();
                             }
                         });
 
-var RangeRoverEvoqueOriginalXpos = 650;
+
 var modelsRangeRoverEvoque = frame
                        .append('circle')
                        .attr('class', 'model-bubble')
@@ -736,7 +767,7 @@ var modelsRangeRoverEvoque = frame
                        .attr('cy', defaultYpos)
                        .attr('cx', RangeRoverEvoqueOriginalXpos)
                        .attr('r', 0)
-                       .attr('fill-opacity', 1)
+                       .attr('opacity', 1)
                        .on('mouseover', function(){
                             drawModelAmountLabels("Range Rover Evoque", "#range-rover-evoque-bubble", modelsRangeRoverEvoque);
                        })
@@ -747,8 +778,7 @@ var modelsRangeRoverEvoque = frame
                         //The 'inflated' class is used to determine if the next click should
                         // take the user to the next slide.
                             if($(this).hasClass('inflated')){
-                               
-                                console.log("yessir");
+
                                 transitionToNextSlide();
                                 drawBreakdownBubbles("Range Rover Evoque", RangeRoverEvoqueOriginalXpos, defaultYpos);
 
@@ -763,6 +793,12 @@ var modelsRangeRoverEvoque = frame
                                 frame.selectAll(".model-bubble-amount").remove()
                                 //Remove nameplate bubble amounts
                                 frame.selectAll(".nameplate-bubble-amount").remove()
+
+                                //Fade and remove any close buttons
+                                    frame.selectAll(".close-button").transition()
+                                                                    .duration(250)
+                                                                    .attr("opacity", 0)
+                                                                    .remove()
 
                                 //Animate radius of all nameplate bubbles to 0, then remove them
                                 frame.selectAll(".nameplate-bubble").transition()
@@ -800,32 +836,34 @@ var modelsRangeRoverEvoque = frame
                               
 
                                 //Move model label down
-                                RangeRoverEvoqueLabel.transition()
+                                frame.selectAll("#range-rover-evoque-label").transition()
                                              .duration(1000)
                                              .attr("y", 600)
                                              .attr("x", RangeRoverEvoqueOriginalXpos)
 
                                 //Move all other lables back up
-                                RangeRoverSportLabel.transition()
+                                frame.selectAll("#range-rover-sport-label").transition()
                                              .duration(1000)
                                              .attr("y", 500)
                                              .attr("x", RangeRoverSportOriginalXpos)
-                                RangeRoverLabel.transition()
+                                frame.selectAll("#range-rover-label").transition()
                                              .duration(1000)
                                              .attr("y", 500)
                                              .attr("x", RangeRoverOriginalXpos)
-                                DiscoveryLabel.transition()
+                                frame.selectAll("#discovery-label").transition()
                                              .duration(1000)
                                              .attr("y", 500)
                                              .attr("x", DiscoveryOriginalXpos)
-                                DiscoverySportLabel.transition()
+                                frame.selectAll("#discovery-sport-label").transition()
                                              .duration(1000)
                                              .attr("y", 500)
                                              .attr("x", DiscoverySportOriginalXpos)
+
+                                drawCloseButtonRangeRoverEvoque();
                             }
                         });
 
-var DiscoveryOriginalXpos = 925;
+
 var modelsDiscovery = frame
                        .append('circle')
                        .attr('class', 'model-bubble')
@@ -833,7 +871,7 @@ var modelsDiscovery = frame
                        .attr('cy', defaultYpos)
                        .attr('cx', DiscoveryOriginalXpos)
                        .attr('r', 0)
-                       .attr('fill-opacity', 1)
+                       .attr('opacity', 1)
                        .on('mouseover', function(){
                             drawModelAmountLabels("Discovery", "#discovery-bubble", modelsDiscovery);
                        })
@@ -860,6 +898,12 @@ var modelsDiscovery = frame
                                 frame.selectAll(".model-bubble-amount").remove()
                                 //Remove nameplate bubble amounts
                                 frame.selectAll(".nameplate-bubble-amount").remove()
+
+                                //Fade and remove any close buttons
+                                    frame.selectAll(".close-button").transition()
+                                                                    .duration(250)
+                                                                    .attr("opacity", 0)
+                                                                    .remove()
 
                                 //Animate radius of all nameplate bubbles to 0, then remove them
                                 frame.selectAll(".nameplate-bubble").transition()
@@ -897,33 +941,35 @@ var modelsDiscovery = frame
                          
 
                                 //Move model label down
-                                DiscoveryLabel.transition()
+                                frame.selectAll("#discovery-label").transition()
                                              .duration(1000)
                                              .attr("y", 600)
                                              .attr("x", DiscoveryOriginalXpos)
 
                                 //Move all other lables back up
-                                RangeRoverSportLabel.transition()
+                                frame.selectAll("#range-rover-sport-label").transition()
                                              .duration(1000)
                                              .attr("y", 500)
                                              .attr("x", RangeRoverSportOriginalXpos)
 
-                                RangeRoverEvoqueLabel.transition()
+                                frame.selectAll("#range-rover-evoque-label").transition()
                                              .duration(1000)
                                              .attr("y", 500)
                                              .attr("x", RangeRoverEvoqueOriginalXpos)
-                                RangeRoverLabel.transition()
+                                frame.selectAll("#range-rover-label").transition()
                                              .duration(1000)
                                              .attr("y", 500)
                                              .attr("x", RangeRoverOriginalXpos)
-                                DiscoverySportLabel.transition()
+                                frame.selectAll("#discovery-sport-label").transition()
                                              .duration(1000)
                                              .attr("y", 500)
                                              .attr("x", DiscoverySportOriginalXpos)
+
+                                drawCloseButtonDiscovery();
                             }
                         });
 
-var DiscoverySportOriginalXpos = 1200;
+
 var modelsDiscoverySport = frame
                        .append('circle')
                        .attr('class', 'model-bubble')
@@ -931,7 +977,7 @@ var modelsDiscoverySport = frame
                        .attr('cy', defaultYpos)
                        .attr('cx', DiscoverySportOriginalXpos)
                        .attr('r', 0)
-                       .attr('fill-opacity', 1)
+                       .attr('opacity', 1)
                        .on('mouseover', function(){
                             drawModelAmountLabels("Discovery Sport", "#discovery-sport-bubble", modelsDiscoverySport);
                        })
@@ -958,6 +1004,12 @@ var modelsDiscoverySport = frame
                                 frame.selectAll(".model-bubble-amount").remove()
                                 //Remove nameplate bubble amounts
                                 frame.selectAll(".nameplate-bubble-amount").remove()
+
+                                //Fade and remove any close buttons
+                                    frame.selectAll(".close-button").transition()
+                                                                    .duration(250)
+                                                                    .attr("opacity", 0)
+                                                                    .remove()
 
                                 //Animate radius of all nameplate bubbles to 0, then remove them
                                 frame.selectAll(".nameplate-bubble").transition()
@@ -994,28 +1046,30 @@ var modelsDiscoverySport = frame
 
                                 
                                 //Move model label down
-                                DiscoverySportLabel.transition()
+                                frame.selectAll("#discovery-sport-label").transition()
                                              .duration(1000)
                                              .attr("y", 600)
                                              .attr("x", 1100)
 
                                 //Move all other lables back up
-                                RangeRoverSportLabel.transition()
+                                frame.selectAll("#range-rover-sport-label").transition()
                                              .duration(1000)
                                              .attr("y", 500)
                                              .attr("x", 325)
-                                RangeRoverEvoqueLabel.transition()
+                                frame.selectAll("#range-rover-evoque-label").transition()
                                              .duration(1000)
                                              .attr("y", 500)
                                              .attr("x", 550)
-                                DiscoveryLabel.transition()
+                                frame.selectAll("#discovery-label").transition()
                                              .duration(1000)
                                              .attr("y", 500)
                                              .attr("x", 775)
-                                RangeRoverLabel.transition()
+                                frame.selectAll("#range-rover-label").transition()
                                              .duration(1000)
                                              .attr("y", 500)
                                              .attr("x", RangeRoverOriginalXpos)
+
+                                drawCloseButtonDiscoverySport();
                             }
                         });
 
@@ -1038,8 +1092,9 @@ grow(modelsRangeRoverEvoque, countedModels['Range Rover Evoque']['Amount']);
 grow(modelsDiscovery, countedModels['Discovery']['Amount']);
 grow(modelsDiscoverySport, countedModels['Discovery Sport']['Amount']);
 
+} //end of drawDefaultModelBubbles();
 
-
+drawDefaultModelBubbles();
 
 
 ////////////////////////////////////////////
@@ -1077,8 +1132,8 @@ $("#date-input").change(function(){
     //Animates the radius of the model-bubbles
     // Takes carModel and numOfCarModel as parameters,
     // so you can invoke updateModelBubbles with any model.
-    function updateModelBubbles(carModel, numOfCarModel, originalXpos) {
-      carModel.transition()
+    function updateModelBubbles(modelID, numOfCarModel, originalXpos) {
+      modelID.transition()
             .duration(2000)
             .attr('r', numOfCarModel)
 
@@ -1103,11 +1158,11 @@ $("#date-input").change(function(){
     }
 
     //Calls animation
-    updateModelBubbles(modelsRangeRover, countedModels['Range Rover']['Amount'], 100);
-    updateModelBubbles(modelsRangeRoverSport, countedModels['Range Rover Sport']['Amount'], 340);
-    updateModelBubbles(modelsRangeRoverEvoque, countedModels['Range Rover Evoque']['Amount'], 580);
-    updateModelBubbles(modelsDiscovery, countedModels['Discovery']['Amount'], 820);
-    updateModelBubbles(modelsDiscoverySport, countedModels['Discovery Sport']['Amount'], 1060);
+    updateModelBubbles(frame.selectAll("#range-rover-bubble"), countedModels['Range Rover']['Amount'], 100);
+    updateModelBubbles(frame.selectAll("#range-rover-sport-bubble"), countedModels['Range Rover Sport']['Amount'], 340);
+    updateModelBubbles(frame.selectAll("#range-rover-evoque-bubble"), countedModels['Range Rover Evoque']['Amount'], 580);
+    updateModelBubbles(frame.selectAll("#discovery-bubble"), countedModels['Discovery']['Amount'], 820);
+    updateModelBubbles(frame.selectAll("#discovery-sport-bubble"), countedModels['Discovery Sport']['Amount'], 1060);
 
 
 
@@ -1122,46 +1177,50 @@ $("#date-input").change(function(){
     frame.selectAll(".nameplate-bubble-amount").remove()
                                         
     //Return any inflated bubbles to their original sizes and positions
-    modelsRangeRover.transition()
+    frame.selectAll("#range-rover-bubble").transition()
         .duration(1000)
         .attr('r', countedModels["Range Rover"]["Amount"])
         .attr('cx', RangeRoverOriginalXpos)
-    modelsRangeRoverSport.transition()
+
+    frame.selectAll("#range-rover-sport-bubble").transition()
         .duration(1000)
         .attr('r', countedModels["Range Rover Sport"]["Amount"])
         .attr('cx', RangeRoverSportOriginalXpos)
-    modelsRangeRoverEvoque.transition()
+
+    frame.selectAll("#range-rover-evoque-bubble").transition()
         .duration(1000)
         .attr('r', countedModels["Range Rover Evoque"]["Amount"])
         .attr('cx', RangeRoverEvoqueOriginalXpos)
-    modelsDiscovery.transition()
+
+    frame.selectAll("#discovery-bubble").transition()
         .duration(1000)
         .attr('r', countedModels["Discovery"]["Amount"])
         .attr('cx', DiscoveryOriginalXpos)
-    modelsDiscoverySport.transition()
+
+    frame.selectAll("#discovery-sport-bubble").transition()
         .duration(1000)
         .attr('r', countedModels["Discovery Sport"]["Amount"])
         .attr('cx', DiscoverySportOriginalXpos)
 
     //Move all other lables back up
 
-    RangeRoverLabel.transition()
+    frame.selectAll("#range-rover-label").transition()
                  .duration(1000)
                  .attr("y", 500)
                  .attr("x", RangeRoverOriginalXpos)
-    RangeRoverSportLabel.transition()
+    frame.selectAll("#range-rover-sport-label").transition()
                  .duration(1000)
                  .attr("y", 500)
                  .attr("x", RangeRoverSportOriginalXpos)
-    RangeRoverEvoqueLabel.transition()
+    frame.selectAll("#range-rover-evoque-label").transition()
                  .duration(1000)
                  .attr("y", 500)
                  .attr("x", RangeRoverEvoqueOriginalXpos)
-    DiscoveryLabel.transition()
+    frame.selectAll("#discovery-label").transition()
                  .duration(1000)
                  .attr("y", 500)
                  .attr("x", DiscoveryOriginalXpos)
-    DiscoverySportLabel.transition()
+    frame.selectAll("#discovery-sport-label").transition()
                  .duration(1000)
                  .attr("y", 500)
                  .attr("x", DiscoverySportOriginalXpos)
@@ -1173,46 +1232,58 @@ $("#date-input").change(function(){
 
 //Model Labels//
 
-var RangeRoverLabel = frame.append("text")
-                          .text("RANGE ROVER")
-                          .attr("text-anchor", "middle")
-                          .attr("x", RangeRoverOriginalXpos)
-                          .attr("y", 500)
-                          .attr("fill-opacity", 1)
-                          .attr("class", "model-label");
+function drawModelLabels(){
 
-var RangeRoverSportLabel = frame.append("text")
-                          .text("RANGE ROVER SPORT")
-                          .attr("text-anchor", "middle")
-                          .attr("x", RangeRoverSportOriginalXpos)
-                          .attr("y", 500)
-                          .attr("fill-opacity", 1)
-                          .attr("class", "model-label");
+var SomethingSomethingLable = 2;
 
-var RangeRoverEvoqueLabel = frame.append("text")
-                          .text("RANGE ROVER EVOQUE")
-                          .attr("text-anchor", "middle")
-                          .attr("x", RangeRoverEvoqueOriginalXpos)
-                          .attr("y", 500)
-                          .attr("fill-opacity", 1)
-                          .attr("class", "model-label");
+frame.append("text")
+.text("RANGE ROVER")
+.attr("text-anchor", "middle")
+.attr("x", RangeRoverOriginalXpos)
+.attr("y", 500)
+.attr("opacity", 1)
+.attr("class", "model-label")
+.attr("id", "range-rover-label");
 
-var DiscoveryLabel = frame.append("text")
-                          .text("DISCOVERY")
-                          .attr("text-anchor", "middle")
-                          .attr("x", DiscoveryOriginalXpos)
-                          .attr("y", 500)
-                          .attr("fill-opacity", 1)
-                          .attr("class", "model-label");
+frame.append("text")
+.text("RANGE ROVER SPORT")
+.attr("text-anchor", "middle")
+.attr("x", RangeRoverSportOriginalXpos)
+.attr("y", 500)
+.attr("opacity", 1)
+.attr("class", "model-label")
+.attr("id", "range-rover-sport-label");
 
-var DiscoverySportLabel = frame.append("text")
-                          .text("DISCOVERY SPORT")
-                          .attr("text-anchor", "middle")
-                          .attr("x", DiscoverySportOriginalXpos)
-                          .attr("y", 500)
-                          .attr("fill-opacity", 1)
-                          .attr("class", "model-label");
+frame.append("text")
+.text("RANGE ROVER EVOQUE")
+.attr("text-anchor", "middle")
+.attr("x", RangeRoverEvoqueOriginalXpos)
+.attr("y", 500)
+.attr("opacity", 1)
+.attr("class", "model-label")
+.attr("id", "range-rover-evoque-label");
 
+frame.append("text")
+.text("DISCOVERY")
+.attr("text-anchor", "middle")
+.attr("x", DiscoveryOriginalXpos)
+.attr("y", 500)
+.attr("opacity", 1)
+.attr("class", "model-label")
+.attr("id", "discovery-label");
+
+frame.append("text")
+.text("DISCOVERY SPORT")
+.attr("text-anchor", "middle")
+.attr("x", DiscoverySportOriginalXpos)
+.attr("y", 500)
+.attr("opacity", 1)
+.attr("class", "model-label")
+.attr("id", "discovery-sport-label");
+
+}
+
+drawModelLabels();
 
 
 //Model amounts in bubbles//
@@ -1243,6 +1314,316 @@ function drawNameplateAmountLabels(model, nameplate){
     }, 1000);
 }
 
+function drawCloseButton(modelVar, modelID){
+    setTimeout(function(){
+        frame.append("circle").attr("r", 25)
+                              .attr("cy", 550)
+                              .attr("cx", function(){
+                                return $(modelID).attr("cx");
+                              })
+                              .attr("class", "close-button")
+                              .attr("opacity", "0")
+        frame.selectAll(".close-button").transition()
+                                       .duration(500)
+                                       .attr("opacity", 1)                                   
+    }, 1000)
+
+}
+
+function drawCloseButtonRangeRover(){
+setTimeout(function(){
+        frame.append("circle").attr("r", 25)
+                              .attr("cy", 550)
+                              .attr("cx", 200)
+                              .attr("class", "close-button")
+                              .attr("opacity", "0")
+                              .on("click", function(){
+                                    console.log(countedModels);                                                      
+
+                                    frame.selectAll(".nameplate-bubble").transition()
+                                                                .duration(500)
+                                                                .attr('r', 0)
+                                                                .remove()
+                                    frame.selectAll(".nameplate-bubble-amount").remove()
+
+                                    //Return other model bubbles to their original sizes and positions
+                                    frame.selectAll("#range-rover-bubble").transition()
+                                        .duration(1000)
+                                        .attr('cx', RangeRoverOriginalXpos)
+                                        .attr("r", countedModels["Range Rover"]["Amount"])
+                                    frame.selectAll("#range-rover-sport-bubble").transition()
+                                        .duration(1000)
+                                        .attr('cx', RangeRoverSportOriginalXpos)
+                                    frame.selectAll("#range-rover-evoque-bubble").transition()
+                                        .duration(1000)
+                                        .attr('cx', RangeRoverEvoqueOriginalXpos)
+                                    frame.selectAll("#discovery-bubble").transition()
+                                        .duration(1000)
+                                        .attr('cx', DiscoveryOriginalXpos)
+                                    frame.selectAll("#discovery-sport-bubble").transition()
+                                        .duration(1000)
+                                        .attr('cx', DiscoverySportOriginalXpos)
+
+                                    //Move all other lables back up
+                                    frame.selectAll("#range-rover-label").transition()
+                                                 .duration(1000)
+                                                 .attr("y", 500)
+                                                 .attr("x", RangeRoverOriginalXpos)
+                                    frame.selectAll("#range-rover-sport-label").transition()
+                                                 .duration(1000)
+                                                 .attr("y", 500)
+                                                 .attr("x", RangeRoverSportOriginalXpos)
+                                    frame.selectAll("#range-rover-evoque-label").transition()
+                                                 .duration(1000)
+                                                 .attr("y", 500)
+                                                 .attr("x", RangeRoverEvoqueOriginalXpos)
+                                    frame.selectAll("#discovery-label").transition()
+                                                 .duration(1000)
+                                                 .attr("y", 500)
+                                                 .attr("x", DiscoveryOriginalXpos)
+                                    frame.selectAll("#discovery-sport-label").transition()
+                                                 .duration(1000)
+                                                 .attr("y", 500)
+                                                 .attr("x", DiscoverySportOriginalXpos)
+
+                                    frame.selectAll(".close-button").transition()
+                                                                    .duration(250)
+                                                                    .attr("opacity", 0)
+                                                                    .remove()
+                                    $(".model-bubble").removeClass("inflated");
+
+                              });
+                                
+        frame.selectAll(".close-button").transition()
+                                       .duration(500)
+                                       .attr("opacity", 1) 
+   }, 1000)
+
+}
+
+
+function drawCloseButtonRangeRoverSport(){
+setTimeout(function(){
+        frame.append("circle").attr("r", 25)
+                              .attr("cy", 550)
+                              .attr("cx", RangeRoverSportOriginalXpos)
+                              .attr("class", "close-button")
+                              .attr("opacity", "0")
+                              .on("click", function(){
+                                    console.log(countedModels);                                                      
+
+                                    frame.selectAll(".nameplate-bubble").transition()
+                                                                .duration(500)
+                                                                .attr('r', 0)
+                                                                .remove()
+                                    frame.selectAll(".nameplate-bubble-amount").remove()
+
+                                    frame.selectAll("#range-rover-sport-bubble").transition()
+                                        .duration(1000)
+                                        .attr("r", countedModels["Range Rover Sport"]["Amount"])
+                                    
+                                    frame.selectAll("#range-rover-sport-label").transition()
+                                                 .duration(1000)
+                                                 .attr("y", 500)
+                                    
+
+                                    frame.selectAll(".close-button").transition()
+                                                                    .duration(250)
+                                                                    .attr("opacity", 0)
+                                                                    .remove()
+                                    $(".model-bubble").removeClass("inflated");
+
+                              });
+                                
+        frame.selectAll(".close-button").transition()
+                                       .duration(500)
+                                       .attr("opacity", 1) 
+   }, 1000)
+
+}
+
+
+
+
+function drawCloseButtonRangeRoverEvoque(){
+setTimeout(function(){
+        frame.append("circle").attr("r", 25)
+                              .attr("cy", 550)
+                              .attr("cx", RangeRoverEvoqueOriginalXpos)
+                              .attr("class", "close-button")
+                              .attr("opacity", "0")
+                              .on("click", function(){
+                                    console.log(countedModels);                                                      
+
+                                    frame.selectAll(".nameplate-bubble").transition()
+                                                                .duration(500)
+                                                                .attr('r', 0)
+                                                                .remove()
+                                    frame.selectAll(".nameplate-bubble-amount").remove()
+
+                                    frame.selectAll("#range-rover-evoque-bubble").transition()
+                                        .duration(1000)
+                                        .attr("r", countedModels["Range Rover Evoque"]["Amount"])
+                                    
+                                    frame.selectAll("#range-rover-evoque-label").transition()
+                                                 .duration(1000)
+                                                 .attr("y", 500)
+                                    
+
+                                    frame.selectAll(".close-button").transition()
+                                                                    .duration(250)
+                                                                    .attr("opacity", 0)
+                                                                    .remove()
+                                    $(".model-bubble").removeClass("inflated");
+
+                              });
+                                
+        frame.selectAll(".close-button").transition()
+                                       .duration(500)
+                                       .attr("opacity", 1) 
+   }, 1000)
+
+}
+
+function drawCloseButtonDiscovery(){
+setTimeout(function(){
+        frame.append("circle").attr("r", 25)
+                              .attr("cy", 550)
+                              .attr("cx", DiscoveryOriginalXpos)
+                              .attr("class", "close-button")
+                              .attr("opacity", "0")
+                              .on("click", function(){
+                                    console.log(countedModels);                                                      
+
+                                    frame.selectAll(".nameplate-bubble").transition()
+                                                                .duration(500)
+                                                                .attr('r', 0)
+                                                                .remove()
+                                    frame.selectAll(".nameplate-bubble-amount").remove()
+
+                                    frame.selectAll("#discovery-bubble").transition()
+                                        .duration(1000)
+                                        .attr("r", countedModels["Discovery"]["Amount"])
+                                    
+                                    frame.selectAll("#discovery-label").transition()
+                                                 .duration(1000)
+                                                 .attr("y", 500)
+                                    
+
+                                    frame.selectAll(".close-button").transition()
+                                                                    .duration(250)
+                                                                    .attr("opacity", 0)
+                                                                    .remove()
+                                    $(".model-bubble").removeClass("inflated");
+
+                              });
+                                
+        frame.selectAll(".close-button").transition()
+                                       .duration(500)
+                                       .attr("opacity", 1) 
+   }, 1000)
+
+}
+
+
+
+function drawCloseButtonDiscoverySport(){
+setTimeout(function(){
+        frame.append("circle").attr("r", 25)
+                              .attr("cy", 550)
+                              .attr("cx", 1100)
+                              .attr("class", "close-button")
+                              .attr("opacity", "0")
+                              .on("click", function(){
+                                    console.log(countedModels);                                                      
+
+                                    frame.selectAll(".nameplate-bubble").transition()
+                                                                .duration(500)
+                                                                .attr('r', 0)
+                                                                .remove()
+                                    frame.selectAll(".nameplate-bubble-amount").remove()
+
+                                    //Return other model bubbles to their original sizes and positions
+                                    frame.selectAll("#discovery-sport-bubble").transition()
+                                        .duration(1000)
+                                        .attr('cx', DiscoverySportOriginalXpos)
+                                        .attr("r", countedModels["Discovery Sport"]["Amount"])
+                                    frame.selectAll("#range-rover-bubble").transition()
+                                        .duration(1000)
+                                        .attr('cx', RangeRoverOriginalXpos)                                        
+                                    frame.selectAll("#range-rover-sport-bubble").transition()
+                                        .duration(1000)
+                                        .attr('cx', RangeRoverSportOriginalXpos)
+                                    frame.selectAll("#range-rover-evoque-bubble").transition()
+                                        .duration(1000)
+                                        .attr('cx', RangeRoverEvoqueOriginalXpos)
+                                    frame.selectAll("#discovery-bubble").transition()
+                                        .duration(1000)
+                                        .attr('cx', DiscoveryOriginalXpos)
+
+                                    //Move all other lables back up
+                                    frame.selectAll("#range-rover-label").transition()
+                                                 .duration(1000)
+                                                 .attr("y", 500)
+                                                 .attr("x", RangeRoverOriginalXpos)
+                                    frame.selectAll("#range-rover-sport-label").transition()
+                                                 .duration(1000)
+                                                 .attr("y", 500)
+                                                 .attr("x", RangeRoverSportOriginalXpos)
+                                    frame.selectAll("#range-rover-evoque-label").transition()
+                                                 .duration(1000)
+                                                 .attr("y", 500)
+                                                 .attr("x", RangeRoverEvoqueOriginalXpos)
+                                    frame.selectAll("#discovery-label").transition()
+                                                 .duration(1000)
+                                                 .attr("y", 500)
+                                                 .attr("x", DiscoveryOriginalXpos)
+                                    frame.selectAll("#discovery-sport-label").transition()
+                                                 .duration(1000)
+                                                 .attr("y", 500)
+                                                 .attr("x", DiscoverySportOriginalXpos)
+
+                                    frame.selectAll(".close-button").transition()
+                                                                    .duration(250)
+                                                                    .attr("opacity", 0)
+                                                                    .remove()
+                                    $(".model-bubble").removeClass("inflated");
+
+                              });
+                                
+        frame.selectAll(".close-button").transition()
+                                       .duration(500)
+                                       .attr("opacity", 1) 
+   }, 1000)
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1252,52 +1633,95 @@ function drawNameplateAmountLabels(model, nameplate){
 ////////////////////////////////////////////////////////////////////////////////////
 function transitionToNextSlide(){
 
+
     //Fade out then remove 4 model bubbles not clicked
-    frame.selectAll(".model-bubble").transition()
+    frame.selectAll(".model-bubble, .close-button").transition()
                                     .duration(500)
-                                    .attr('fill-opacity', 0)
+                                    .attr('opacity', 0)
                                     .remove();
 
     //Lower than fade out model labels
     frame.selectAll(".model-label, .nameplate-tooltip, .nameplate-bubble-amount").transition()
                                   .duration(500)
-                                  .attr('fill-opacity', 0)
+                                  .attr('opacity', 0)
                                   .remove();
 
     //Enlarge and fade out nameplate bubbles
     frame.selectAll(".nameplate-bubble").transition()
                                         .duration(1000)
-                                        .attr('fill-opacity', 0)
+                                        .attr('opacity', 0)
                                         .attr('r', 1000)
-                                        .remove();
+                                        .remove()
+
+    //Draw return button
+    setTimeout(function(){            
+        frame.append("text").text("Return")
+                            .attr("x", 50)
+                            .attr("y", 170)
+                            .attr("opacity", 0)
+                            .attr("class", "return-link")
+                            .on("click", function(){
+                                frame.selectAll("circle, text, line").transition()
+                                                                     .duration(1000)
+                                                                     .attr("opacity", 0)
+                                                                     .remove()
+                                setTimeout(function(){
+                                    drawDefaultModelBubbles();    
+                                    drawModelLabels();  
+                                    frame.selectAll(".model-label").transition()
+                                                                   .duration(1000)
+                                                                   .attr("opacity", 1)
+                                }, 1000)
+                            })
+
+                            frame.selectAll(".return-link").transition()
+                                                           .duration(1000)
+                                                           .attr("opacity", 1)
+                                                           .attr("y", 150)
+    }, 3000)
+    
+
+
+
+
+
     
     //Draw graph behind model bubble, lines + axis labels
     setTimeout(function(){    
+
+        //Remove any remaining nameplate tooltips
+        frame.selectAll(".nameplate-tooltip, .nameplate-tooltip-text").remove()
+
         frame.append("line").attr("x1", 50)
                             .attr("x2", 100)
                             .attr("y1", 600)
                             .attr("y2", 600)
+                            .attr("opacity", 1)
                             .attr("class", "graph-line-bottom");
 
         frame.append("line").attr("x1", 50)
                             .attr("x2", 100)
                             .attr("y1", 500)
                             .attr("y2", 500)
+                            .attr("opacity", 1)
                             .attr("class", "graph-line");
         frame.append("line").attr("x1", 50)
                             .attr("x2", 100)
                             .attr("y1", 400)
                             .attr("y2", 400)
+                            .attr("opacity", 1)
                             .attr("class", "graph-line");
         frame.append("line").attr("x1", 50)
                             .attr("x2", 100)
                             .attr("y1", 300)
                             .attr("y2", 300)
+                            .attr("opacity", 1)
                             .attr("class", "graph-line");
         frame.append("line").attr("x1", 50)
                             .attr("x2", 100)
                             .attr("y1", 200)
                             .attr("y2", 200)
+                            .attr("opacity", 1)
                             .attr("class", "graph-line");
 
         frame.selectAll(".graph-line, .graph-line-bottom").transition()
@@ -1358,6 +1782,7 @@ function transitionToNextSlide(){
           .attr('opacity', 1)
           .attr('y', 650)
 
+
         frame.append("text").text("5 MINS")
                             .attr("x", 50)
                             .attr("y", 530)
@@ -1398,6 +1823,7 @@ function transitionToNextSlide(){
                             .attr("opacity", 0)
                             .attr("class", "duration-label")
                             .attr("id", "twenty-mins")
+
         frame.selectAll("#twenty-mins").transition()
                           .duration(800)
                           .attr('opacity', 1)
@@ -1432,7 +1858,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point1"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point1", "#point1-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point1Bubble.transition()
             .duration(1000)
@@ -1446,7 +1878,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point2"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point2", "#point2-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point2Bubble.transition()
             .duration(1000)
@@ -1460,7 +1898,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point3"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point3", "#point3-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point3Bubble.transition()
             .duration(1000)
@@ -1474,7 +1918,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point4"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point4", "#point4-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point4Bubble.transition()
             .duration(1000)
@@ -1488,7 +1938,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point5"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point5", "#point5-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point5Bubble.transition()
             .duration(1000)
@@ -1502,7 +1958,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point6"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point6", "#point6-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point6Bubble.transition()
             .duration(1000)
@@ -1519,7 +1981,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point7"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point7", "#point7-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point7Bubble.transition()
             .duration(1000)
@@ -1533,7 +2001,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point8"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point8", "#point8-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point8Bubble.transition()
             .duration(1000)
@@ -1547,7 +2021,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point9"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point9", "#point9-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point9Bubble.transition()
             .duration(1000)
@@ -1561,7 +2041,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point10"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point10", "#point10-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point10Bubble.transition()
             .duration(1000)
@@ -1575,7 +2061,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point11"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point11", "#point11-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point11Bubble.transition()
             .duration(1000)
@@ -1589,7 +2081,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point12"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point12", "#point12-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point12Bubble.transition()
             .duration(1000)
@@ -1605,7 +2103,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point13"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point13", "#point13-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point13Bubble.transition()
             .duration(1000)
@@ -1619,7 +2123,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point14"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point14", "#point14-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point14Bubble.transition()
             .duration(1000)
@@ -1633,7 +2143,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point15"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point15", "#point15-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point15Bubble.transition()
             .duration(1000)
@@ -1647,7 +2163,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point16"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point16", "#point16-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point16Bubble.transition()
             .duration(1000)
@@ -1661,7 +2183,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point17"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point17", "#point17-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point17Bubble.transition()
             .duration(1000)
@@ -1675,7 +2203,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point18"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point18", "#point18-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point18Bubble.transition()
             .duration(1000)
@@ -1691,7 +2225,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point19"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point19", "#point19-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point19Bubble.transition()
             .duration(1000)
@@ -1705,7 +2245,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point20"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point20", "#point20-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point20Bubble.transition()
             .duration(1000)
@@ -1719,7 +2265,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point21"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point21", "#point21-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point21Bubble.transition()
             .duration(1000)
@@ -1733,7 +2285,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point22"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+           .on("mouseover", function(){
+                showBreakdownLabel(model, "point22", "#point22-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point22Bubble.transition()
             .duration(1000)
@@ -1747,7 +2305,13 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point23"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
+            .on("mouseover", function(){
+                showBreakdownLabel(model, "point23", "#point23-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
+           })
         setTimeout( function(){
            point23Bubble.transition()
             .duration(1000)
@@ -1761,10 +2325,12 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
            .attr('cx', clickedModelXpos)
            .attr('cy', clickedModelYpos)
            .attr('r', countedModels[model]["point24"] *10)
-           .attr("fill-opacity", 0)
+           .attr("opacity", 0)
            .on("mouseover", function(){
-            console.log("point24");
-            showBreakdownLabel(model, "point24", "#point24-bubble");
+                showBreakdownLabel(model, "point24", "#point24-bubble");
+           })
+           .on("mouseout", function(){
+                frame.selectAll('.breakdown-tooltip, .breakdown-label').remove();
            })
         setTimeout( function(){
            point24Bubble.transition()
@@ -1776,7 +2342,7 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
     //Fade in breakdown bubbles
     frame.selectAll('.breakdown-bubble').transition()
                                  .duration(1000)
-                                 .attr('fill-opacity', 1)
+                                 .attr('opacity', 1)
     
 }
 
@@ -1785,17 +2351,48 @@ function drawBreakdownBubbles(model, clickedModelXpos, clickedModelYpos){
 // in the DOM, then look at it's position attributes,
 // in order to use them to position the new label
 function showBreakdownLabel(model, point, pointID){
+    frame.append("rect").attr("class", "breakdown-tooltip")
+                        .attr("x", function(){
+                            return $(pointID).attr("cx");
+                        })
+                        .attr("y", function(){
+                            return Number($(pointID).attr("cy")) + 50;
+                        })
+                        .attr("opacity", 0)
+                        .attr("text-anchor", "middle")
+                        .attr("pointer-events", "none")
+
+    frame.selectAll('.breakdown-tooltip').transition()
+                                       .duration(150)
+                                       .attr('opacity', 1)
+                                       .attr("y", function(){
+                                            return Number($(pointID).attr("cy")) + 40;
+                                        })
+
+
+
     frame.append("text").text(countedModels[model][point])
                     .attr("x", function(){
                         return $(pointID).attr("cx");
                     })
                     .attr("y", function(){
-                        return $(pointID).attr("cy");
+                        return Number($(pointID).attr("cy")) + 56;
                     })
-                    .attr("opacity", 1)
+                    .attr("opacity", 0)
                     .attr("text-anchor", "middle")
-                    .attr("class", "steps-label")
+                    .attr("class", "breakdown-label")
+                    .attr("pointer-events", "none")
+
+    frame.selectAll('.breakdown-label').transition()
+                                       .duration(150)
+                                       .attr('opacity', 1)
+                                       .attr("y", function(){
+                                            return Number($(pointID).attr("cy")) + 46;
+                                        })
+
+
 }
+
 
 
 

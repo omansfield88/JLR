@@ -114,12 +114,21 @@ input{
     width: 100px;
     height: 50px;
     transform: translate(-50%, -50%);
+
+    // &:before{
+    //     position: absolute;
+    //     top: -7px;
+    //     border-right: 7px solid transparent;
+    //     border-left: 7px solid transparent;
+    //     border-bottom: 7px solid #0c121c;    
+    // }
 }
 
 .nameplate-tooltip-text{
     font-family: LandRoverDemi;
     fill: #ffffff;
     font-size: 20px;
+    position: relative;
 }
 
 .graph-line{
@@ -144,4 +153,30 @@ input{
     fill: #cccccc;
     font-size: 12px;
     letter-spacing: 1px;
+}
+
+.breakdown-tooltip{
+    fill: #0c121c;
+    width: 100px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+}
+
+.breakdown-label{
+    font-family: LandRoverDemi;
+    fill: #cccccc;
+    font-size: 20px;
+    text-align: center;
+}
+
+.close-button{
+    fill: #0c121c;
+    // transform: translate(-50%, -50%);
+}
+
+.return-link{
+    font-family: LandRoverDemi;
+    fill: #cccccc;
+    font-size: 20px;
+    cursor: pointer;
 }

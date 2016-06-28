@@ -86,7 +86,8 @@ input {
 .nameplate-tooltip-text {
   font-family: LandRoverDemi;
   fill: #ffffff;
-  font-size: 20px; }
+  font-size: 20px;
+  position: relative; }
 
 .graph-line {
   stroke-width: 1;
@@ -107,5 +108,26 @@ input {
   fill: #cccccc;
   font-size: 12px;
   letter-spacing: 1px; }
+
+.breakdown-tooltip {
+  fill: #0c121c;
+  width: 100px;
+  height: 50px;
+  transform: translate(-50%, -50%); }
+
+.breakdown-label {
+  font-family: LandRoverDemi;
+  fill: #cccccc;
+  font-size: 20px;
+  text-align: center; }
+
+.close-button {
+  fill: #0c121c; }
+
+.return-link {
+  font-family: LandRoverDemi;
+  fill: #cccccc;
+  font-size: 20px;
+  cursor: pointer; }
 
 /*# sourceMappingURL=styles.css.map */
