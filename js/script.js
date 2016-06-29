@@ -583,10 +583,11 @@ var modelsRangeRover = frame
                                     frame.selectAll(".nameplate-bubble-amount").remove()
 
                                     //Fade and remove any close buttons
-                                    frame.selectAll(".close-button").transition()
-                                                                    .duration(250)
-                                                                    .attr("opacity", 0)
-                                                                    .remove()
+                                    frame.selectAll(".close-button-group").transition()
+                                                                .duration(250)
+                                                                .attr("opacity", 0)
+                                                                .remove()
+
 
                                     //Animate radius of all nameplate bubbles to 0, then remove them
                                     frame.selectAll(".nameplate-bubble").transition()
@@ -691,10 +692,11 @@ var modelsRangeRoverSport = frame
                                 frame.selectAll(".nameplate-bubble-amount").remove()
 
                                 //Fade and remove any close buttons
-                                    frame.selectAll(".close-button").transition()
-                                                                    .duration(250)
-                                                                    .attr("opacity", 0)
-                                                                    .remove()
+                                frame.selectAll(".close-button-group").transition()
+                                                                .duration(250)
+                                                                .attr("opacity", 0)
+                                                                .remove()
+
 
                                //Animate radius of all nameplate bubbles to 0, then remove them
                                 frame.selectAll(".nameplate-bubble").transition()
@@ -795,10 +797,11 @@ var modelsRangeRoverEvoque = frame
                                 frame.selectAll(".nameplate-bubble-amount").remove()
 
                                 //Fade and remove any close buttons
-                                    frame.selectAll(".close-button").transition()
-                                                                    .duration(250)
-                                                                    .attr("opacity", 0)
-                                                                    .remove()
+                                frame.selectAll(".close-button-group").transition()
+                                                                .duration(250)
+                                                                .attr("opacity", 0)
+                                                                .remove()
+
 
                                 //Animate radius of all nameplate bubbles to 0, then remove them
                                 frame.selectAll(".nameplate-bubble").transition()
@@ -900,10 +903,11 @@ var modelsDiscovery = frame
                                 frame.selectAll(".nameplate-bubble-amount").remove()
 
                                 //Fade and remove any close buttons
-                                    frame.selectAll(".close-button").transition()
-                                                                    .duration(250)
-                                                                    .attr("opacity", 0)
-                                                                    .remove()
+                                frame.selectAll(".close-button-group").transition()
+                                                                .duration(250)
+                                                                .attr("opacity", 0)
+                                                                .remove()
+
 
                                 //Animate radius of all nameplate bubbles to 0, then remove them
                                 frame.selectAll(".nameplate-bubble").transition()
@@ -1006,10 +1010,10 @@ var modelsDiscoverySport = frame
                                 frame.selectAll(".nameplate-bubble-amount").remove()
 
                                 //Fade and remove any close buttons
-                                    frame.selectAll(".close-button").transition()
-                                                                    .duration(250)
-                                                                    .attr("opacity", 0)
-                                                                    .remove()
+                                frame.selectAll(".close-button-group").transition()
+                                                                .duration(250)
+                                                                .attr("opacity", 0)
+                                                                .remove()
 
                                 //Animate radius of all nameplate bubbles to 0, then remove them
                                 frame.selectAll(".nameplate-bubble").transition()
@@ -1122,6 +1126,23 @@ $("#date-input").change(function(){
     getDatedModelAmounts("Range Rover Evoque", startDate, endDate);
     getDatedModelAmounts("Discovery", startDate, endDate);
     getDatedModelAmounts("Discovery Sport", startDate, endDate);
+
+    frame.selectAll(".close-button-group").transition()
+                                    .duration(500)
+                                    .attr("opacity", 0)
+                                    .remove();
+
+    frame.selectAll("circle, text, line").transition()
+                                         .duration(1000)
+                                         .attr("opacity", 0)
+                                         .remove()
+                                        setTimeout(function(){
+                                            drawDefaultModelBubbles();    
+                                            drawModelLabels();  
+                                            frame.selectAll(".model-label").transition()
+                                                                           .duration(1000)
+                                                                           .attr("opacity", 1)
+                                        }, 1000)
 
     console.log(countedModels);
 
@@ -1327,17 +1348,19 @@ function drawCloseButton(modelVar, modelID){
                                        .duration(500)
                                        .attr("opacity", 1)                                   
     }, 1000)
-
 }
+
+
+
 
 function drawCloseButtonRangeRover(){
 setTimeout(function(){
-        frame.append("circle").attr("r", 25)
-                              .attr("cy", 550)
-                              .attr("cx", 200)
-                              .attr("class", "close-button")
-                              .attr("opacity", "0")
-                              .on("click", function(){
+
+   var closeRangeRover = frame.append("g")
+                                .attr("id", "close-range-rover")
+                                .attr("class", "close-button-group")
+                                .attr("opacity", "0")
+                                .on("click", function(){
                                     console.log(countedModels);                                                      
 
                                     frame.selectAll(".nameplate-bubble").transition()
@@ -1347,10 +1370,11 @@ setTimeout(function(){
                                     frame.selectAll(".nameplate-bubble-amount").remove()
 
                                     //Return other model bubbles to their original sizes and positions
+                                    
                                     frame.selectAll("#range-rover-bubble").transition()
                                         .duration(1000)
-                                        .attr('cx', RangeRoverOriginalXpos)
-                                        .attr("r", countedModels["Range Rover"]["Amount"])
+                                        .attr('cx', RangeRoverOriginalXpos)        
+                                        .attr('r', countedModels["Range Rover"]["Amount"])                                
                                     frame.selectAll("#range-rover-sport-bubble").transition()
                                         .duration(1000)
                                         .attr('cx', RangeRoverSportOriginalXpos)
@@ -1360,9 +1384,6 @@ setTimeout(function(){
                                     frame.selectAll("#discovery-bubble").transition()
                                         .duration(1000)
                                         .attr('cx', DiscoveryOriginalXpos)
-                                    frame.selectAll("#discovery-sport-bubble").transition()
-                                        .duration(1000)
-                                        .attr('cx', DiscoverySportOriginalXpos)
 
                                     //Move all other lables back up
                                     frame.selectAll("#range-rover-label").transition()
@@ -1386,141 +1407,224 @@ setTimeout(function(){
                                                  .attr("y", 500)
                                                  .attr("x", DiscoverySportOriginalXpos)
 
-                                    frame.selectAll(".close-button").transition()
-                                                                    .duration(250)
-                                                                    .attr("opacity", 0)
-                                                                    .remove()
-                                    $(".model-bubble").removeClass("inflated");
+                                    frame.selectAll(".close-button-group").transition()
+                                                                        .duration(250)
+                                                                        .attr("opacity", 0)
+                                                                        .remove()
 
-                              });
+                                    $(".model-bubble").removeClass("inflated");
+                                });
+
+
+        closeRangeRover.append("circle").attr("r", 25)
+                              .attr("cy", 550)
+                              .attr("cx", 200)
+                              .attr("class", "close-button")
+
+        closeRangeRover.append("line").attr("x1", 210)
+                                          .attr("x2", 190)
+                                          .attr("y1", 540)
+                                          .attr("y2", 560)
+                                          .attr("class", "graph-line-bottom");
+        closeRangeRover.append("line").attr("x1", 190)
+                                          .attr("x2", 210)
+                                          .attr("y1", 540)
+                                          .attr("y2", 560)
+                                          .attr("class", "graph-line-bottom");
                                 
-        frame.selectAll(".close-button").transition()
-                                       .duration(500)
-                                       .attr("opacity", 1) 
+        closeRangeRover.transition()
+                           .duration(500)
+                           .attr("opacity", 1) 
    }, 1000)
 
 }
+
+
+
+
+
+
+
 
 
 function drawCloseButtonRangeRoverSport(){
 setTimeout(function(){
-        frame.append("circle").attr("r", 25)
+
+       var closeRangeRoverSport = frame.append("g")
+                                    .attr("id", "close-discovery")
+                                    .attr("class", "close-button-group")
+                                    .attr("opacity", "0")
+                                    .on("click", function(){
+                                        console.log(countedModels);                                                      
+
+                                        frame.selectAll(".nameplate-bubble").transition()
+                                                                    .duration(500)
+                                                                    .attr('r', 0)
+                                                                    .remove()
+                                        frame.selectAll(".nameplate-bubble-amount").remove()
+
+                                        frame.selectAll("#range-rover-sport-bubble").transition()
+                                            .duration(1000)
+                                            .attr("r", countedModels["Range Rover Sport"]["Amount"])
+                                        
+                                        frame.selectAll("#range-rover-sport-label").transition()
+                                                     .duration(1000)
+                                                     .attr("y", 500)                                        
+
+                                        frame.selectAll(".close-button-group").transition()
+                                                                        .duration(250)
+                                                                        .attr("opacity", 0)
+                                                                        .remove()
+                                        $(".model-bubble").removeClass("inflated");
+                                    });
+
+
+        closeRangeRoverSport.append("circle").attr("r", 25)
                               .attr("cy", 550)
                               .attr("cx", RangeRoverSportOriginalXpos)
                               .attr("class", "close-button")
-                              .attr("opacity", "0")
-                              .on("click", function(){
-                                    console.log(countedModels);                                                      
 
-                                    frame.selectAll(".nameplate-bubble").transition()
-                                                                .duration(500)
-                                                                .attr('r', 0)
-                                                                .remove()
-                                    frame.selectAll(".nameplate-bubble-amount").remove()
-
-                                    frame.selectAll("#range-rover-sport-bubble").transition()
-                                        .duration(1000)
-                                        .attr("r", countedModels["Range Rover Sport"]["Amount"])
-                                    
-                                    frame.selectAll("#range-rover-sport-label").transition()
-                                                 .duration(1000)
-                                                 .attr("y", 500)
-                                    
-
-                                    frame.selectAll(".close-button").transition()
-                                                                    .duration(250)
-                                                                    .attr("opacity", 0)
-                                                                    .remove()
-                                    $(".model-bubble").removeClass("inflated");
-
-                              });
+        closeRangeRoverSport.append("line").attr("x1", 365)
+                                          .attr("x2", 385)
+                                          .attr("y1", 540)
+                                          .attr("y2", 560)
+                                          .attr("class", "graph-line-bottom");
+        closeRangeRoverSport.append("line").attr("x1", 385)
+                                          .attr("x2", 365)
+                                          .attr("y1", 540)
+                                          .attr("y2", 560)
+                                          .attr("class", "graph-line-bottom");
                                 
-        frame.selectAll(".close-button").transition()
-                                       .duration(500)
-                                       .attr("opacity", 1) 
+        closeRangeRoverSport.transition()
+                       .duration(500)
+                       .attr("opacity", 1) 
    }, 1000)
 
 }
+
+
+
+
+
+
+
 
 
 
 
 function drawCloseButtonRangeRoverEvoque(){
 setTimeout(function(){
-        frame.append("circle").attr("r", 25)
+
+       var closeRangeRoverEvoque = frame.append("g")
+                                    .attr("id", "close-discovery")
+                                    .attr("class", "close-button-group")
+                                    .attr("opacity", "0")
+                                    .on("click", function(){
+                                        console.log(countedModels);                                                      
+
+                                        frame.selectAll(".nameplate-bubble").transition()
+                                                                    .duration(500)
+                                                                    .attr('r', 0)
+                                                                    .remove()
+                                        frame.selectAll(".nameplate-bubble-amount").remove()
+
+                                        frame.selectAll("#range-rover-evoque-bubble").transition()
+                                            .duration(1000)
+                                            .attr("r", countedModels["Range Rover Evoque"]["Amount"])
+                                        
+                                        frame.selectAll("#range-rover-evoque-label").transition()
+                                                     .duration(1000)
+                                                     .attr("y", 500)                                        
+
+                                        frame.selectAll(".close-button-group").transition()
+                                                                        .duration(250)
+                                                                        .attr("opacity", 0)
+                                                                        .remove()
+                                        $(".model-bubble").removeClass("inflated");
+                                    });
+
+
+        closeRangeRoverEvoque.append("circle").attr("r", 25)
                               .attr("cy", 550)
                               .attr("cx", RangeRoverEvoqueOriginalXpos)
                               .attr("class", "close-button")
-                              .attr("opacity", "0")
-                              .on("click", function(){
-                                    console.log(countedModels);                                                      
 
-                                    frame.selectAll(".nameplate-bubble").transition()
-                                                                .duration(500)
-                                                                .attr('r', 0)
-                                                                .remove()
-                                    frame.selectAll(".nameplate-bubble-amount").remove()
-
-                                    frame.selectAll("#range-rover-evoque-bubble").transition()
-                                        .duration(1000)
-                                        .attr("r", countedModels["Range Rover Evoque"]["Amount"])
-                                    
-                                    frame.selectAll("#range-rover-evoque-label").transition()
-                                                 .duration(1000)
-                                                 .attr("y", 500)
-                                    
-
-                                    frame.selectAll(".close-button").transition()
-                                                                    .duration(250)
-                                                                    .attr("opacity", 0)
-                                                                    .remove()
-                                    $(".model-bubble").removeClass("inflated");
-
-                              });
+        closeRangeRoverEvoque.append("line").attr("x1", 640)
+                                              .attr("x2", 660)
+                                              .attr("y1", 540)
+                                              .attr("y2", 560)
+                                              .attr("class", "graph-line-bottom");
+        closeRangeRoverEvoque.append("line").attr("x1", 660)
+                                              .attr("x2", 640)
+                                              .attr("y1", 540)
+                                              .attr("y2", 560)
+                                              .attr("class", "graph-line-bottom");
                                 
-        frame.selectAll(".close-button").transition()
-                                       .duration(500)
-                                       .attr("opacity", 1) 
+        closeRangeRoverEvoque.transition()
+                       .duration(500)
+                       .attr("opacity", 1) 
    }, 1000)
 
 }
 
+
+
+
+
+
+
+
 function drawCloseButtonDiscovery(){
 setTimeout(function(){
-        frame.append("circle").attr("r", 25)
+
+       var closeDiscovery = frame.append("g")
+                                    .attr("id", "close-discovery")
+                                    .attr("class", "close-button-group")
+                                    .attr("opacity", "0")
+                                    .on("click", function(){
+                                        console.log(countedModels);                                                      
+
+                                        frame.selectAll(".nameplate-bubble").transition()
+                                                                    .duration(500)
+                                                                    .attr('r', 0)
+                                                                    .remove()
+                                        frame.selectAll(".nameplate-bubble-amount").remove()
+
+                                        frame.selectAll("#discovery-bubble").transition()
+                                            .duration(1000)
+                                            .attr("r", countedModels["Discovery"]["Amount"])
+                                        
+                                        frame.selectAll("#discovery-label").transition()
+                                                     .duration(1000)
+                                                     .attr("y", 500)                                        
+
+                                        frame.selectAll(".close-button-group").transition()
+                                                                        .duration(250)
+                                                                        .attr("opacity", 0)
+                                                                        .remove()
+                                        $(".model-bubble").removeClass("inflated");
+                                    });
+
+
+        closeDiscovery.append("circle").attr("r", 25)
                               .attr("cy", 550)
                               .attr("cx", DiscoveryOriginalXpos)
                               .attr("class", "close-button")
-                              .attr("opacity", "0")
-                              .on("click", function(){
-                                    console.log(countedModels);                                                      
 
-                                    frame.selectAll(".nameplate-bubble").transition()
-                                                                .duration(500)
-                                                                .attr('r', 0)
-                                                                .remove()
-                                    frame.selectAll(".nameplate-bubble-amount").remove()
-
-                                    frame.selectAll("#discovery-bubble").transition()
-                                        .duration(1000)
-                                        .attr("r", countedModels["Discovery"]["Amount"])
-                                    
-                                    frame.selectAll("#discovery-label").transition()
-                                                 .duration(1000)
-                                                 .attr("y", 500)
-                                    
-
-                                    frame.selectAll(".close-button").transition()
-                                                                    .duration(250)
-                                                                    .attr("opacity", 0)
-                                                                    .remove()
-                                    $(".model-bubble").removeClass("inflated");
-
-                              });
+        closeDiscovery.append("line").attr("x1", 915)
+                                      .attr("x2", 935)
+                                      .attr("y1", 540)
+                                      .attr("y2", 560)
+                                      .attr("class", "graph-line-bottom");
+        closeDiscovery.append("line").attr("x1", 935)
+                                      .attr("x2", 915)
+                                      .attr("y1", 540)
+                                      .attr("y2", 560)
+                                      .attr("class", "graph-line-bottom");
                                 
-        frame.selectAll(".close-button").transition()
-                                       .duration(500)
-                                       .attr("opacity", 1) 
+        closeDiscovery.transition()
+                       .duration(500)
+                       .attr("opacity", 1) 
    }, 1000)
 
 }
@@ -1529,12 +1633,12 @@ setTimeout(function(){
 
 function drawCloseButtonDiscoverySport(){
 setTimeout(function(){
-        frame.append("circle").attr("r", 25)
-                              .attr("cy", 550)
-                              .attr("cx", 1100)
-                              .attr("class", "close-button")
-                              .attr("opacity", "0")
-                              .on("click", function(){
+
+   var closeDiscoverySport = frame.append("g")
+                                .attr("id", "close-discovery-sport")
+                                .attr("class", "close-button-group")
+                                .attr("opacity", "0")
+                                .on("click", function(){
                                     console.log(countedModels);                                                      
 
                                     frame.selectAll(".nameplate-bubble").transition()
@@ -1583,17 +1687,34 @@ setTimeout(function(){
                                                  .attr("y", 500)
                                                  .attr("x", DiscoverySportOriginalXpos)
 
-                                    frame.selectAll(".close-button").transition()
-                                                                    .duration(250)
-                                                                    .attr("opacity", 0)
-                                                                    .remove()
-                                    $(".model-bubble").removeClass("inflated");
+                                    frame.selectAll(".close-button-group").transition()
+                                                                        .duration(250)
+                                                                        .attr("opacity", 0)
+                                                                        .remove()
 
-                              });
+                                    $(".model-bubble").removeClass("inflated");
+                                });
+
+
+        closeDiscoverySport.append("circle").attr("r", 25)
+                              .attr("cy", 550)
+                              .attr("cx", 1100)
+                              .attr("class", "close-button")
+
+        closeDiscoverySport.append("line").attr("x1", 1090)
+                                          .attr("x2", 1110)
+                                          .attr("y1", 540)
+                                          .attr("y2", 560)
+                                          .attr("class", "graph-line-bottom");
+        closeDiscoverySport.append("line").attr("x1", 1110)
+                                          .attr("x2", 1090)
+                                          .attr("y1", 540)
+                                          .attr("y2", 560)
+                                          .attr("class", "graph-line-bottom");
                                 
-        frame.selectAll(".close-button").transition()
-                                       .duration(500)
-                                       .attr("opacity", 1) 
+        closeDiscoverySport.transition()
+                           .duration(500)
+                           .attr("opacity", 1) 
    }, 1000)
 
 }
@@ -1633,6 +1754,11 @@ setTimeout(function(){
 ////////////////////////////////////////////////////////////////////////////////////
 function transitionToNextSlide(){
 
+    //Fade out then remove close button
+    frame.selectAll(".close-button-group").transition()
+                                        .duration(500)
+                                        .attr('opacity', 0)
+                                        .remove();
 
     //Fade out then remove 4 model bubbles not clicked
     frame.selectAll(".model-bubble, .close-button").transition()
